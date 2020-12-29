@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*-- Created By
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+                 xuedesign studio 
+             https://www.xuedesign.tw/
+*
+* @project    Institute of History and Philology website
+* @Author     tamoochima <hello@xuedesign.tw>
+* @copyright  2020 xuedesign studio
+* @version    layout.v1- 202007
+*
+*=====================================*/
+@import url("reset.css");
+
+#wrap,
+#desktop,
+#desktop-s,
+#laptop,
+#mobile{
+    display: block;
+    width: 100%;
+    background: #512C2C}
+#desktop img,
+#desktop-s img,
+#laptop img,
+#mobile img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto}
+#desktop{
+    max-width: 1920px}
+#desktop-s{
+    display: none;
+    max-width: 1440px}    
+#laptop{
+    display: none;
+    max-width: 768px}
+#mobile{
+    display: none;
+    max-width: 375px}
+
+@media (max-width:1450px) { /*750*/
+        #desktop,
+        #laptop,
+        #mobile{ display: none}
+        #desktop-s{ display: block}
+    }    
+@media (max-width:800px) { /*750*/
+    #desktop,
+    #desktop-s,
+    #mobile{ display: none}
+    #laptop{ display: block}
+}
+
+@media (max-width: 420px) { /*360*/
+    #desktop,
+    #desktop-s,
+    #laptop{ display: none}
+    #mobile{ display: block}
+}

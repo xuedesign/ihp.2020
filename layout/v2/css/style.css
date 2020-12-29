@@ -1,0 +1,152 @@
+@charset "utf-8";
+/*-- Created By
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+                 xuedesign studio 
+             https://www.xuedesign.tw/
+*
+* @project    Institute of History and Philology website
+* @Author     tamoochima <hello@xuedesign.tw>
+* @copyright  2020 xuedesign studio
+* @version    layout.v2- 202008
+*
+*=====================================*/
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&display=swap");
+
+html { font-size:62.5%; scroll-behavior: smooth}
+body{
+	margin: 0;
+	padding:0;
+    background: #fff;
+    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-size: 1rem; /* 1rem=10px */
+	color:#333333}
+image{border:0}
+
+#wrap,
+header,
+#hdr-fixed,
+#nav-top,
+#banner,
+footer{ display: block; width: 100%}
+
+header{ 
+    height: 268px}
+#hdr-fixed{ 
+    /*position: fixed;*/
+    height: 268px;
+    background: url(../images/bg_header.png) top center no-repeat;
+    /*z-index: 150*/}
+/*#hdr-fixed::before{
+    display: block;
+    content: "";
+    margin: 0;
+    border: 3px solid #B21111}*/
+#hdr-main{
+    display: block;
+    width: 1400px;
+    height: 212px;
+    margin: 0 auto;
+    /*padding-top: 30px*/}
+#hdr-main img{
+    display: block;
+    width: 1400px;
+    height: 178px;
+    margin: 0 auto}
+#nav-top{
+    position: relative;
+    z-index: 150;
+    height: 56px;
+    background-color: #A51C30}
+nav{
+    display: block;
+    width: 85%;
+    height: 56px;
+    margin: 0 auto;
+    background-color: #342D2D}
+
+#banner{
+    height: auto;
+    max-height: 500px;
+    /*overflow: hidden;*/
+    background: url(../images/bg_banner.png) repeat-x}
+#banner-main{
+    display: block;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;}
+.banner-info{
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 0
+}
+.banner-bg,
+#ftr-main img{
+    display: block;
+    width: 100%;
+    height: auto}
+
+#cindex{
+    display: block;
+    width: 1420px;
+    margin: 0 auto;
+    padding: 50px 0 0}
+#cindex img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 60px auto;
+    padding: 0;}
+
+#ccontent{
+    display: flex;
+    width: 1420px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+}  
+#c-left{
+    display: block;
+    width: 340px;
+    padding-top: 50px;
+}
+#c-right{
+    display: block;
+    width: 1080px;
+    padding: 50px 0;
+}  
+
+footer{
+    height: 280px;
+    background: url(../images/bg_ftr.png) top center no-repeat}
+#ftr-main{
+    display: block;
+    width: 1400px;
+    margin: 0 auto}           
+    
+@media (max-width:1500px) { 
+    nav,
+    #banner-main{width: 98%}
+
+}        
