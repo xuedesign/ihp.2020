@@ -132,12 +132,12 @@ h1 a{
     width: 15%}
 #bulletin-option{
     width: 50%}
-.positions-type{ 
+/*.positions-type{ 
     width: 25%}
 .positions-item h3{ 
     width: 53%}
 .positions-time{ 
-    width: 20%}
+    width: 20%}*/
 .pic_museum{
     width: 50%}
 .pic_archives{
@@ -234,7 +234,15 @@ h1 a{
     width: 14%}
 .catlog-date{
     width: 14%}
-
+#box-fontsize{
+    margin-bottom: 20px}
+#bulletin-toolbar{
+    display: block}
+#toolbar-option{
+    margin-bottom: 10px}
+.positions-type,
+.positions-time,
+.positions-item h3{ width: 100%}         
 }
 
 /*
@@ -412,7 +420,8 @@ header,
 #box-copyright{
     line-height: 2.2rem;
     padding: 8px 15px}
-
+#box-fontsize{
+    margin-bottom: 0} 
 }
 
 /*
@@ -430,10 +439,6 @@ header,
     width: 49%}
 .director-photo{
     margin-bottom: 15px}
-#bulletin-toolbar{
-    display: block}
-#toolbar-option{
-    margin-bottom: 10px}
 .event-item{
     display: block}
 .event-info,
@@ -446,9 +451,9 @@ header,
     margin: 5% 2% 1%}
 #page-control{
     width: 75%}
-.positions-type{ width: 30%}
+/*.positions-type{ width: 30%}
 .positions-time{ width: 100%}
-.positions-item h3{ width: 65%}
+.positions-item h3{ width: 65%}*/
 #bulletin-title{
     display: block}
 #bulletin-option{
@@ -605,8 +610,6 @@ header,
 .toolbar-event-type{
     display: block;
     margin-bottom: 10px}
-.positions-type,
-.positions-item h3{ width: 100%}
 #bulletin-poster{
     width: 95%;
     margin: 0 auto 20px auto}

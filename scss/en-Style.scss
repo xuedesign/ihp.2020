@@ -405,7 +405,7 @@ nav{
     border-radius: 3px;
     background: #333;
     opacity: .8;
-    width: 60px;
+    /*width: 60px;*/
     padding: 1px 8px}
 .btn_send:hover,
 .btn-logout:hover{
@@ -895,9 +895,9 @@ summary.nowin{
 .positions-type{ 
     width: 20%}
 .positions-item h3{ 
-    width: 63%}
+    width: 58%}
 .positions-time{ 
-    width: 15%}
+    width: 20%}
 
 .event-time span::before{
     content:url(../images/pot-calendar.svg);
@@ -1141,7 +1141,7 @@ summary.nowin{
     font-weight: bold;
     text-decoration: none}
 #box-people .two-axis a:visited{
-    color: #949494;
+    color:  #3e3e3e/*#949494*/;
     font-weight: bold;
     text-decoration: none}
 #box-people .two-axis a:hover{
