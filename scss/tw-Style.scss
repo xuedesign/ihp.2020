@@ -33,7 +33,7 @@
 
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap");
 
 /*＝＝＝ 基本設定 ＝＝＝*/
 html{ 
@@ -45,6 +45,7 @@ body{
     background: #fff;
     font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;/*Noto Serif TC, "Noto Sans TC"*/
     font-size: 1rem; /* 1rem=10px */
+    font-weight: 300;
     color:#333333}
 image{ border:0}
 form{margin:0; padding:0}
@@ -1416,6 +1417,10 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 100%;
     margin: 30px 0 15px}
+#tab-2 > details{
+    cursor: inherit}
+.tabs-content summary:hover{
+    cursor: pointer}         
 #fellows-research > .tabs-content a{
     color: #3e3e3e;
     text-decoration: none}
