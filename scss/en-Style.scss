@@ -33,7 +33,7 @@
 
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 /*@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");*/
 
@@ -588,24 +588,27 @@ summary.nowin{
     display: flex;
     justify-content: space-between}    
 #page-title h3{
+    width: 49%;
+    padding-left: 20px;
+    text-indent: -20px;
     font-family: "Lora";
 	font-weight: 500;
     font-size: 2.7rem;
-    line-height: 3.7rem;
-    letter-spacing: 1px;
+    line-height: 3.5rem;
+    letter-spacing: 0;
     color: #A51C30}
 #page-title h3::before{
     content:url(../images/dot-ttitle.svg);
     vertical-align: middle;
     margin-right: 10px}
 #toolbar{ 
-    width: 65%;
+    width: 50%;
     text-align: right}
 #toolbar li{
     display: inline-block;
     font-size: 1.6rem;
     line-height: 2.6rem;
-    padding: 0 8px;
+    padding: 8px 8px 0;
     vertical-align: sub}
 .pot-fb,
 .pot-twitter{
@@ -645,6 +648,7 @@ summary.nowin{
 .p-director,
 .p-research,
 .p-studio,
+.p-departments,
 #academic-main{
     text-align: justify}     
 
@@ -682,8 +686,6 @@ summary.nowin{
     width: 100%;
     height: auto;
     margin: 50px auto 30px auto}
-.p-departments{
-    text-align: justify}
 #organization-info{
     padding: 15px;
     border-top: 1px solid #e1e1e1}
@@ -811,12 +813,15 @@ summary.nowin{
 .advisory-photo{
     margin: 15px 30px 15px 0}
 .advisory-info{ 
-    width: 80%}
+    width: 80%;
+    padding: 10px 0;}
 .advisory-info h5{
     font-size: 2.2rem;
     padding-bottom: 10px}
 .advisory-info span{
-    font-weight: bold}
+    display: block;
+    font-weight: 600;
+    margin-top: 10px}
 
 /*
 ========== 研究室與工作室==========

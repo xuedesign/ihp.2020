@@ -82,7 +82,7 @@
 
 @media (max-width:1300px) {
 .book-thumbnail span{
-    height: 200px}
+    height: 200px} 
 }    
 
 /*
@@ -242,7 +242,7 @@ h1 a{
     margin-bottom: 10px}
 .positions-type,
 .positions-time,
-.positions-item h3{ width: 100%}         
+.positions-item h3{ width: 100%}          
 }
 
 /*
@@ -303,6 +303,7 @@ header,
     margin: 0 auto;
     padding-top: 0}
 #page-title{ display: block}
+#page-title h3{ width: 100%}
 #toolbar{
     display: block; 
     width: 100%;
@@ -558,7 +559,11 @@ header,
 .pub-list ul{
     padding-top: 5px;}  
 .pub-list li{
-    padding: 0;}     
+    padding: 0}
+#departments-title{
+    display: block}
+#departments-title p{
+    padding-top: 8px}         
 }
     
 /*
@@ -582,16 +587,13 @@ header,
 .mid-2 li{
     display: block}
 .box-social{ margin-top: 25px}
-.director-info span,
-.advisory-info span{
+.director-info span{
     display: block;
     margin-top: 10px}
+.director-info h6{
+    text-align: left}    
 .pastdirector-list{
     width: 100%}
-#departments-title{
-    display: block}
-#departments-title p{
-    padding-top: 8px}
 .other-links span{
     display: block}
 #breadcrumb .accesskey{
@@ -814,4 +816,15 @@ header,
     display: none} 
 #ftrdown-left{
     margin-bottom: 20px}
+.p-overview,
+.p-director,
+.p-research,
+.p-studio,
+.p-departments,
+#academic-main,
+#publications-article p,
+#publications-article ol li,
+#book-info p,
+.journal-article p{
+    text-align: left}       
 }
