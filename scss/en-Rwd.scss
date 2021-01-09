@@ -242,7 +242,19 @@ h1 a{
     margin-bottom: 10px}
 .positions-type,
 .positions-time,
-.positions-item h3{ width: 100%}          
+.positions-item h3{ width: 100%}
+.international-item{
+    display: block}
+.international-item h3{
+    width: 100%;
+    margin-bottom: 5px}
+.international-item h3::before{
+    margin: 0 15px 0 0}
+.international-item ul{
+    width: 100%;
+    padding-left: 55px}
+.international-item li{
+    padding-bottom: 10px}          
 }
 
 /*
@@ -489,16 +501,6 @@ header,
     width: 100%}
 #fellows-info{
     width: 65%}
-.international-item{
-    display: block}
-.international-item h3{
-    margin-bottom: 5px}
-.international-item h3::before{
-    margin: 0 15px 0 0}
-.international-item ul{
-    padding-left: 0}
-.international-item li{
-    padding-bottom: 10px}
 .book-thumbnail li{
     width: 48%}
 .book-thumbnail span{
@@ -825,6 +827,7 @@ header,
 #publications-article p,
 #publications-article ol li,
 #book-info p,
-.journal-article p{
+.journal-article p,
+#outreach-info p{
     text-align: left}       
 }

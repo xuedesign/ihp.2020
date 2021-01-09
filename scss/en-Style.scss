@@ -649,7 +649,8 @@ summary.nowin{
 .p-research,
 .p-studio,
 .p-departments,
-#academic-main{
+#academic-main,
+#outreach-info p{
     text-align: justify}     
 
 /*
@@ -1120,8 +1121,9 @@ summary.nowin{
 #academic-main li{
     display: inline-block;
     vertical-align: top;
+    text-align: left;
     line-height: 2.6rem;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     width: 28%;
     margin: 3% 0;
     background: url(../images/pot_general.svg) no-repeat;
@@ -1454,6 +1456,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 15px 0;
     border-bottom: 1px solid #C4C4C4}
 .international-item h3{
+    width: 25%;
     font-family: "Lora";
     font-weight: 400;
     font-size: 2.3rem;
@@ -1465,7 +1468,11 @@ table.bt.bt--no-header tbody td::before {
     margin: 0 15px 0 30px}
 .international-item ul{
     display: block;
-    padding-left: 30px}
+    width: 74%;
+    padding-left: 30px;
+    list-style: disc;}
+.international-item li{
+    padding: 5px 0}    
 .international-item li a{
     color: #3E3E3E;
     text-decoration: none}
