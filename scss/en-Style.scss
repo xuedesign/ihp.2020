@@ -543,6 +543,8 @@ nav{
     vertical-align: top}
 #subnav-list a,
 #subnav-list a:visited{
+    font-family: "Lora";
+	font-weight: 400;
     color: #3e3e3e;
     text-decoration: none}
 #subnav-list a:hover{
@@ -1192,19 +1194,19 @@ summary.nowin{
     color: #fff;
     letter-spacing: 2px}
 .fellows-name{
-    width: 14%}
+    width: 20%}
 .fellows-note{
-    width: 18%}
+    width: 25%}
 .staff-name{
     width: 10%}
 .fellows-jobtitle{
-    width: 20%}
+    width: 25%}
 .ca-jobtitle{
     width: 15%}
 .staff-jobtitle{
     width: 12%}
 .fellows-departments{
-    width: 13%}
+    width: 15%}
 .staff-contact{
     width: 22%;
     /*word-break: break-all*/}
@@ -1289,7 +1291,7 @@ table.bt tbody td::before {
     flex-shrink: 0;
     font-weight: bold;
     text-align: right;
-    width: 5.5em}
+    width: 6.8em}
 
 table.bt tfoot th.bt-hide,
 table.bt tfoot td.bt-hide,
@@ -1310,7 +1312,7 @@ table.bt.bt--no-header tfoot td::before,
 table.bt.bt--no-header tbody td::before {
     display: none}
   
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 600px){
 .two-axis td,
 .fellows-name,
 .fellows-note,
@@ -1396,12 +1398,12 @@ table.bt.bt--no-header tbody td::before {
     font-size: 2.5rem;
     padding-left: 10px}
 #fellows-info .fellows-title{
-    color: #A51C30}    
+    color: #A51C30;
+    margin-bottom: 25px;}    
 #fellows-summary{
     display: flex}
 #fellows-concant{
-    width: 58%;
-    padding-top: 15px}
+    width: 58%}
 #fellows-concant li{
     padding-bottom: 8px}
 #fellows-concant span{
@@ -1418,7 +1420,7 @@ table.bt.bt--no-header tbody td::before {
     text-align: center;
     font-size: 1.6rem;
     line-height: 2.4rem;
-    letter-spacing: 3px;
+    letter-spacing: 0;
     background: #A51C30;
     color: #fff}
 #fellows-education p{
@@ -1428,6 +1430,10 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 100%;
     margin: 30px 0 15px}
+#tab-2 > details{
+    cursor: inherit}
+.tabs-content summary:hover{
+    cursor: pointer}      
 #fellows-research > .tabs-content a{
     color: #3e3e3e;
     text-decoration: none}
