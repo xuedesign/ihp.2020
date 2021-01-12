@@ -1157,6 +1157,9 @@ summary.nowin{
     color: #b94545;
     text-decoration: underline;
     font-weight: bold}
+#box-people .mystaff a,
+#box-people .mystaff a:visited{
+    font-weight: normal}
 
 #box-people a.mybtn,
 #box-people a.mybtn:visited{
@@ -1197,26 +1200,21 @@ summary.nowin{
     width: 20%}
 .fellows-note{
     width: 25%}
+.fellows-note2{
+    width: 30%}    
 .staff-name{
-    width: 10%}
+    width: 18%}
 .fellows-jobtitle{
     width: 25%}
 .ca-jobtitle{
     width: 15%}
 .staff-jobtitle{
-    width: 12%}
+    width: 25%}
 .fellows-departments{
     width: 15%}
 .staff-contact{
-    width: 22%;
+    width: 25%;
     /*word-break: break-all*/}
-/*.staff-contact a{
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    display:-webkit-box;
-    -webkit-line-clamp:1;
-    -webkit-box-orient:vertical}*/
 .staff-team{
     width: 10%}
 
@@ -1316,6 +1314,7 @@ table.bt.bt--no-header tbody td::before {
 .two-axis td,
 .fellows-name,
 .fellows-note,
+.fellows-note2,
 .fellows-jobtitle,
 .fellows-departments,
 .ca-jobtitle{ 
@@ -1365,16 +1364,15 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 10px}
 .doctors-info span{
     font-weight: bold}
-.dtime,
-.dteacher,
-.dphone{
-    display: inline-block}
-.dtime{
-    width: 40%}
+.doctors-info p{
+    padding-bottom: 8px}    
+/* .dtime,
 .dteacher{
-    width: 28%}
-.dphone{
-    width: 30%}
+    display: inline-block}
+ .dtime{
+    width: 50%}
+.dteacher{
+    width: 49%} */
 #list-editinfo{
     display: flex;
     justify-content: space-between;

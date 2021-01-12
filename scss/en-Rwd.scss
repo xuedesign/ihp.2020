@@ -149,21 +149,19 @@ h1 a{
 .ca-jobtitle{
     width: 18%}
 .staff-name{
-    width: 13%}
+    width: 35%}
 .staff-jobtitle{
-    width: 15%}
+    width: 20%}
 .staff-contact{
-    width: 33%}
-.staff-team{
-    width: 15%}
+    width: 35%}
 .dtime{
     width: 100%}
-.dteacher{
+/*.dteacher{
     width: 40%}
 .dphone{
-    width: 59%}
-.doctors-info{ 
-    width: 70%}
+    width: 59%}*/
+ .doctors-info{ 
+    width: 70%} 
 #fellows-info{
     width: 75%}
 #fellows-summary{
@@ -497,7 +495,7 @@ header,
     width: 15%}
 .staff-jobtitle{
     width: 18%}
-.doctors-info{ 
+ .doctors-info{ 
     width: 100%}
 #fellows-info{
     width: 65%}
@@ -633,9 +631,9 @@ header,
 #academic-main li{
     width: 100%;
     margin: 3% 0}
-.dteacher,
+/* .dteacher,
 .dphone{
-    width: 100%}
+    width: 100%} */
 #list-editinfo,
 #fellows-about{
     display: block}
@@ -828,6 +826,7 @@ header,
 #publications-article ol li,
 #book-info p,
 .journal-article p,
-#outreach-info p{
+#outreach-info p,
+.staff-jobtitle{
     text-align: left}       
 }
