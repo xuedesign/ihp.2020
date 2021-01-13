@@ -32,9 +32,9 @@
 *=====================================*/
 
 @import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
-/*@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");*/
 
 /*＝＝＝ 基本設定 ＝＝＝*/
@@ -45,8 +45,9 @@ body{
 	margin: 0;
 	padding:0;
     background: #fff;
-    font-family:"Nunito", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1rem; /* 1rem=10px */
+    font-weight: 200;
     color:#333333}
 image{ border:0}
 form{margin:0; padding:0}
@@ -394,7 +395,7 @@ nav{
 .btn_send:visited,
 .btn-logout,
 .btn-logout:visited{
-    font-family:"Nunito", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1.5rem;
     line-height: 2.5rem;
     letter-spacing: 1px;
@@ -419,7 +420,7 @@ nav{
 /*表單元件*/
 .myselect,
 .myinput{
-    font-family:"Nunito", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1.5rem;
     color: #333;
     border: 1px solid #8f8e8e;
@@ -511,10 +512,10 @@ nav{
 #subnav-title{
     display: flex;
     font-size: 1.6rem;
-    font-family: "Lora";
+    font-family: "Noto Serif TC";
     font-weight: 400}
 #backhome{ 
-    width: 100%;/*18%*/
+    width: 100%;
     line-height: 3.45rem}
 #backhome span{
     margin-right: 8px}    
@@ -1159,7 +1160,7 @@ summary.nowin{
     font-weight: bold}
 #box-people .mystaff a,
 #box-people .mystaff a:visited{
-    font-weight: normal}
+    font-weight: 200}
 
 #box-people a.mybtn,
 #box-people a.mybtn:visited{
