@@ -34,6 +34,7 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); */
 /* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");*/
 
@@ -45,7 +46,7 @@ body{
 	margin: 0;
 	padding:0;
     background: #fff;
-    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+     font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1rem; /* 1rem=10px */
     font-weight: 200;
     color:#333333}
@@ -75,7 +76,7 @@ img::-moz-selection { background: transparent}
     text-decoration: none;
     padding-right: 8px}
 #breadcrumb .accesskey{ color: #3e3e3e;}        
-:focus{outline:#ebada8 dashed 3px}    
+:focus{outline:#ebada8 solid 3px}    
 
 /*＝＝＝ 網站結構 ＝＝＝*/
 #mobile-topbar{ display: none}
@@ -550,7 +551,7 @@ nav{
     text-decoration: none}
 #subnav-list a:hover{
     color: #941E2D;
-    text-decoration: none}        
+    text-decoration: underline}        
 #subnav-list li{
     list-style: url(../images/dot_red.svg);
     padding: 6px 0 6px 8px}
@@ -566,8 +567,13 @@ nav{
     border-radius: 5px;
     padding: 5px 9px 5px 10px;
     color: #fff}*/
-#subnav-list a.nowin,
-#subnav-list a.nowin:hover,
+#subnav-list a.nowin{
+    font-weight: normal;
+    color: rgba(165, 28, 48, 1)}
+#subnav-list a.nowin:hover{
+    font-weight: normal;
+    text-decoration: underline;
+    color: rgba(165, 28, 48, 1)}
 #tree-list li a.nowin,
 #tree-list li a.nowin:hover,
 #tree-list-02 li a.nowin,
@@ -577,7 +583,7 @@ summary.nowin{
     color: rgba(165, 28, 48, 1)}
 #subnav-list a.nowin,
 #subnav-list a.nowin:hover{
-    font-size: 2rem}
+    font-size: 1.8rem}
 /*#subnav-list li li.nowin{ margin: 15px 0 0 0}
 #subnav-list .nowin:hover,
 #subnav-list li li.nowin:hover{ 
@@ -1442,6 +1448,8 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research > .tabs-content a:visited{
     color: #8d8c8c;
     text-decoration: underline}
+#fellows-research > .tabs-content p{
+    padding-bottom: 15px}
 
 /*
 ========== 交流研習 ==========
@@ -2627,7 +2635,8 @@ input.checkme:checked~div.showme{
 .subcc{
     display: block;
     width: 100%;
-    padding: 20px 30px}
+    padding: 20px 30px;
+    text-align: justify;}
 .subcc h4{
     padding: 20px 0 0}
 .subcc ol,
@@ -2635,7 +2644,7 @@ input.checkme:checked~div.showme{
     display: block;
     padding: 0 30px 15px;}
 .subcc ol li{
-    list-style: decimal;
+    list-style: lower-alpha;
     padding: 5px 0}
 .subcc ul li{
     list-style: circle;

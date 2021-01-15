@@ -404,7 +404,10 @@ header,
     padding: 3px 0 3px 50px}
 .book-thumbnail span{
     height: 160px}
-
+#box-copyright{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    padding: 8px 15px}
 }
 
 /*
@@ -414,10 +417,6 @@ header,
 */
 @media (max-width: 615px) { /*573*/
 #ftr-main{ padding: 30px 0 60px}    
-#box-copyright{
-    font-size: 1.4rem;
-    line-height: 2.2rem;
-    padding: 8px 15px}
 .pastdirector-list{
     width: 49%}
 .director-photo{
