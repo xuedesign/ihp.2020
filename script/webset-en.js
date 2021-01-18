@@ -53,7 +53,7 @@ loadjs(['https://xuedesign.github.io/ihp.2020/script/lib/jquery.cookie.js', 'htt
         jQuery( "#box-fontsize a" ).textresizer({
            target: "#page-main",
            type: "fontSize",
-           sizes: [ "1.6rem", "1.8rem", "2rem" ],
+           sizes: [ "1.5rem", "1.7rem", "1.9rem" ],
            selectedIndex: 1
         });
     });

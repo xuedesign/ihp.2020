@@ -32,11 +32,14 @@
 *=====================================*/
 
 @import url("reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* 
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); */
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;400&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap"); */
 
 /*＝＝＝ 基本設定 ＝＝＝*/
 html{ 
@@ -46,9 +49,10 @@ body{
 	margin: 0;
 	padding:0;
     background: #fff;
-     font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    /* font-family:"Merriweather", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-size: 1rem; /* 1rem=10px */
-    font-weight: 200;
+    font-weight: 300;
     color:#333333}
 image{ border:0}
 form{margin:0; padding:0}
@@ -223,8 +227,9 @@ nav{
 
 .mm-panel,
 .mm-navbar{
-    font-family: "Lora";
-    font-weight: 400;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 300;
     font-size: 2rem;
     line-height: 3.5rem;
     letter-spacing: 1px}
@@ -266,7 +271,8 @@ nav{
     padding: 10px 30px}
 .info-main h2,
 .info-main h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     color:rgb(230, 230, 230);}
 .info-main h2{ 
@@ -396,8 +402,9 @@ nav{
 .btn_send:visited,
 .btn-logout,
 .btn-logout:visited{
-    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Merriweather", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1.5rem;
+    font-weight: 300;
     line-height: 2.5rem;
     letter-spacing: 1px;
     color: #fff;
@@ -421,8 +428,9 @@ nav{
 /*表單元件*/
 .myselect,
 .myinput{
-    font-family:"Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Merriweather", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 1.5rem;
+    font-weight: 300;
     color: #333;
     border: 1px solid #8f8e8e;
     border-radius: 3px;
@@ -513,7 +521,7 @@ nav{
 #subnav-title{
     display: flex;
     font-size: 1.6rem;
-    font-family: "Noto Serif TC";
+    font-family: "Merriweather";
     font-weight: 400}
 #backhome{ 
     width: 100%;
@@ -523,8 +531,8 @@ nav{
 #subnav-title h2{
     display: inline;
     text-align: left;
-    font-size: 2.3rem;
-    font-weight: 700;
+    font-size: 2.1rem;
+    font-weight: 400;
     line-height: 3.45rem;
     color: #A51C30}
 #subnav-title a,
@@ -545,8 +553,9 @@ nav{
     vertical-align: top}
 #subnav-list a,
 #subnav-list a:visited{
-    font-family: "Lora";
-	font-weight: 400;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+	font-weight: 300;
     color: #3e3e3e;
     text-decoration: none}
 #subnav-list a:hover{
@@ -567,11 +576,13 @@ nav{
     border-radius: 5px;
     padding: 5px 9px 5px 10px;
     color: #fff}*/
+#subnav-list a.nowin,
+#subnav-list a.nowin:hover{
+    font-size: 1.8rem;
+    font-weight: normal;}    
 #subnav-list a.nowin{
-    font-weight: normal;
     color: rgba(165, 28, 48, 1)}
 #subnav-list a.nowin:hover{
-    font-weight: normal;
     text-decoration: underline;
     color: rgba(165, 28, 48, 1)}
 #tree-list li a.nowin,
@@ -581,9 +592,6 @@ nav{
 summary.nowin{
     font-weight: bold;
     color: rgba(165, 28, 48, 1)}
-#subnav-list a.nowin,
-#subnav-list a.nowin:hover{
-    font-size: 1.8rem}
 /*#subnav-list li li.nowin{ margin: 15px 0 0 0}
 #subnav-list .nowin:hover,
 #subnav-list li li.nowin:hover{ 
@@ -600,8 +608,9 @@ summary.nowin{
     width: 49%;
     padding-left: 20px;
     text-indent: -20px;
-    font-family: "Lora";
-	font-weight: 500;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+	font-weight: 400;
     font-size: 2.7rem;
     line-height: 3.5rem;
     letter-spacing: 0;
@@ -660,7 +669,7 @@ summary.nowin{
 .p-departments,
 #academic-main,
 #outreach-info p{
-    text-align: justify}     
+    text-align: left}     
 
 /*
 ========== 本所簡介==========
@@ -728,8 +737,9 @@ summary.nowin{
 .advisory-info h5,
 .director-info h5,
 .doctors-info h5{
-    font-family: "Lora";
-    font-weight: 500;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 400;
     line-height: 3rem;
     letter-spacing: 1px;    
     color: #581a23}
@@ -764,10 +774,11 @@ summary.nowin{
     font-size: 2.4rem;
     text-align: left}
 .director-info h6{
+    font-weight: 300;
     padding-bottom: 10px}
 .director-info span,
 .other-links span{
-    font-weight: bold}
+    font-weight: 400}
 #box-about.p-director a,
 #box-about.p-director a:visited,
 #box-about.p-pastdirector a,
@@ -809,7 +820,8 @@ summary.nowin{
     margin: 0 auto 10px auto;
     overflow:hidden}
 .pastdirector-info p{
-    font-size: 1.5rem}
+    font-size: 1.5rem;
+    letter-spacing: 0;}
 
 .advisory-list{
     display: block;
@@ -830,8 +842,9 @@ summary.nowin{
     padding-bottom: 10px}
 .advisory-info span{
     display: block;
-    font-weight: 600;
-    margin-top: 10px}
+    font-weight: 400;
+    margin-top: 10px;
+    color: #581a23}
 
 /*
 ========== 研究室與工作室==========
@@ -852,8 +865,9 @@ summary.nowin{
     padding: 150px 0;
     text-align: center}
 #no-content h3{
-    font-family: "Lora";
-    font-weight: 500;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 2.5rem;
     letter-spacing: 2px;    
     color: #581a23}
@@ -892,9 +906,9 @@ summary.nowin{
 .positions-type{
     display: inline-block;
     color: #4d4d4d;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 0;
-    margin-bottom: 8px}
+    margin-bottom: 20px}
 .news-type,
 .news-time{
     display: inline}
@@ -927,15 +941,18 @@ summary.nowin{
     margin-right: 8px}
 .event-time span,
 .event-place span{
-    font-weight: bold}
+    font-weight: 400}
 .event-info h3{
-    padding-bottom: 15px}
+    padding-bottom: 20px}
+.news-info h3{
+    padding-top: 15px}    
 .event-info h3 a,
 .news-info h3 a,
 .positions-item h3 a,
 #bulletin-title h3{
-    font-family: "Lora";
-    font-weight: 500;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 300;
     line-height: 3.3rem;
     font-size: 2.2rem;
     text-decoration: none;
@@ -1154,19 +1171,23 @@ summary.nowin{
     padding: 15px 0}
 #box-people .two-axis a{
     color: #3e3e3e;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none}
 #box-people .two-axis a:visited{
     color:  #3e3e3e/*#949494*/;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none}
 #box-people .two-axis a:hover{
     color: #b94545;
     text-decoration: underline;
-    font-weight: bold}
+    font-weight: 400}
 #box-people .mystaff a,
 #box-people .mystaff a:visited{
-    font-weight: 200}
+    font-weight: 300}
+#box-people .mystaff a:hover{
+    font-weight: normal;
+    text-decoration: underline;
+    font-weight: 300}    
 
 #box-people a.mybtn,
 #box-people a.mybtn:visited{
@@ -1202,7 +1223,7 @@ summary.nowin{
     border: 1px solid #e1e1e1;
     background: #A51C30;
     color: #fff;
-    letter-spacing: 2px}
+    letter-spacing: 0}
 .fellows-name{
     width: 20%}
 .fellows-note{
@@ -1294,9 +1315,10 @@ table.bt tbody td::before {
     -webkit-flex-shrink: 0;
     -ms-flex-shrink: 0;
     flex-shrink: 0;
-    font-weight: bold;
+    font-weight: 400;
     text-align: right;
-    width: 6.8em}
+    letter-spacing: 0;
+    width: 7em}
 
 table.bt tfoot th.bt-hide,
 table.bt tfoot td.bt-hide,
@@ -1357,7 +1379,7 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 100%;
     border-bottom: 1px solid #e1e1e1;
-    padding: 10px 0 10px}
+    padding: 15px 0}
 .doctors-photo,
 .doctors-info{
     display: inline-block;
@@ -1367,10 +1389,11 @@ table.bt.bt--no-header tbody td::before {
 .doctors-info{ 
     width: 80%}
 .doctors-info h5{
-    /*font-size: 2.2rem;*/
+    font-size: 2rem;
     padding-bottom: 10px}
 .doctors-info span{
-    font-weight: bold}
+    font-weight: 400;
+    color: #581a23;}
 .doctors-info p{
     padding-bottom: 8px}    
 /* .dtime,
@@ -1394,8 +1417,9 @@ table.bt.bt--no-header tbody td::before {
 #fellows-info{
     width: 80%}
 #fellows-info h3{
-    font-family: "Lora";
-    font-weight: 500;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 3rem;
     line-height: 4rem;
     letter-spacing: 1px}
@@ -1413,7 +1437,7 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 8px}
 #fellows-concant span{
     display: block;
-    font-weight: bold;
+    font-weight: 400;
     font-style: 1.6rem;
     line-height: 2.4rem}
 #fellows-education{
@@ -1424,6 +1448,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 0 8px;
     text-align: center;
     font-size: 1.6rem;
+    font-weight: 400;
     line-height: 2.4rem;
     letter-spacing: 0;
     background: #A51C30;
@@ -1470,7 +1495,8 @@ table.bt.bt--no-header tbody td::before {
     border-bottom: 1px solid #C4C4C4}
 .international-item h3{
     width: 25%;
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 4rem;
@@ -1497,7 +1523,8 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: none}
 
 #awards-list h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     line-height: 4rem;
     letter-spacing: 1px}
@@ -1512,11 +1539,12 @@ table.bt.bt--no-header tbody td::before {
 .awards-item summary,
 .periodical-item summary,
 .faq summary{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 4rem;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     color: #3E3E3E;
     border-bottom: 1px solid #C4C4C4;
     list-style: none;}
@@ -1629,7 +1657,8 @@ table.bt.bt--no-header tbody td::before {
     width: 100%;
     margin-bottom: 20px}
 .newbook-title h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
@@ -1676,7 +1705,7 @@ table.bt.bt--no-header tbody td::before {
 .book-thumbnail p{
     line-height: 2.5rem;
     padding-bottom: 5px;
-    word-break: break-all}
+    word-break: normal}
 .book-thumbnail a{
     color: #3E3E3E;
     text-decoration: none}
@@ -1689,23 +1718,25 @@ table.bt.bt--no-header tbody td::before {
 .ihp-book p:nth-child(2),
 .ihp-mag p:nth-child(3){
     display:-webkit-box;
-    font-weight: bold;
+    font-weight: 400;
     height: 65px;
     max-height: 55px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 5px 0;
     overflow:hidden;
     /*text-overflow:ellipsis;
     -webkit-line-clamp:2; 
     -webkit-box-orient:vertical*/}
+.ihp-book p:nth-child(2){
+    margin-bottom: 10px}    
 .ihp-mag p:nth-child(3){
     margin-bottom: 10px}
 .ihp-book p:nth-child(3){
     display:block;
     width: 100%;
     overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     -webkit-line-clamp:1; 
     -webkit-box-orient:vertical;
     padding: 10px 10px 10px 0;
@@ -1720,7 +1751,8 @@ table.bt.bt--no-header tbody td::before {
     /*border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;*/}
 #book-toolbar h4{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     letter-spacing: 1px;
@@ -1845,14 +1877,14 @@ table.bt.bt--no-header tbody td::before {
     vertical-align: sub;
     margin-right: 10px}
 #publications-article p{
-    text-align: justify;
+    text-align: left;
     padding-bottom: 10px;}
 #publications-article ul,
 #publications-article ol{
     padding: 15px 50px}
 #publications-article ul li,
 #publications-article ol li{
-    text-align: justify;
+    text-align: left;
     border-bottom: 1px dashed #c4c4c4;
     padding: 5px 0 8px}
 #publications-article ul li{
@@ -1967,7 +1999,8 @@ table.bt.bt--no-header tbody td::before {
     width: 65%;
     text-align: left}
 #book-info h4{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
@@ -1982,7 +2015,7 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 10px;}
 #book-info .info-name{
     display: block;
-    width: 18%;
+    width: 20%;
     font-weight: bold;
     text-align: right;
     margin-right: 15px;
@@ -1991,10 +2024,10 @@ table.bt.bt--no-header tbody td::before {
 #book-info .info-value,
 #book-info .book-brief{
     display: block;
-    width: 75%;}
+    width: 75%}   
 #book-info p{
     line-height: 2.8rem;
-    text-align: justify}
+    text-align: left}
 #book-info .book-brief p{
     margin-bottom: 15px}
 
@@ -2020,7 +2053,8 @@ table.bt.bt--no-header tbody td::before {
     margin-bottom: 15px;
     border-bottom: 1px solid #e1e1e1}
 #book-catalog h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
@@ -2055,8 +2089,8 @@ table.bt.bt--no-header tbody td::before {
 .book-catalog-main-02 li{
     display: block}
 .catalog-article{
-    font-weight: bold;
-    line-height: 2.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
     padding-right: 20px;}
 .catalog-article::after{
     display: inline-block;
@@ -2065,10 +2099,10 @@ table.bt.bt--no-header tbody td::before {
     margin-left: 8px;
     vertical-align: text-top}
 .catalog-auther{
-    width: 15%;
+    width: 30%;
     text-align: right}
 .book-catalog-main-02 .catalog-article{
-    font-weight: bold}
+    font-weight: 400}
 .book-catalog-main-02 .catalog-auther{
     width: 100%;
     text-align: left;
@@ -2080,7 +2114,7 @@ table.bt.bt--no-header tbody td::before {
     height: 22px;
     vertical-align: text-top;
     opacity: .6;
-    margin: 3px 8px 0 0}
+    margin: 0 8px 0 0}
 .journal-title{
     display: flex;
     justify-content: space-between;
@@ -2117,7 +2151,7 @@ table.bt.bt--no-header tbody td::before {
     background: #e9e9e9}
 .journal-article p{
     padding-bottom: 10px;
-    text-align: justify}
+    text-align: left}
 .journal-article span{
     font-weight: bold}
 
@@ -2131,7 +2165,8 @@ table.bt.bt--no-header tbody td::before {
     vertical-align: top}
 #tree-list h3,
 #tree-list-02 h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 3.3rem;
@@ -2185,7 +2220,8 @@ table.bt.bt--no-header tbody td::before {
     padding: 15px 0;
     border-bottom: 1px dashed#8f7373}
 .box-search h4{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 3.3rem;
@@ -2270,7 +2306,8 @@ input.checkme:checked~div.showme{
     border-radius: 10px}
 #catlog-keyword h4,
 #catlog-title h4{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
@@ -2339,9 +2376,10 @@ input.checkme:checked~div.showme{
     justify-content: space-between;
     flex-wrap: wrap}  
 .box-indextitle h3{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 2rem;
     color:#A51C30;
     margin-bottom: 20px;}
@@ -2436,17 +2474,19 @@ input.checkme:checked~div.showme{
     height: auto}
 .ev-title{
     display:-webkit-box;
-    font-weight: bold;
     height: 70px;
     margin: 0 auto 10px auto;
     padding: 5px;
     overflow:hidden;
-    font-family: "Lora";
-    font-weight: 400;
-    font-size: 1.9rem;
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1.8rem;
     line-height: 3rem;
     color: #3e3e3e;
     text-decoration: none}
+.ev-title h4{
+    font-weight: 300}        
 .ev-title:hover{
     color: #A51C30;
     text-decoration: underline}
@@ -2577,7 +2617,8 @@ input.checkme:checked~div.showme{
     display: block;
     width: 48%}
 .lastbook-info h4{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 400;
     line-height: 2.6rem;
     padding-bottom: 15px}
 .lastbook-info li{
@@ -2620,7 +2661,8 @@ input.checkme:checked~div.showme{
     text-overflow:ellipsis;
     -webkit-line-clamp:1; 
     -webkit-box-orient:vertical;
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 5.4rem;
@@ -2636,8 +2678,9 @@ input.checkme:checked~div.showme{
     display: block;
     width: 100%;
     padding: 20px 30px;
-    text-align: justify;}
+    text-align: left;}
 .subcc h4{
+    font-weight: 400;
     padding: 20px 0 0}
 .subcc ol,
 .subcc ul{
@@ -2651,15 +2694,17 @@ input.checkme:checked~div.showme{
     padding: 5px 0}
 
 .maptitle{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 5.4rem;
-    color: #5c5c5c;}
+    color: #5c5c5c;
+    margin-bottom: 10px;}
 #webmap{
-    display: block;
+    display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content:left;
     flex-wrap: wrap;
     padding:0}
 #webmap ul{
@@ -2677,16 +2722,18 @@ input.checkme:checked~div.showme{
     width: 100%;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
-    padding: 10px 0 5px 15px;
+    padding: 10px 15px 5px 15px;
     margin-bottom: 10px;
     background: #e1e1e1;
-    font-weight: normal}
+    font-weight: normal;
+    text-align: left;}
 #webmap li li li{
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    text-align: left;
+    width: 45%;
     padding: 5px 5px 5px 10px;
-    margin: 5px 0;
+    margin: 5px 15px 5px 0;
     background: #ccc0c0;
     font-size: 1.6rem;
     line-height: 2.2rem}
@@ -2697,11 +2744,13 @@ input.checkme:checked~div.showme{
 .faq-item h4{
     display: block;
     background: #aa5461;
+    font-weight: 400;
     color: #fff;
     padding: 5px 10px}
 .faq-item p{
     display: block;
     background: #e1e1e1;
+    font-weight: 300;
     color: #3e3e3e;
     padding: 5px 10px}
 #msearch{
@@ -2778,7 +2827,8 @@ input.checkme:checked~div.showme{
     -webkit-line-clamp:1; 
     -webkit-box-orient:vertical;}
 #result-list h4 a{
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.1rem;
     line-height: 3rem;
@@ -2801,6 +2851,8 @@ input.checkme:checked~div.showme{
     width: 100%;
     padding: 3px 50px;
     margin: 15px 0}
+#map-guide h5{
+    font-weight: 400}    
 #map-guide li{
     border-bottom: 1px dashed #a7a7a7;
     padding-bottom: 10px;

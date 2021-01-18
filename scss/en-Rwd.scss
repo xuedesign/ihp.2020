@@ -47,10 +47,10 @@
 #container{ width: 95%}
 #box-ftrdown{ padding: 30px 0 0}
 #box-top{ width: 60%}
-.sf-menu a { padding: .9em 3.5rem}
+.sf-menu a { padding: .9em 3rem}
 .sf-menu li li a,
 .sf-menu li li li a{
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 	padding: 1.8rem 1rem 1.8rem 2rem;
     line-height: 2.5rem}
 .info-top-left{
@@ -77,7 +77,9 @@
     bottom: 14rem}  
 .book-thumbnail span{
     height: 250px}
-.sf-menu ul#oo{ left: -55%}      
+.sf-menu ul#oo{ left: -55%}
+.catalog-auther{
+    width: 45%}      
 }
 
 @media (max-width:1300px) {
@@ -138,6 +140,9 @@ h1 a{
     width: 53%}
 .positions-time{ 
     width: 20%}*/
+.positions-item h3{ 
+    padding-bottom: 10px}
+
 .pic_museum{
     width: 50%}
 .pic_archives{
@@ -186,7 +191,7 @@ h1 a{
 .publsit-type02 li{
     width: 49%}
 #book-info .info-name{
-    width: 25%}
+    width: 30%}
 #book-info .info-value,
 #book-info .book-brief{
     width: 70%;}
@@ -252,7 +257,33 @@ h1 a{
     width: 100%;
     padding-left: 55px}
 .international-item li{
-    padding-bottom: 10px}          
+    padding-bottom: 10px}
+#buy-list li{
+    width: 100%;
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 8px;
+    margin-bottom: 15px}
+#buy-list hr{
+    display: none}
+.book-catalog-main li{
+    display: block}    
+.catalog-article{
+    width: 100%}    
+.catalog-auther{
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;}
+.book-catalog-main .catalog-auther::before{
+    display: inline-block;
+    content: url(../images/pot-profile.svg);
+    width: 22px;
+    height: 22px;
+    vertical-align: text-top;
+    opacity: .6;
+    margin: 0 8px 0 0}
+#box-copyright{
+    line-height: 2.2rem;
+    padding: 8px 15px}                  
 }
 
 /*
@@ -350,13 +381,6 @@ header,
 #publications-article > 
 .editoral-board-auther p{
     width: 49%}
-#buy-list li{
-    width: 100%;
-    border-bottom: 1px dashed #cccccc;
-    padding-bottom: 8px;
-    margin-bottom: 15px}
-#buy-list hr{
-    display: none}
 #book-summary{
     display: block}
 #book-cover{
@@ -365,7 +389,7 @@ header,
 #book-info{
     width: 100%}
 #book-info .info-name{
-    width: 15%}
+    width: 20%}
 #book-info .info-value,
 #book-info .book-brief{
     width: 80%;}
@@ -419,7 +443,7 @@ header,
 .catlog-page{
     width: 99%}
 #webmap li li li{
-    width: 49%}
+    width: 100%}
 #re-search{
     width: 50%}
 #academic-main ul{
@@ -428,9 +452,6 @@ header,
     padding: 3px 0 3px 50px}
 .book-thumbnail span{
     height: 160px}
-#box-copyright{
-    line-height: 2.2rem;
-    padding: 8px 15px}
 #box-fontsize{
     margin-bottom: 0} 
 }
@@ -512,15 +533,13 @@ header,
     width: 100%}
 #book-info li{
     display: block;
-    padding-bottom: 10px;
+    padding: 15px 0;
     border-bottom: 1px dashed #e1e1e1;}
 #book-info .info-name,
 #book-info .info-value,
 #book-info .book-brief{
     width: 100%;
     text-align: left;} 
-.catalog-auther{
-    width: 30%}
 .abgne-carousel li{
     display: inline-block;
     position: relative;
@@ -703,10 +722,6 @@ header,
 #book-catalog-list{
     display: flex;
     flex-wrap: wrap}
-.catalog-article{
-    width: 100%}
-.catalog-auther{
-    width: 35%}
 .journal-title .title-01{
     width: 69%}
 .journal-title .title-02{
@@ -827,6 +842,7 @@ header,
 #book-info p,
 .journal-article p,
 #outreach-info p,
-.staff-jobtitle{
+.staff-jobtitle,
+.subcc{
     text-align: left}       
 }
