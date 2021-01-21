@@ -1272,7 +1272,7 @@ summary.nowin{
     width: 15%;
     text-align: center;}
 .catlog-writer{
-    width: 12%;
+    width: 16%;
     text-align: center}
 .catlog-date{
     width: 10%;
@@ -1338,7 +1338,7 @@ table.bt tbody td .bt-content {
 table.bt.bt--no-header tfoot td::before,
 table.bt.bt--no-header tbody td::before {
     display: none}
-  
+
 @media only screen and (max-width: 600px){
 .two-axis td,
 .fellows-name,
@@ -2225,18 +2225,22 @@ table.bt.bt--no-header tbody td::before {
     font-weight: 400;
     font-size: 2rem;
     line-height: 3.3rem;
-    color:#8f7373}
+    color:#8f7373;
+    padding-bottom: 10px;}
 #selectall{
     display: inline;
     margin-left: 15px}
 .box-search ul{
-    display: inline-block;
+    display: inline;
     /*justify-content: flex-start;
     flex-wrap: wrap;*/
     padding: 5px 0;}
 .box-search li{
     display: inline;
     margin-left: 15px}
+.box-search li:nth-child(5){
+    display: block;
+    padding-top: 8px;}    
 #search-period label{ display: none;}
 
 .incatalog,
@@ -2342,15 +2346,17 @@ input.checkme:checked~div.showme{
     padding: 5px 10px;}
 .catlog-block li p:first-child{
     width: 19%;
-    font-weight: bold;
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-weight: 400;
     text-align: right;
+    line-height: 2.8rem;
     margin-right: 10px;
-    padding-right: 10px;
+    padding: 10px;
     background-color:#e9e9e9}
 .catlog-block li p:nth-child(2){
     width: 79%;
     padding: 5px 20px;
-    text-align: justify}
+    text-align: left}
 .catlog-block li p:nth-child(even){
     background-color:#e9e9e9}
 

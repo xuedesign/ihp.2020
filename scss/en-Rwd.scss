@@ -229,14 +229,6 @@ h1 a{
 .indexlink-list li{
     width: 32%;
     margin: 0 5px 15px;}
-.catlog-number{ 
-    width: 10%}
-.catlog-type{
-    width: 16%}
-.catlog-writer{
-    width: 14%}
-.catlog-date{
-    width: 14%}
 #box-fontsize{
     margin-bottom: 20px}
 #bulletin-toolbar{
@@ -283,7 +275,21 @@ h1 a{
     margin: 0 8px 0 0}
 #box-copyright{
     line-height: 2.2rem;
-    padding: 8px 15px}                  
+    padding: 8px 15px}   
+#selectall,
+.box-search li{
+    display: block;
+    margin-left: 15px}
+.box-search li:nth-child(5){
+    padding-top: 0;}
+.catlog-table td{
+    padding: 0}
+.catlog-number,
+.catlog-type,
+.catlog-writer,
+.catlog-date,
+.catlog-page{
+    width: 99%}                             
 }
 
 /*
@@ -434,14 +440,6 @@ header,
     margin: 0 10px 15px}
 .indexlink-list li a{
     padding-left: 45px}
-.catlog-table td{
-    padding: 0}
-.catlog-number,
-.catlog-type,
-.catlog-writer,
-.catlog-date,
-.catlog-page{
-    width: 99%}
 #webmap li li li{
     width: 100%}
 #re-search{
@@ -453,7 +451,9 @@ header,
 .book-thumbnail span{
     height: 160px}
 #box-fontsize{
-    margin-bottom: 0} 
+    margin-bottom: 0}
+#list-option{
+    margin-bottom: 15px}     
 }
 
 /*
@@ -569,8 +569,6 @@ header,
     margin-bottom: 15px}
 #catlog-keyword .mybtn{
     padding: 4px 8px}
-#list-option{
-    margin-bottom: 15px}
 #subcontainer{
     width: 100%}
 #re-search{
@@ -781,12 +779,16 @@ header,
 .indexlink-list li a{
     padding-left: 45px}
 #list-option{
+    width: 100%;
     padding-bottom: 8px;
     border-bottom: 1px solid #8d8d8d}
 #list-option select{
     margin-right: 5px}
 #list-option input{
-    margin: 15px 0}
+    margin-bottom: 15px}
+#list-option label{
+    display: block;
+    padding: 10px 0 10px 5px}     
 .catlog-block{
     display: block}
 .catlog-block li p:first-child{
@@ -822,11 +824,6 @@ header,
     display: block}
 #map-guide{
     padding: 3px 0 3px 35px}
-.search-type,   
-#selectall,
-.box-search li{
-    display: block;
-    margin-left: 15px}
 .visibility{
     display: none} 
 #ftrdown-left{
@@ -844,5 +841,12 @@ header,
 #outreach-info p,
 .staff-jobtitle,
 .subcc{
-    text-align: left}       
+    text-align: left}
+.search-type{
+    display: block;
+    margin-left: 15px}
+.box-search li:nth-child(3),
+.box-search li:nth-child(5){
+    text-indent: -27px;
+    padding-left: 27px;}                   
 }
