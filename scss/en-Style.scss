@@ -1608,7 +1608,8 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 33%;
     padding: 20px;
-    box-sizing: border-box}
+    box-sizing: border-box;
+    font-weight: 300;}
 .gallery-cover{
     display: block;
     width: 100%;
@@ -1628,7 +1629,9 @@ table.bt.bt--no-header tbody td::before {
     line-height: 2.2rem}
 #gallery-list a>h3,
 #gallery-list a>p{
-    padding: 0 10px}
+    padding: 5px 10px}
+#gallery-list a>p:hover{
+    text-decoration: none}    
 #gallery-view{
     display: flex;
     flex-wrap: wrap;
