@@ -47,7 +47,7 @@ loadjs('https://cdnjs.cloudflare.com/ajax/libs/PrintArea/2.4.1/jquery.PrintArea.
       });
 });
 
-//Font+
+//Font+ 
 loadjs(['https://xuedesign.github.io/ihp.2020/script/lib/jquery.cookie.js', 'https://xuedesign.github.io/ihp.2020/script/lib/jquery.textresizer.js'], function() {
     jQuery(document).ready( function() {
         jQuery( "#box-fontsize a" ).textresizer({
