@@ -33,6 +33,7 @@
 
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 
 /* 
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
@@ -50,7 +51,7 @@ body{
 	padding:0;
     background: #fff;
     /* font-family:"Merriweather", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather","Noto Sans TC",'Times New Roman', Times, serif;
     font-size: 1rem; /* 1rem=10px */
     font-weight: 300;
     color:#333333}
@@ -228,7 +229,7 @@ nav{
 .mm-panel,
 .mm-navbar{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 2rem;
     line-height: 3.5rem;
@@ -272,7 +273,7 @@ nav{
 .info-main h2,
 .info-main h3{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     color:rgb(230, 230, 230);}
 .info-main h2{ 
@@ -951,7 +952,7 @@ summary.nowin{
 .positions-item h3 a,
 #bulletin-title h3{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather","Noto Sans TC",'Times New Roman', Times, serif;
     font-weight: 300;
     line-height: 3.3rem;
     font-size: 2.2rem;
@@ -1418,7 +1419,7 @@ table.bt.bt--no-header tbody td::before {
     width: 80%}
 #fellows-info h3{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 3rem;
     line-height: 4rem;
@@ -1496,7 +1497,7 @@ table.bt.bt--no-header tbody td::before {
 .international-item h3{
     width: 25%;
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 4rem;
@@ -1524,7 +1525,7 @@ table.bt.bt--no-header tbody td::before {
 
 #awards-list h3{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     line-height: 4rem;
     letter-spacing: 1px}
@@ -1540,7 +1541,7 @@ table.bt.bt--no-header tbody td::before {
 .periodical-item summary,
 .faq summary{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 4rem;
@@ -1661,7 +1662,7 @@ table.bt.bt--no-header tbody td::before {
     margin-bottom: 20px}
 .newbook-title h3{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
@@ -1755,7 +1756,7 @@ table.bt.bt--no-header tbody td::before {
     border-bottom: 1px solid #e1e1e1;*/}
 #book-toolbar h4{
     /* font-family: "Lora"; */
-    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    font-family: "Merriweather",'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     letter-spacing: 1px;

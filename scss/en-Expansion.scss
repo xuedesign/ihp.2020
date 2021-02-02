@@ -385,6 +385,7 @@
 .tabs-content{ 
     display: block;
     clear:both;
+    font-family: "Merriweather",'Noto Sans TC','Times New Roman', Times, serif;
     color:#333333;
     text-align: left;
     padding:15px}
@@ -392,9 +393,11 @@
 .tabs-content ul{ 
     padding: 15px 25px}
 .tabs-content ol li{
-    list-style: decimal}
+    list-style: decimal;
+    font-family: "Merriweather",'Noto Sans TC','Times New Roman', Times, serif;}
 .tabs-content ul li{
-    list-style: disc}
+    list-style: disc;
+    font-family: "Merriweather",'Noto Sans TC','Times New Roman', Times, serif;}
 .tabs-content details{
     display: block;
     width: 100%;
