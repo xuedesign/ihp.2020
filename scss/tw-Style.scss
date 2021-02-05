@@ -936,8 +936,10 @@ summary.nowin{
     color: #5a4e4f;
     text-decoration: none}
 .timeout,
-.timeout h3 a{
-    color: #858585}
+.timeout h3 a,
+.timeout h3 a:hover,
+.timeout h3 a:visited{
+    color: #a7a6a6}
 
 .event-option{
     display: flex;

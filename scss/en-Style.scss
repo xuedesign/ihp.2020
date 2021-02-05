@@ -969,8 +969,10 @@ summary.nowin{
     color: #5a4e4f;
     text-decoration: none}
 .timeout,
-.timeout h3 a{
-    color: #858585}
+.timeout h3 a,
+.timeout h3 a:hover,
+.timeout h3 a:visited{
+    color: #a7a6a6}
 
 .event-option{
     display: flex;
@@ -2658,24 +2660,25 @@ input.checkme:checked~div.showme{
     -webkit-line-clamp:3; 
     -webkit-box-orient:vertical}
 .indexlink-list li{
+    display: flex;
+    align-items: center; 
     width: 49%;
     min-height: 48px;
     border: 1px solid #e1e1e1;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 12px}
+    margin-bottom: 15px}
 .indexlink-list li a{
     display:-webkit-box;
     overflow:hidden;
     text-overflow:ellipsis;
-    -webkit-line-clamp:1; 
+    -webkit-line-clamp:3; 
     -webkit-box-orient:vertical;
-    /* font-family: "Lora"; */
     font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 5.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     color: #5c5c5c;
     text-decoration: none;
     padding-left: 35px;
