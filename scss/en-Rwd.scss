@@ -77,9 +77,7 @@
     bottom: 14rem}  
 .book-thumbnail span{
     height: 250px}
-.sf-menu ul#oo{ left: -55%}
-.catalog-auther{
-    width: 45%}      
+.sf-menu ul#oo{ left: -55%} 
 }
 
 @media (max-width:1300px) {
@@ -257,22 +255,6 @@ h1 a{
     margin-bottom: 15px}
 #buy-list hr{
     display: none}
-.book-catalog-main li{
-    display: block}    
-.catalog-article{
-    width: 100%}    
-.catalog-auther{
-    width: 100%;
-    text-align: left;
-    margin-top: 15px;}
-.book-catalog-main .catalog-auther::before{
-    display: inline-block;
-    content: url(../images/pot-profile.svg);
-    width: 22px;
-    height: 22px;
-    vertical-align: text-top;
-    opacity: .6;
-    margin: 0 8px 0 0}
 #box-copyright{
     line-height: 2.2rem;
     padding: 8px 15px}   
