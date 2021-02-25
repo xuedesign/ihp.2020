@@ -1478,6 +1478,51 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: underline}
 #fellows-research > .tabs-content p{
     padding-bottom: 15px}
+.readme{
+    position: relative;
+    overflow:hidden}
+#readme-linear{
+    display:block;
+    position:absolute;
+    /* border:1px solid #e1e1e1; */
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -o-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%)}
+#readme-down{
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* border:1px solid #999999 */}    
+#fellows-research a.rmopen,
+#fellows-research a.rmopen:visited,
+#fellows-research a.rmclose,
+#fellows-research a.rmclose:visited{
+    display: block;
+    width: 100px;
+    padding: 0 8px;
+    border:1px solid #4d4d4d;
+    border-radius: 5px;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    text-decoration: none}
+#fellows-research a.rmopen:hover,
+#fellows-research a.rmclose:hover{
+    background: #615252;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: .5s}
+#fellows-research a.rmopen{
+    margin-top: 15px}
+#fellows-research a.rmclose{
+    position:absolute;
+    z-index: 99;
+    margin-top: -20px;}
 
 /*
 ========== 交流研習 ==========
