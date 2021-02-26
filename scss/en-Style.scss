@@ -683,11 +683,15 @@ summary.nowin{
 #box-academic a:visited,
 #box-people a,
 #box-people a:visited,
-#catlogtable a,
-#catlogtable a:visited,
 .subcc a,
 .subcc a:visited{
     color: #b94545;
+    text-decoration: none}
+#catlogtable a{
+    color: #333;
+    text-decoration: none}
+#catlogtable a:visited{
+    color: #a7a6a6;
     text-decoration: none}
 #box-about a:hover,
 #box-groups a:hover,
@@ -846,6 +850,15 @@ summary.nowin{
     font-weight: 400;
     margin-top: 10px;
     color: #581a23}
+#box-about .advisory-info h5 a{
+    color: #581a23;
+    text-decoration: none}
+#box-about .advisory-info h5 a:visited{
+    color: #3e3e3e;
+    text-decoration: none}
+#box-about .advisory-info h5 a:hover{
+    color: #b94545;
+    text-decoration: underline}      
 
 /*
 ========== 研究室與工作室==========
@@ -966,7 +979,7 @@ summary.nowin{
 .event-info h3 a:visited,
 .news-info h3 a:visited,
 .positions-item h3 a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .timeout,
 .timeout h3 a,
@@ -1081,7 +1094,7 @@ summary.nowin{
 #bulletin-text a:visited,
 #bulletin-annex a:visited,
 #bulletin-article a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .btn-back,
 .btn-bulletin-back{
@@ -1159,7 +1172,9 @@ summary.nowin{
     background-position: 0 5px;
     padding-left: 25px}
 #academic-main li a{ 
-    color:#3E3E3E}
+    color:#333}
+#academic-main li a:visited{ 
+    color:#a7a6a6}
 
 /*
 ========== 人員名錄==========
@@ -1567,7 +1582,7 @@ table.bt.bt--no-header tbody td::before {
     color: #941E2D;
     text-decoration: underline}
 .international-item li a:visited{
-    color: #3E3E3E;
+    color: #a7a6a6;
     text-decoration: none}
 
 #awards-list h3{
@@ -1643,7 +1658,8 @@ table.bt.bt--no-header tbody td::before {
 .periodical-item ul{
     padding: 15px 15px 15px 25px}
 .awards-item li span{
-    color: #c42a2f;
+    color: #af8585;
+    /* font-weight: bold; */
     padding-right: 15px}
 
 /*史語藝廊*/
@@ -1838,14 +1854,20 @@ table.bt.bt--no-header tbody td::before {
     letter-spacing: 1px}
 
 #publications-main > .two-axis a{
-    color:#b94545;
+    color:#333;
     text-decoration: none}
 #publications-main > .two-axis a:hover{
         color: #941E2D;
         text-decoration: underline}
 #publications-main > .two-axis a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
+/* #publications-main > .two-axis a::after{
+    display: inline-block;
+    content: url(../images/pot-external.svg);
+    opacity: .7;
+    margin-left: 8px;
+    vertical-align: text-top} */
 @media only screen and (max-width: 568px){
     #publications-main > .two-axis a{
         color: rgb(252, 218, 218);
@@ -1854,7 +1876,7 @@ table.bt.bt--no-header tbody td::before {
         color: rgb(252, 218, 218);
         text-decoration: underline}
     #publications-main > .two-axis a:visited{
-        color: #5a4e4f;
+        color: #a7a6a6;
         text-decoration:none}
 }
 
@@ -1891,7 +1913,7 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: underline}
 .periodical-item a:visited,
 #publications-article a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .pub-year{
     width: 8%;
@@ -2020,7 +2042,7 @@ table.bt.bt--no-header tbody td::before {
 .book-catalog-main-02 a:visited,
 #tree-list a:visited,
 #tree-list-02 a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none;}
 #buy-list h4::before{
     display: inline-block;
@@ -2624,7 +2646,7 @@ input.checkme:checked~div.showme{
 #hotnews a:visited,
 #lastnews-list a:visited,
 #lastjob-list a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none} 
 #hotnews p {
     display:-webkit-box;

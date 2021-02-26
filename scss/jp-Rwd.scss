@@ -274,7 +274,22 @@ header,
     width: 14%}
 .catlog-date{
     width: 14%}
-
+.book-catalog-main li{
+    display: block}
+.catalog-article{
+    width: 100%;
+    padding: 0 0 15px 0}
+.catalog-auther{
+    width: 100%;
+    text-align: left}
+.catalog-auther::before{
+    display: inline-block;
+    content: url(../images/pot-profile.svg);
+    width: 22px;
+    height: 22px;
+    vertical-align: text-top;
+    opacity: .6;
+    margin: 1px 8px 0 0}
 }
 
 /*
@@ -511,8 +526,6 @@ header,
 #book-info .book-brief{
     width: 100%;
     text-align: left;} 
-.catalog-auther{
-    width: 30%}
 .abgne-carousel li{
     display: inline-block;
     position: relative;
@@ -696,10 +709,6 @@ header,
 #book-catalog-list{
     display: flex;
     flex-wrap: wrap}
-.catalog-article{
-    width: 100%}
-.catalog-auther{
-    width: 35%}
 .journal-title .title-01{
     width: 69%}
 .journal-title .title-02{
@@ -809,3 +818,9 @@ header,
     display: none} 
 
 }
+
+@media(max-width:321px){
+    #gallery-view li{
+        width: 270px;
+        height: 270px}
+    }

@@ -832,3 +832,9 @@ header,
     text-indent: -27px;
     padding-left: 27px;}                   
 }
+
+@media(max-width:321px){
+    #gallery-view li{
+        width: 270px;
+        height: 270px}
+    }

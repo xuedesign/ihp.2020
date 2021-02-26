@@ -319,7 +319,15 @@
                                             <li>
                                                 <span class="info-name">本書介紹：</span>
                                                 <div class="book-brief">
+                                                    <article class="readme">
+                                                    <div id="readme-linear"></div>
                                                     <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
+                                                    <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
+                                                    <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
+                                                    <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
+                                                    <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
+                                                    <div id="readme-down"></div>
+                                                    </article>
                                                 </div>
                                             </li>
                                         </ul>
@@ -549,6 +557,17 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/loadjs@latest/dist/loadjs.umd.min.js"></script>
 <script src="../../script/webset.js"></script>
+
+<!--#20210226 新增閱讀更多功能-->
+<script src="https://jedfoster.com/js/readmore.min.js"></script>
+<script>
+    $('article').readmore({
+        speed: 1000,
+        collapsedHeight: 350,
+        moreLink: '<a href="#" class="rmopen" title="展開文章">展開文章</a>',
+        lessLink: '<a href="#" class="rmclose" title="縮合文章">縮合文章</a>'
+      });
+</script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.min.css">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.polyfills.min.js"></script>

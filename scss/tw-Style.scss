@@ -659,11 +659,15 @@ summary.nowin{
 #box-academic a:visited,
 #box-people a,
 #box-people a:visited,
-#catlogtable a,
-#catlogtable a:visited,
 .subcc a,
 .subcc a:visited{
     color: #b94545;
+    text-decoration: none}
+#catlogtable a{
+    color: #333;
+    text-decoration: none}
+#catlogtable a:visited{
+    color: #a7a6a6;
     text-decoration: none}
 #box-about a:hover,
 #box-groups a:hover,
@@ -817,6 +821,15 @@ summary.nowin{
     padding-bottom: 10px}
 .advisory-info span{
     font-weight: bold}
+#box-about .advisory-info h5 a{
+    color: #581a23;
+    text-decoration: none}
+#box-about .advisory-info h5 a:visited{
+    color: #3e3e3e;
+    text-decoration: none}
+#box-about .advisory-info h5 a:hover{
+    color: #b94545;
+    text-decoration: underline}    
 
 /*
 ========== 研究室與工作室==========
@@ -933,7 +946,7 @@ summary.nowin{
 .event-info h3 a:visited,
 .news-info h3 a:visited,
 .positions-item h3 a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .timeout,
 .timeout h3 a,
@@ -1048,7 +1061,7 @@ summary.nowin{
 #bulletin-text a:visited,
 #bulletin-annex a:visited,
 #bulletin-article a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .btn-back,
 .btn-bulletin-back{
@@ -1125,7 +1138,9 @@ summary.nowin{
     background-position: 0 5px;
     padding-left: 25px}
 #academic-main li a{ 
-    color:#3E3E3E}
+    color:#333}
+#academic-main li a:visited{ 
+    color:#a7a6a6}    
 
 /*
 ========== 人員名錄==========
@@ -1436,6 +1451,59 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research > .tabs-content a:visited{
     color: #8d8c8c;
     text-decoration: underline}
+.readme{
+    position: relative;
+    overflow:hidden}
+#readme-linear{
+    display:block;
+    position:absolute;
+    /* border:1px solid #e1e1e1; */
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%);
+    background: -o-linear-gradient(360deg, rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0)80%)}
+#readme-down{
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* border:1px solid #999999 */}    
+#fellows-research a.rmopen,
+#fellows-research a.rmopen:visited,
+#fellows-research a.rmclose,
+#fellows-research a.rmclose:visited,
+#book-info a.rmopen,
+#book-info a.rmopen:visited,
+#book-info a.rmclose,
+#book-info a.rmclose:visited{
+    display: block;
+    width: 100px;
+    padding: 0 8px;
+    border:1px solid #4d4d4d;
+    border-radius: 5px;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    text-decoration: none}
+#fellows-research a.rmopen:hover,
+#fellows-research a.rmclose:hover,
+#book-info a.rmopen:hover,
+#book-info a.rmclose:hover{
+    background: #615252;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: .5s}
+#fellows-research a.rmopen,
+#book-info a.rmopen{
+    margin-top: 15px}
+#fellows-research a.rmclose,
+#book-info a.rmclose{
+    position:absolute;
+    z-index: 99;
+    margin-top: -20px;}
 
 /*
 ========== 交流研習 ==========
@@ -1474,7 +1542,7 @@ table.bt.bt--no-header tbody td::before {
     color: #941E2D;
     text-decoration: underline}
 .international-item li a:visited{
-    color: #3E3E3E;
+    color: #a7a6a6;
     text-decoration: none}
 
 #awards-list h3{
@@ -1548,7 +1616,8 @@ table.bt.bt--no-header tbody td::before {
 .periodical-item ul{
     padding: 15px 15px 15px 25px}
 .awards-item li span{
-    color: #c42a2f;
+    color: #af8585;
+    /* font-weight: bold; */
     padding-right: 15px}
 
 /*史語藝廊*/
@@ -1736,14 +1805,20 @@ table.bt.bt--no-header tbody td::before {
     letter-spacing: 1px}
 
 #publications-main > .two-axis a{
-    color:#b94545;
+    color:#333;
     text-decoration: none}
 #publications-main > .two-axis a:hover{
         color: #941E2D;
         text-decoration: underline}
 #publications-main > .two-axis a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
+/* #publications-main > .two-axis a::after{
+    display: inline-block;
+    content: url(../images/pot-external.svg);
+    opacity: .7;
+    margin-left: 8px;
+    vertical-align: text-top} */
 @media only screen and (max-width: 568px){
     #publications-main > .two-axis a{
         color: rgb(252, 218, 218);
@@ -1752,7 +1827,7 @@ table.bt.bt--no-header tbody td::before {
         color: rgb(252, 218, 218);
         text-decoration: underline}
     #publications-main > .two-axis a:visited{
-        color: #5a4e4f;
+        color: #a7a6a6;
         text-decoration:none}
 }
 
@@ -1789,7 +1864,7 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: underline}
 .periodical-item a:visited,
 #publications-article a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none}
 .pub-year{
     width: 8%;
@@ -1918,7 +1993,7 @@ table.bt.bt--no-header tbody td::before {
 .book-catalog-main-02 a:visited,
 #tree-list a:visited,
 #tree-list-02 a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none;}
 #buy-list h4::before{
     display: inline-block;
@@ -2499,7 +2574,7 @@ input.checkme:checked~div.showme{
 #hotnews a:visited,
 #lastnews-list a:visited,
 #lastjob-list a:visited{
-    color: #5a4e4f;
+    color: #a7a6a6;
     text-decoration: none} 
 #hotnews p {
     display:-webkit-box;
