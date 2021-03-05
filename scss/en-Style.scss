@@ -1515,7 +1515,11 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research a.rmopen,
 #fellows-research a.rmopen:visited,
 #fellows-research a.rmclose,
-#fellows-research a.rmclose:visited{
+#fellows-research a.rmclose:visited,
+#book-info a.rmopen,
+#book-info a.rmopen:visited,
+#book-info a.rmclose,
+#book-info a.rmclose:visited{
     display: block;
     width: 100px;
     padding: 0 8px;
@@ -1527,17 +1531,21 @@ table.bt.bt--no-header tbody td::before {
     color: #4d4d4d;
     text-decoration: none}
 #fellows-research a.rmopen:hover,
-#fellows-research a.rmclose:hover{
+#fellows-research a.rmclose:hover,
+#book-info a.rmopen:hover,
+#book-info a.rmclose:hover{
     background: #615252;
     color: #fff;
     text-decoration: none;
     transition-duration: .5s}
-#fellows-research a.rmopen{
+#fellows-research a.rmopen,
+#book-info a.rmopen{
     margin-top: 15px}
-#fellows-research a.rmclose{
+#fellows-research a.rmclose,
+#book-info a.rmclose{
     position:absolute;
     z-index: 99;
-    margin-top: -20px;}
+    margin-top: -20px}
 
 /*
 ========== 交流研習 ==========
@@ -1748,14 +1756,14 @@ table.bt.bt--no-header tbody td::before {
 .book-thumbnail{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
     width: 100%;}
 .book-thumbnail li{
     display: block;
     letter-spacing: 0;
     width: 23%;
     padding: 10px 10px 0;
-    margin: 0 5px 30px;
+    margin: 0 9px 30px;
     border: 1px solid #e1e1e1;}
 .book-thumbnail li:hover{
     border: 1px solid #c42a2f;}
@@ -2103,6 +2111,15 @@ table.bt.bt--no-header tbody td::before {
     text-align: left}
 #book-info .book-brief p{
     margin-bottom: 15px}
+#book-info a{
+    color: #b94545;
+    text-decoration: none}
+#book-info a:hover{
+    color: #941E2D;
+    text-decoration: underline}
+#book-info a:visited{
+    color: #a7a6a6;
+    text-decoration: none}
 
 /*期刊內容頁*/
 #book-other{
