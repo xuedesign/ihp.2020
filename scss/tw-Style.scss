@@ -2368,18 +2368,18 @@ input.checkme:checked~div.showme{
     flex-wrap: wrap;
     border-bottom: 1px dashed #e1e1e1;
     padding: 5px 10px;}
-.catlog-block li p:first-child{
+.catlog-block li div:first-child{
     width: 19%;
     font-weight: bold;
     text-align: right;
     margin-right: 10px;
     padding-right: 10px;
     background-color:#e9e9e9}
-.catlog-block li p:nth-child(2){
+.catlog-block li div:nth-child(2){
     width: 79%;
     padding: 5px 20px;
     text-align: justify}
-.catlog-block li p:nth-child(even){
+.catlog-block li div:nth-child(even){
     background-color:#e9e9e9}
 
 /*

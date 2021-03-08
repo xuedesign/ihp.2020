@@ -775,16 +775,16 @@ header,
     padding: 10px 0 10px 5px}     
 .catlog-block{
     display: block}
-.catlog-block li p:first-child{
+.catlog-block li div:first-child{
     width: 100%;
     text-align: center;
     margin-right: 0;
     padding-right: 0;
     background-color:#d1bbbb}
-.catlog-block li p:nth-child(2){
+.catlog-block li div:nth-child(2){
     width: 100%;
     padding: 5px 10px;}
-.catlog-block li p:nth-child(even){
+.catlog-block li div:nth-child(even){
     background-color:#e9e9e9}
 #webmap li li{
     padding: 10px}
