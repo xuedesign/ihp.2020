@@ -192,8 +192,7 @@ h1 a{
     width: 49%}
 #book-info .info-name{
     width: 30%}
-#book-info .info-value,
-#book-info .book-brief{
+#book-info .info-value{
     width: 70%;}
 .inperiod{ 
     width: 25%}
@@ -273,7 +272,14 @@ h1 a{
 .catlog-writer,
 .catlog-date,
 .catlog-page{
-    width: 99%}                             
+    width: 99%}
+#page-title{ display: block}
+#page-title h3{ width: 100%}
+#toolbar{
+    display: block; 
+    width: 100%;
+    margin-top: 15px;
+    text-align: left}                             
 }
 
 /*
@@ -333,13 +339,6 @@ header,
     width: 95%;
     margin: 0 auto;
     padding-top: 0}
-#page-title{ display: block}
-#page-title h3{ width: 100%}
-#toolbar{
-    display: block; 
-    width: 100%;
-    margin-top: 15px;
-    text-align: left}
 #page-control{
     width: 65%}
 #page-number{
@@ -380,8 +379,7 @@ header,
     width: 100%}
 #book-info .info-name{
     width: 20%}
-#book-info .info-value,
-#book-info .book-brief{
+#book-info .info-value{
     width: 80%;}
 #book-other{
     display: block}
@@ -520,8 +518,7 @@ header,
     padding: 15px 0;
     border-bottom: 1px dashed #e1e1e1;}
 #book-info .info-name,
-#book-info .info-value,
-#book-info .book-brief{
+#book-info .info-value{
     width: 100%;
     text-align: left;} 
 .abgne-carousel li{

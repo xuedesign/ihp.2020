@@ -1516,10 +1516,10 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research a.rmopen:visited,
 #fellows-research a.rmclose,
 #fellows-research a.rmclose:visited,
-#book-info a.rmopen,
-#book-info a.rmopen:visited,
-#book-info a.rmclose,
-#book-info a.rmclose:visited{
+#book-brief a.rmopen,
+#book-brief a.rmopen:visited,
+#book-brief a.rmclose,
+#book-brief a.rmclose:visited{
     display: block;
     width: 100px;
     padding: 0 8px;
@@ -2102,15 +2102,22 @@ table.bt.bt--no-header tbody td::before {
     margin-right: 15px;
     color: #5c1621;
 /*border: 1px solid;*/}
-#book-info .info-value,
-#book-info .book-brief{
+#book-info .info-value{
     display: block;
     width: 75%}   
 #book-info p{
     line-height: 2.8rem;
     text-align: left}
-#book-info .book-brief p{
+#book-brief{
+    margin-bottom: 50px}
+#book-brief p{
     margin-bottom: 15px}
+#book-brief-title{
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1}
 #book-info a{
     color: #b94545;
     text-decoration: none}
@@ -2135,6 +2142,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 3px;
     margin-right: 8px}
 
+#book-catalog{ margin-bottom: 20px;}
 #book-catalog-title{
     display: flex;
     justify-content: space-between;
