@@ -1490,17 +1490,17 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: none}
 #fellows-research a.rmopen:hover,
 #fellows-research a.rmclose:hover,
-#book-info a.rmopen:hover,
-#book-info a.rmclose:hover{
+#book-brief a.rmopen:hover,
+#book-brief a.rmclose:hover{
     background: #615252;
     color: #fff;
     text-decoration: none;
     transition-duration: .5s}
 #fellows-research a.rmopen,
-#book-info a.rmopen{
+#book-brief a.rmopen{
     margin-top: 15px}
 #fellows-research a.rmclose,
-#book-info a.rmclose{
+#book-brief a.rmclose{
     position:absolute;
     z-index: 99;
     margin-top: -20px}
@@ -2133,7 +2133,7 @@ table.bt.bt--no-header tbody td::before {
     font-weight: bold;
     line-height: 2.4rem;
     padding-right: 20px;}
-.catalog-article::after{
+.catalog-article a::after{
     display: inline-block;
     content: url(../images/pot-external.svg);
     opacity: .7;
