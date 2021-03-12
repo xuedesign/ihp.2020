@@ -1487,7 +1487,8 @@ table.bt.bt--no-header tbody td::before {
     text-align: center;
     font-size: 1.5rem;
     color: #4d4d4d;
-    text-decoration: none}
+    text-decoration: none;
+    margin: 0 auto;}
 #fellows-research a.rmopen:hover,
 #fellows-research a.rmclose:hover,
 #book-brief a.rmopen:hover,
@@ -1499,11 +1500,11 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research a.rmopen,
 #book-brief a.rmopen{
     margin-top: 15px}
-#fellows-research a.rmclose,
+/* #fellows-research a.rmclose,
 #book-brief a.rmclose{
     position:absolute;
     z-index: 99;
-    margin-top: -20px}
+    margin-top: -20px} */
 
 /*
 ========== 交流研習 ==========
