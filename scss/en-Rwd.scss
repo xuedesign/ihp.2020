@@ -829,7 +829,8 @@ header,
 .box-search li:nth-child(3),
 .box-search li:nth-child(5){
     text-indent: -27px;
-    padding-left: 27px;}                   
+    padding-left: 27px;}
+#toolbar-search label{ display:none}                   
 }
 
 @media(max-width:321px){

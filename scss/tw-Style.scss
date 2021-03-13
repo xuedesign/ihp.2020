@@ -1434,7 +1434,8 @@ table.bt.bt--no-header tbody td::before {
 #fellows-education p{
     padding-bottom: 10px}
 
-#fellows-research{
+#fellows-research,
+#book-content{
     display: block;
     width: 100%;
     margin: 30px 0 15px}
@@ -1500,11 +1501,18 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research a.rmopen,
 #book-brief a.rmopen{
     margin-top: 15px}
-/* #fellows-research a.rmclose,
-#book-brief a.rmclose{
+/* #fellows-research a.rmclose{
     position:absolute;
     z-index: 99;
     margin-top: -20px} */
+#book-brief a.rmopen,
+#book-brief a.rmclose{ 
+    float: right}
+#book-brief::after,
+#book-brief::after{ 
+    clear: both}
+#book-content .tabs-content{
+    padding: 15px 0}
 
 /*
 ========== 交流研習 ==========
@@ -1804,6 +1812,22 @@ table.bt.bt--no-header tbody td::before {
     cursor: no-drop;}
 #book-toolbar a.mybtn{
     letter-spacing: 1px}
+#toolbar-search{
+    padding: 0 8px;
+    border:1px solid #4d4d4d;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    text-decoration: none}
+#toolbar-search input{
+    border: none;
+    font-size: 1.5rem;
+    color: #4d4d4d;}
+#toolbar-search .toolbar-text{}
+#toolbar-search .toolbar-btn{
+    cursor:pointer}
 
 #publications-main > .two-axis a{
     color:#333;
@@ -2052,7 +2076,7 @@ table.bt.bt--no-header tbody td::before {
     line-height: 2.8rem;
     text-align: justify}
 #book-brief{
-    margin-bottom: 50px}
+    margin-bottom: 70px}
 #book-brief p{
     margin-bottom: 15px}
 #book-brief-title{

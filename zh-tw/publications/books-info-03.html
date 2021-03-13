@@ -286,8 +286,15 @@
                         <section id="box-publications">
                             
                             <div id="book-toolbar"><!--選單在該類別時，添加class="now-select"-->
-                                <a class="mybtn" href="catalog.html" title="出版品搜尋">出版品搜尋</a>
+                                <!-- <a class="mybtn" href="catalog.html" title="出版品搜尋">出版品搜尋</a> -->
                                 <a class="mybtn" href="how-to-subscribe.html" title="銷售通路">銷售通路</a>
+                                <div id="toolbar-search">
+                                    <form action="#" method="post">
+                                        <label for="keyword">出版品搜尋：</label>
+                                        <input id="keyword" class="toolbar-text" name="keyword" type="text" title="搜尋關鍵字" placeholder="請輸入關鍵字">
+                                        <input type="button" class="toolbar-btn" value="查詢" onclick="location.href='catalog-result-table.html'"/>
+                                    </form>
+                                </div>
                             </div>
 
                             <div id="publications-main">
@@ -326,7 +333,35 @@
                                     </div><!--//end #book-info-->
                                 </div><!--//end #book-summary-->
 
-                                <div id="book-brief">
+                                <div id="book-content" class="mytabs">
+                                    <ul id="tabs-title">
+                                        <li><a href="#tab-1" title="本書介紹">本書介紹</a></li>
+                                        <li><a href="#tab-2" title="目次">目次</a></li>
+                                    </ul>
+
+                                    <div id="tab-1" class="tabs-content"><!---研究自述-->
+                                        <div id="book-brief">
+                                            <article class="readme">
+                                                <div id="readme-linear"></div>
+                                                    <p>梁啟超曾指出中國過去的史書，都是朝廷帝王君臣之紀，「曾無有一書，為國民而作者也。」隨著社會史研究的勃興，學者無不致力於補足此一缺憾，然受限史料，舉步維艱。</p>
+                                                    <p>不過，近年新出土的文獻與考古資料為此帶來新的契機。本書即以新出簡帛及考古資料為主，討論中國古代庶民社會，集中於以下幾個論題：一是政治力量如何下及基層社會，包括法律文書所鉤勒的「齊民」觀念、官吏對民間的「移風易俗」、里制及戶籍文書反映的社會結構與吏民互動等。二是民間結社與生活，涉及古代結僤所反映的基層人際關係、麻布所呈現的物質文化與生計。三是庶民的文化素養，主要拫據簡牘史料，討論庶民的讀寫能力與識字率。四是禮俗與信仰，聚焦於喪葬的時日信仰、祝禱儀式及死後世界的想像。</p>
+                                                    <p>本書嘗試透過這些論題，為古代庶民社會增添新的歷史圖像。</p>
+                                                <div id="readme-down"></div>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab-2" class="tabs-content"><!---研究自述-->
+                                        <ul class="book-catalog-main">
+                                            <li>
+                                                <p class="catalog-article"><a href="https://www2.ihp.sinica.edu.tw/file/890jCzRHIc.pdf" title="第四屆國際漢學會議論文集 -《古代庶民社會》目次下載 (另開視窗)" target="_blank">第四屆國際漢學會議論文集 -《古代庶民社會》目次下載</a></p>
+                                                <p class="catalog-auther"></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>本書介紹</h3>
                                     </div>
@@ -337,11 +372,11 @@
                                             <p>本書嘗試透過這些論題，為古代庶民社會增添新的歷史圖像。</p>
                                         <div id="readme-down"></div>
                                     </article>
-                                </div>
+                                </div> -->
 
-                                <div id="book-catalog">
+                                <!-- <div id="book-catalog">
                                     <div id="book-catalog-title">
-                                        <h3>論文目次</h3>
+                                        <h3>目次</h3>
                                     </div>
 
                                     <ul class="book-catalog-main">
@@ -350,7 +385,7 @@
                                             <p class="catalog-auther"></p>
                                         </li>
                                     </ul>
-                                </div><!--//end #book-catalog-->
+                                </div> --><!--//end #book-catalog-->
                                 
                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="回上頁">⟸回上頁</a>
                                    

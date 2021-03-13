@@ -1433,7 +1433,8 @@ table.bt.bt--no-header tbody td::before {
 #fellows-education p{
     padding-bottom: 10px}
 
-#fellows-research{
+#fellows-research,
+#book-content{
     display: block;
     width: 100%;
     margin: 30px 0 15px}
@@ -1498,10 +1499,18 @@ table.bt.bt--no-header tbody td::before {
 #fellows-research a.rmopen,
 #book-brief a.rmopen{
     margin-top: 15px}
-#fellows-research a.rmclose{
+/* #fellows-research a.rmclose{
     position:absolute;
     z-index: 99;
-    margin-top: -20px}
+    margin-top: -20px} */
+#book-brief a.rmopen,
+#book-brief a.rmclose{ 
+    float: right}
+#book-brief::after,
+#book-brief::after{ 
+    clear: both}
+#book-content .tabs-content{
+    padding: 15px 0}
 
 /*
 ========== 交流と演習 ==========
