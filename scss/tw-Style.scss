@@ -1813,21 +1813,35 @@ table.bt.bt--no-header tbody td::before {
 #book-toolbar a.mybtn{
     letter-spacing: 1px}
 #toolbar-search{
+    margin: 15px 8px 0 0;
     padding: 0 8px;
     border:1px solid #4d4d4d;
     border-radius: 5px;
     text-align: center;
-    margin-top: 15px;
     font-size: 1.5rem;
     color: #4d4d4d;
     text-decoration: none}
-#toolbar-search input{
+#toolbar-search-02{
+    width: 88%;
+    margin: 15px 0 20px;
+    padding: 5px 8px;
+    border:1px solid #4d4d4d;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    text-decoration: none}
+#toolbar-search input,
+#toolbar-search-02 input{
     border: none;
     font-size: 1.5rem;
     color: #4d4d4d;}
-#toolbar-search .toolbar-text{}
-#toolbar-search .toolbar-btn{
+#toolbar-search-02 .toolbar-text{
+    width: 80%}
+#toolbar-search .toolbar-btn,
+#toolbar-search-02 .toolbar-btn{
     cursor:pointer}
+#toolbar-search label,
+#toolbar-search-02 label{ display:none} 
 
 #publications-main > .two-axis a{
     color:#333;
@@ -2132,7 +2146,8 @@ table.bt.bt--no-header tbody td::before {
     height: 19px;
     vertical-align: sub;
     margin-right: 10px}
-#book-catalog h4{
+#book-catalog h4,
+.tabs-content h4{
     display: inline-block;
     padding: 1px 10px;
     border-radius: 5px;
@@ -2140,7 +2155,12 @@ table.bt.bt--no-header tbody td::before {
     background: rgb(126, 123, 123);
     font-weight: normal;
     color: #fff;
-    margin: 15px 0 10px;}
+    margin: 15px 0 10px}
+.tabs-content h4{
+    margin: 0 0 10px 22px}
+.tabs-content .book-catalog-main a{
+    text-decoration: none}
+    
 #book-catalog-list a.mybtn{
     padding: 4px 8px}
 .book-catalog-main li,
