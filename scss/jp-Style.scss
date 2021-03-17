@@ -594,7 +594,9 @@ summary.nowin{
     font-size: 2.7rem;
     line-height: 3.7rem;
     letter-spacing: 1px;
-    color: #A51C30}
+    color: #A51C30;
+    padding-left: 16px;
+    text-indent: -16px;}
 #page-title h3::before{
     content:url(../images/dot-ttitle.svg);
     vertical-align: middle;
@@ -1811,7 +1813,7 @@ table.bt.bt--no-header tbody td::before {
 #book-toolbar a.mybtn{
     letter-spacing: 1px}
 
-#toolbar-search{
+#bookbar-search{
     margin: 15px 8px 0 0;
     padding: 0 8px;
     border:1px solid #4d4d4d;
@@ -1820,27 +1822,17 @@ table.bt.bt--no-header tbody td::before {
     font-size: 1.5rem;
     color: #4d4d4d;
     text-decoration: none}
-#toolbar-search-02{
-    width: 88%;
-    margin: 15px 0 20px;
-    padding: 5px 8px;
-    border:1px solid #4d4d4d;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    color: #4d4d4d;
-    text-decoration: none}
-#toolbar-search input,
-#toolbar-search-02 input{
+#bookbar-search input{
     border: none;
     font-size: 1.5rem;
-    color: #4d4d4d;}
-#toolbar-search-02 .toolbar-text{
-    width: 80%}
-#toolbar-search .toolbar-btn,
-#toolbar-search-02 .toolbar-btn{
+    color: #4d4d4d}
+#bookbar-search input:focus{
+    outline:#ebada8 solid 3px;
+    background: rgba(61, 61, 61, .15)}
+#bookbar-search .toolbar-btn{
     cursor:pointer}
-#toolbar-search label,
-#toolbar-search-02 label{ display:none}  
+#bookbar-search label,
+#toolbar-search label{ display:none}  
 
 #publications-main > .two-axis a{
     color:#333;

@@ -234,14 +234,6 @@
                 </div>
                 <img class="redarrow" src="../../images/red-arrow.svg" alt="arrow">
 
-                <div id="toolbar-search-02">
-                    <form action="#" method="post">
-                        <label for="keyword">出版品搜尋：</label>
-                        <input id="keyword" class="toolbar-text" name="keyword" type="text" title="出版品搜尋" placeholder="出版品搜尋">
-                        <input type="button" class="toolbar-btn" value="查詢" onclick="location.href='catalog-result-table.html'"/>
-                    </form>
-                </div>
-
                 <!---在該單元時，a須加上class="nowin"-->
                 <ul id="subnav-list">
                     <li><a href="latest-publications.html" title="最新出版品">最新出版品</a></li>
@@ -272,9 +264,23 @@
             <div id="container-main">
                 <div id="myPrintArea">
                     <div id="page-title">
-                        <h3>專書：文字學</h3>
+                        <h3>專書:文字學</h3>
+                        
                         <ul id="toolbar">
-                            <li><img src="../../images/pot-print.svg" alt="列印圖示">
+                            <li class="newbook-search">
+                                <input type="button" id="showdialog" value="搜尋" />
+                                <dialog id="mydialog" class="dialog" role="dialog">
+                                    <div class="dialog-body">
+                                        <form action="#" method="post">
+                                            <label for="keyword">出版品搜尋</label>
+                                            <input id="keyword" class="toolbar-text" name="keyword" type="text" title="出版品搜尋" placeholder="請輸入關鍵字">
+                                            <input type="button" id="hidedialog" class="toolbar-btn-02" value="取消" />
+                                            <input type="button" class="toolbar-btn-02" value="查詢" onclick="location.href='catalog-result-table.html'"/>
+                                        </form>
+                                    </div>
+                                </dialog>
+                            </li>
+                            <li class="icon-print"><!-- <img src="../../images/pot-print.svg" alt="列印圖示"> -->
                                 <a id="print_button" class="btn-print" href="#" title="列印本頁">列印</a></li>
                             <li id="box-fontsize"><span id="icon-font">字型</span>
                                 <span class="textresizer">
@@ -288,7 +294,95 @@
                                 <a class="pot-twitter" href="https://twitter.com/share?url=https://xuedesign.github.io/ihp.2020/zh-tw/publications/book-info-02.html" title="分享本頁至Twitter(另開視窗)" target="_blank"><img src="../../images/pot-twitter.svg" alt="twitter圖示"></a>
                             </li>
                         </ul>
+
                     </div><!--//end #page-title-->
+                    
+                    <style>
+                        .newbook-search{ position:relative}
+                        .newbook-search::before{
+                            content:url(../../images/pot-booksearch.svg);
+                            vertical-align: sub;}
+                        .icon-print::before{
+                            content:url(../../images/pot-print.svg);
+                            vertical-align: sub}    
+                        #showdialog,
+                        .toolbar-btn-02{
+                            display: inline-block;
+                            border: 1px solid #8f8e8e;
+                            border-radius: 5px;
+                            background: #fff;
+                            padding: 0 5px;
+                            margin-left: 5px;
+                            font-size:1.6rem;
+                            line-height: 2.6rem;
+                            font-weight: 300;
+                            color:#8a8888;
+                            text-decoration: none}
+                        .toolbar-btn-02{ padding: 0 15px;}
+                        #showdialog:hover,
+                        .toolbar-btn-02:hover{
+                            cursor: pointer;
+                            color: #fff;
+                            border: 1px solid#fff}
+                        #showdialog:hover{ background: #A51C30;}
+                        .toolbar-btn-02:hover{ background: #615252;}
+                        #showdialog::before{
+                            content:url(../images/pot-textsize.svg);
+                            vertical-align: middle;
+                            margin-right: 5px}
+                        .dialog {
+                            opacity: 0;
+                            position:absolute;
+                            top: 35px;
+                            left: -60px;
+                            /* right: 0;
+                            bottom: 0; 
+                            margin: auto;*/
+                            padding: 0 0 20px 0;
+                            width: -moz-fit-content;
+                            width: -webkit-fit-content;
+                            width: fit-content;
+                            height: -moz-fit-content;
+                            height: -webkit-fit-content;
+                            height: fit-content;
+                            border: 2px solid #fff;
+                            border-radius: 10px; 
+                            -webkit-transition: opacity .5s;
+                            -moz-transition: opacity .5s;
+                            -o-transition: opacity .5s;
+                            transition: opacity .5s;
+                            box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
+                            text-align: center}
+                        .dialog-hide {
+                            display: block;
+                            opacity: 0}
+                        dialog[open],
+                        .dialog-open {
+                            display: block;
+                            opacity: 1}
+                        .dialog-body label{
+                            display: block;
+                            padding: 5px 20px;
+                            color:#fff;
+                            font-weight: bold;
+                            text-align: center;
+                            letter-spacing: 2px;
+                            background: #A51C30;
+                            border-radius: 10px 10px 0 0;}
+                        .toolbar-text{
+                            width: 200px;
+                            margin: 15px 15px;
+                            padding: 5px 3px;
+                            font-size: 1.6rem;
+                            text-align: left;
+                            border: 1px solid #bebebe;
+                            border-radius: 5px}
+                        .toolbar-text:focus{ 
+                            outline:none;
+                            background: rgba(61, 61, 61, .15);
+                            outline:#ebada8 solid 3px}    
+                    </style>
+                    
                 
                     <div id="page-main">
                         <section id="box-publications">
@@ -677,6 +771,59 @@
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.js"></script>
 <script>
  document.addEventListener("DOMContentLoaded",()=>{new Mmenu("#menu",{lazySubmenus:{load:"true"},navbar:{title:"\u7DB2\u7AD9\u4E3B\u9078\u55AE"},extensions:["position-right","pagedim-black","theme-dark","multiline","shadow-page"]})});
+</script>
+<script>
+    var Dialog = (function() {
+  var showDelay = 500,
+      hideDelay = 500,
+      dialogAnimation;
+  
+  function wait(func, timeout) {
+    window.clearTimeout(dialogAnimation);
+    
+    dialogAnimation = window.setTimeout(func, timeout);
+  }
+  
+  function addClass(dialog, className) {
+    dialog.classList.add(className);
+  }
+  
+  function removeClass(dialog, className) {
+    dialog.classList.remove(className);
+  }
+  
+  var d = {
+    show: function(id) {
+      var dialog = document.getElementById(id);
+      
+      addClass(dialog, 'dialog-hide')
+      dialog.setAttribute('aria-hidden', 'false');
+      dialog.setAttribute('open', 'open');
+      
+      wait(function() {
+        addClass(dialog, 'dialog-open');
+      }, showDelay);
+    },
+    hide: function(id) {
+      var dialog = document.getElementById(id);
+      
+      removeClass(dialog, 'dialog-open');
+      dialog.removeAttribute('open');
+      dialog.setAttribute('aria-hidden', 'true');
+    }
+  };
+  
+  return d;
+})();
+
+
+document.getElementById('showdialog').onclick = function() {
+  Dialog.show('mydialog');
+};
+
+document.getElementById('hidedialog').onclick = function() {
+  Dialog.hide('mydialog');
+};
 </script>
 
 <!-- Google Analytics 之後替換UA碼即可-->
