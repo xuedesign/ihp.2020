@@ -77,7 +77,9 @@
     bottom: 14rem}  
 .book-thumbnail span{
     height: 250px}
-.sf-menu ul#oo{ left: -55%} 
+.sf-menu ul#oo{ left: -55%}
+.book-price{
+    width: 25%} 
 }
 
 @media (max-width:1300px) {
@@ -830,7 +832,11 @@ header,
 .box-search li:nth-child(5){
     text-indent: -27px;
     padding-left: 27px;}
-#toolbar-search label{ display:none}                   
+#toolbar-search label{ 
+    display:none}  
+.asiamojor-note{
+    padding-left: 39px; 
+    text-indent: -28px}                 
 }
 
 @media(max-width:321px){

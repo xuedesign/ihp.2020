@@ -79,7 +79,9 @@
     right: 5rem;
     bottom: 14rem}  
 .book-thumbnail span{
-    height: 250px}  
+    height: 250px}
+.book-price{
+    width: 25%}  
 }
 
 @media (max-width:1400px) {
@@ -816,7 +818,11 @@ header,
     margin-left: 15px}
 .visibility{
     display: none}
-#toolbar-search label{ display:none} 
+#toolbar-search label{ 
+    display:none}
+.asiamojor-note{
+    padding-left: 39px; 
+    text-indent: -28px} 
 
 }
 

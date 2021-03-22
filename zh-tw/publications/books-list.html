@@ -286,9 +286,15 @@
                         <section id="box-publications">
                             
                             <div id="book-toolbar"><!--選單在該類別時，添加class="now-select"-->
+                                <div id="bookbar-search">
+                                    <form action="#" method="post">
+                                        <label for="keyword">出版品搜尋：</label>
+                                        <input id="keyword" class="toolbar-text" name="keyword" type="text" title="出版品搜尋" placeholder="出版品搜尋">
+                                        <input type="button" class="toolbar-btn" value="查詢" onclick="location.href='catalog-result-table.html'"/>
+                                    </form>
+                                </div>
                                 <a class="mybtn" href="books-thumbnail.html" title="縮圖顯示">縮圖顯示</a>
                                 <a class="mybtn now-select" href="books-list.html" title="列表顯示">列表顯示</a>
-                                <a class="mybtn" href="catalog.html" title="出版品搜尋">出版品搜尋</a>
                                 <a class="mybtn" href="how-to-subscribe.html" title="銷售通路">銷售通路</a>
                             </div>
 
@@ -297,71 +303,71 @@
                                     <thead>
                                         <tr>
                                             <th>書名</th>
-                                            <th>出版日期</th>
                                             <th>作者</th>
                                             <th>售價</th>
+                                            <th>出版日期</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><a href="books-info.html" title="殷虛文字丙編摹釋新編" >殷虛文字丙編摹釋新編</a></td>
-                                            <td class="book-time">2017/09/26</td>
+                                            <td><a href="books-info.html" title="殷虛文字丙編摹釋新編" >殷虛文字丙編摹釋新編殷虛文字丙編摹釋新編殷虛文字丙編摹釋新編</a></td>
                                             <td class="book-auther">張惟捷、蔡哲茂 編著</td>
-                                            <td class="book-price">精裝：2,200</td>
+                                            <td class="book-price">精裝：999,000（售罄）</td>
+                                            <td class="book-time">2017/09</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="古文字與古代史第五輯" >古文字與古代史第五輯</a></td>
-                                            <td class="book-time">2017/04</td>
                                             <td class="book-auther">李宗焜 主編</td>
                                             <td class="book-price">精裝：1,000</td>
+                                            <td class="book-time">2017/04</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="古文字與古代史第四輯" >古文字與古代史第四輯</a></td>
-                                            <td class="book-time">2015/02/26</td>
                                             <td class="book-auther">李宗焜 主編</td>
                                             <td class="book-price">精裝：1,000</td>
+                                            <td class="book-time">2015/02</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="古文字與古代史第三輯" >古文字與古代史第三輯</a></td>
-                                            <td class="book-time">2012/03/01</td>
                                             <td class="book-auther">李宗焜 主編</td>
                                             <td class="book-price">平裝：600</td>
+                                            <td class="book-time">2012/03</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="殷墟文字丙編研究（上、下冊）" >殷墟文字丙編研究（上、下冊）</a></td>
-                                            <td class="book-time">2010/12/21</td>
                                             <td class="book-auther">Ken-ichi Takashima（高嶋謙一）& Paul L-M. Serruys（司禮義）</td>
                                             <td class="book-price">精裝：1,700</td>
+                                            <td class="book-time">2010/12</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="史語所購藏甲骨集" >史語所購藏甲骨集</a></td>
-                                            <td class="book-time">2009/11/30</td>
                                             <td class="book-auther">中央研究院歷史語言研究所</td>
                                             <td class="book-price">精裝：800</td>
+                                            <td class="book-time">2009/11</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="古文字與古代史第二輯" >古文字與古代史第二輯</a></td>
-                                            <td class="book-time">2009/10/02</td>
                                             <td class="book-auther">李宗焜 主編</td>
                                             <td class="book-price">平裝：600</td>
+                                            <td class="book-time">2009/10</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="古文字與古代史第一輯" >古文字與古代史第一輯</a></td>
-                                            <td class="book-time">2009/08/30</td>
                                             <td class="book-auther">陳昭容 主編</td>
                                             <td class="book-price">平裝：800<br>精裝：售罄</td>
+                                            <td class="book-time">2009/08</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="甲骨文字集釋(全八冊)" >甲骨文字集釋(全八冊)</a></td>
-                                            <td class="book-time">2004/04/30</td>
                                             <td class="book-auther">李孝定</td>
                                             <td class="book-price">平裝：1,800（售罄）<br>精裝：2,000（售罄）</td>
+                                            <td class="book-time">2004/04</td>
                                         </tr>
                                         <tr>
                                             <td><a href="#" title="秦系文字研究——從漢字史的角度考察" >秦系文字研究——從漢字史的角度考察</a></td>
-                                            <td class="book-time">2002/07/30</td>
                                             <td class="book-auther">陳昭容</td>
                                             <td class="book-price">平裝：450（售罄）</td>
+                                            <td class="book-time">2002/07</td>
                                         </tr>    
                                     </tbody>
                                 </table>

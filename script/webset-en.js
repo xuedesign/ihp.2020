@@ -64,7 +64,7 @@ loadjs(['https://xuedesign.github.io/ihp.2020/script/lib/jquery.cookie.js', 'htt
 loadjs('https://cdn.jsdelivr.net/npm/basictable/jquery.basictable.min.js', function() {
     $(document).ready(function() {
         $('#table-two-axis').basictable({
-            breakpoint: 600
+            breakpoint: 880
         });
         $('#catlogtable').basictable({
             breakpoint: 768

@@ -1288,10 +1288,10 @@ summary.nowin{
     width: 12%}
 .catlog-page{
     width: 15%;
-    text-align: center;}
+    text-align: left;}
 .catlog-writer{
     width: 16%;
-    text-align: center}
+    text-align: left}
 .catlog-date{
     width: 10%;
     text-align: center}
@@ -1357,7 +1357,7 @@ table.bt.bt--no-header tfoot td::before,
 table.bt.bt--no-header tbody td::before {
     display: none}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 880px){
 .two-axis td,
 .fellows-name,
 .fellows-note,
@@ -1762,6 +1762,9 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 100%;
     margin-top: 30px}
+.asiamojor-note{
+    padding-left: 58px; 
+    text-indent: -28px}
 .book-thumbnail{
     display: flex;
     flex-wrap: wrap;
@@ -1887,7 +1890,20 @@ table.bt.bt--no-header tbody td::before {
     outline:#ebada8 solid 3px;
     background: rgba(61, 61, 61, .15)}
 #bookbar-search .toolbar-btn{
-    cursor:pointer}
+    background-image: url(../images/pot-booksearch.svg);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0;
+    border: none;      
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
+    text-indent: -999px;
+    opacity: .5;}
+    #bookbar-search .toolbar-btn:hover{
+        opacity: .9}
 #bookbar-search label,
 #toolbar-search label{ display:none}  
 
@@ -1906,7 +1922,7 @@ table.bt.bt--no-header tbody td::before {
     opacity: .7;
     margin-left: 8px;
     vertical-align: text-top} */
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 880px){
     #publications-main > .two-axis a{
         color: rgb(252, 218, 218);
         text-decoration: none}
@@ -1919,12 +1935,12 @@ table.bt.bt--no-header tbody td::before {
 }
 
 .book-time{
-    width: 15%;
+    width: 12%;
     text-align: center}
 .book-auther{
     width: 25%}
 .book-price{
-    width: 15%}
+    width: 23%}
 
 /*期刊*/
 .publsit-type01 li{

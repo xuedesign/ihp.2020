@@ -286,7 +286,13 @@
                         <section id="box-publications">
                             
                             <div id="book-toolbar"><!--選單在該類別時，添加class="now-select"-->
-                                <a class="mybtn" href="catalog.html" title="出版品搜尋">出版品搜尋</a>
+                                <div id="bookbar-search">
+                                    <form action="#" method="post">
+                                        <label for="keyword">出版品搜尋：</label>
+                                        <input id="keyword" class="toolbar-text" name="keyword" type="text" title="出版品搜尋" placeholder="出版品搜尋">
+                                        <input type="button" class="toolbar-btn" value="查詢" onclick="location.href='catalog-result-table.html'"/>
+                                    </form>
+                                </div>
                                 <a class="mybtn" href="how-to-subscribe.html" title="銷售通路">銷售通路</a>
                             </div>
 

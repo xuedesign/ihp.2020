@@ -76,7 +76,9 @@
     right: 5rem;
     bottom: 14rem}  
 .book-thumbnail span{
-    height: 250px}  
+    height: 250px}
+.book-price{
+    width: 25%}      
 }
 
 @media (max-width:1300px) {
@@ -251,7 +253,11 @@ h1 a{
     display: block; 
     width: 100%;
     margin-top: 15px;
-    text-align: left}            
+    text-align: left}
+.book-time{
+    width: 14%}
+.book-price{
+    width: 31.5%}            
 }
 
 /*
@@ -809,7 +815,11 @@ header,
     margin-left: 15px}
 .visibility{
     display: none} 
-#toolbar-search label{ display:none}
+#toolbar-search label{ 
+    display:none}
+.asiamojor-note{
+    padding-left: 39px; 
+    text-indent: -28px}
 }
 
 @media(max-width:321px){

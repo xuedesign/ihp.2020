@@ -63,7 +63,9 @@ loadjs(['https://xuedesign.github.io/ihp.2020/script/lib/jquery.cookie.js', 'htt
 //tableRwd(https://cdn.jsdelivr.net/npm/basictable/basictable.css)
 loadjs('https://cdn.jsdelivr.net/npm/basictable/jquery.basictable.min.js', function() {
     $(document).ready(function() {
-        $('#table-two-axis').basictable();
+        $('#table-two-axis').basictable({
+            breakpoint: 880
+        });
         $('#catlogtable').basictable({
             breakpoint: 768
         });
