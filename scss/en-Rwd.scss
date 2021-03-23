@@ -265,8 +265,6 @@ h1 a{
 .box-search li{
     display: block;
     margin-left: 15px}
-.box-search li:nth-child(5){
-    padding-top: 0;}
 .catlog-table td{
     padding: 0}
 .catlog-number,
@@ -281,7 +279,11 @@ h1 a{
     display: block; 
     width: 100%;
     margin-top: 15px;
-    text-align: left}                             
+    text-align: left}
+.box-search li:nth-child(4),
+.box-search li:nth-child(5){
+    display: block;
+    padding-top: 0;}                             
 }
 
 /*
@@ -828,8 +830,8 @@ header,
 .search-type{
     display: block;
     margin-left: 15px}
-.box-search li:nth-child(3),
-.box-search li:nth-child(5){
+.box-search li:nth-child(2),
+.box-search li:nth-child(4){
     text-indent: -27px;
     padding-left: 27px;}
 #toolbar-search label{ 

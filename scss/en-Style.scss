@@ -2397,8 +2397,9 @@ table.bt.bt--no-header tbody td::before {
 .box-search li{
     display: inline;
     margin-left: 15px}
+.box-search li:nth-child(4),  
 .box-search li:nth-child(5){
-    display: block;
+    display: inline-block;
     padding-top: 8px;}    
 #search-period label{ display: none;}
 
