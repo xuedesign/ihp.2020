@@ -21,8 +21,9 @@ loadjs('https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', function() {
         pauseAutoPlayOnHover: 'false',
         accessibility: 'true',
         draggable: 'true',
-        wrapAround: 'true'
-        });
+        wrapAround: 'true',
+        imagesLoaded: 'true',
+        });  
 });
 
 //abgne-carousel
