@@ -299,6 +299,10 @@ header,
     width: 100%;
     margin-top: 15px;
     text-align: left}
+#departments-title{
+    display: block}
+#departments-title p{
+    padding-top: 8px}
 }
 
 /*
@@ -595,10 +599,6 @@ header,
     margin-top: 10px}
 .pastdirector-list{
     width: 100%}
-#departments-title{
-    display: block}
-#departments-title p{
-    padding-top: 8px}
 .other-links span{
     display: block}
 #breadcrumb .accesskey{
