@@ -993,7 +993,7 @@ summary.nowin{
     width: 100%;
     padding-right: 15px}
 #bulletin-option{
-    width: 35%}
+    width: 45%}
 #bulletin-option .mybtn{
     margin: 0 0 0 10px;
     padding: 2px 10px}
@@ -1381,16 +1381,13 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 10px}
 .doctors-info span{
     font-weight: bold}
-.dtime,
-.dteacher,
+/* .dteacher,
 .dphone{
     display: inline-block}
-.dtime{
-    width: 40%}
 .dteacher{
-    width: 28%}
+    width: 35%}
 .dphone{
-    width: 30%}
+    width: 49%} */
 #list-editinfo{
     display: flex;
     justify-content: space-between;
@@ -1539,6 +1536,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 15px 0;
     border-bottom: 1px solid #C4C4C4}
 .international-item h3{
+    width: 33%;
     font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 2.3rem;
@@ -1550,7 +1548,8 @@ table.bt.bt--no-header tbody td::before {
     margin: 0 15px 0 30px}
 .international-item ul{
     display: block;
-    padding-left: 30px}
+    width: 66%;
+    /* padding-left: 30px */}
 .international-item li a{
     color: #3E3E3E;
     text-decoration: none}
@@ -2104,7 +2103,7 @@ table.bt.bt--no-header tbody td::before {
     line-height: 2.8rem;
     text-align: justify}
 #book-brief{
-    margin-bottom: 50px}
+    margin-bottom: 70px}
 #book-brief p{
     margin-bottom: 15px}
 #book-brief-title{
@@ -2145,13 +2144,15 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #e1e1e1}
-#book-catalog h3{
+#book-catalog h3,
+#book-brief h3{
     font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 2.3rem;
     line-height: 3.3rem;
     color:#A51C30}    
-#book-catalog h3::before{
+#book-catalog h3::before,
+#book-brief h3::before{
     display: inline-block;
     content: url(../images/pot-book.svg);
     width: 19px;
