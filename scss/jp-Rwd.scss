@@ -175,10 +175,20 @@ header,
     width: 33%}
 .advisory-info{ 
     width: 100%}
-.event-info{
+/* .event-info{
     width: 84%}
 .event-option{
-    width: 15%}
+    width: 15%} */
+.event-item{
+    display: block}
+.event-info,
+.event-option{
+    display: block;
+    width: 100%}
+.event-option a.mybtn{
+    display: inline-block;
+    width: 40%;
+    margin: 5% 2% 1%}
 .positions-type{ 
     width: 25%}
 .positions-item h3{ 
@@ -464,16 +474,6 @@ header,
     display: block}
 #toolbar-option{
     margin-bottom: 10px}
-.event-item{
-    display: block}
-.event-info,
-.event-option{
-    display: block;
-    width: 100%}
-.event-option a.mybtn{
-    display: inline-block;
-    width: 40%;
-    margin: 5% 2% 1%}
 .positions-type{ width: 30%}
 .positions-time{ width: 100%}
 .positions-item h3{ width: 65%}

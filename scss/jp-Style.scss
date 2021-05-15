@@ -963,7 +963,8 @@ summary.nowin{
 .event-option a.mybtn,
 .event-option a.mybtn:visited{
     width: 100%;
-    margin-top: 15px}
+    margin-top: 15px;
+    letter-spacing: 0;}
 
 #page-control{
     display: block;
@@ -996,7 +997,8 @@ summary.nowin{
     width: 45%}
 #bulletin-option .mybtn{
     margin: 0 0 0 10px;
-    padding: 2px 10px}
+    padding: 2px 10px;
+    letter-spacing: 0;}
 /*#bulletin-subtitle{
     display: flex;
     justify-content: space-between;
@@ -2529,11 +2531,12 @@ input.checkme:checked~div.showme{
     background-size: contain;
     transition-duration: .5s}
 .btn_more{
-    width: 80px;
+    width: 120px;
     font-size: 1.6rem;
     line-height: 2.2rem;
     padding: 0 8px 1px;
-    border-radius: 3px;}
+    border-radius: 3px;
+    letter-spacing: 0;}
 .btn_more span{
     font-size: 2.2rem;
     line-height: 2.45rem;
@@ -2611,12 +2614,12 @@ input.checkme:checked~div.showme{
 .btn_reg a{
     display: inline-block;
     position: absolute;
-    bottom: 195px;
+    bottom: 200px;
     right: 15px;
-    width:60px;
-    height:60px;
+    width:120px;
+    height:40px;
     padding: 10px;
-    border-radius:999em;
+    border-radius: 15px;
     background: #B21111;
     font-size: 1.6rem;
     line-height: 2rem;
