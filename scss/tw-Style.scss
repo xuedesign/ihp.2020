@@ -2108,6 +2108,23 @@ table.bt.bt--no-header tbody td::before {
 #book-info p{
     line-height: 2.8rem;
     text-align: justify}
+#book-info .taglist{
+    display: flex;
+    flex-wrap: wrap}
+#book-info .taglist a,
+#book-info .taglist a:visited{
+    padding: 0 15px;
+    border-radius: 8px;
+    background-color: #d4d4d4;
+    color: #3e3e3e;
+    margin: 0 10px 10px 0;
+}
+#book-info .taglist a:hover{
+    background-color: #A51C30;
+    color: #fff;
+    text-decoration: none;
+}
+
 #book-brief{
     margin-bottom: 70px}
 #book-brief p{

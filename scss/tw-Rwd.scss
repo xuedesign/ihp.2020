@@ -430,6 +430,9 @@ header,
     font-size: 1.4rem;
     line-height: 2.2rem;
     padding: 8px 15px}
+#book-info .taglist a{
+    margin-bottom: 15px}
+
 }
 
 /*
@@ -563,7 +566,10 @@ header,
 .pub-list ul{
     padding-top: 5px;}  
 .pub-list li{
-    padding: 0;}     
+    padding: 0;}
+#book-info .taglist{
+    padding-top: 15px;
+}     
 }
     
 /*
