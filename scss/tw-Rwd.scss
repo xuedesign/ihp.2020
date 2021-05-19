@@ -827,6 +827,22 @@ header,
 .asiamojor-note{
     padding-left: 39px; 
     text-indent: -28px}
+.bookTagsList li{
+    display: block;
+    width:100%;
+    padding: 5% 0;
+    border-bottom: 1px dashed #bebebe;
+}
+.bookTagsList li img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 20px auto
+}
+.bookInfo{
+    display:block;
+    padding-left: 0
+    }
 }
 
 @media(max-width:321px){
