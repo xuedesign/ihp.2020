@@ -2108,6 +2108,8 @@ table.bt.bt--no-header tbody td::before {
 #book-info p{
     line-height: 2.8rem;
     text-align: justify}
+
+/*內頁標籤設定*/    
 #book-info .taglist,
 .tagsItem{
     display: flex;
@@ -2119,11 +2121,13 @@ table.bt.bt--no-header tbody td::before {
 #book-info .taglist a:visited,
 .tagsItem a,
 .tagsItem a:visited{
-    padding: 0 15px;
+    padding: 0 5px;
     border-radius: 5px;
-    background-color: #d4d4d4;
-    color: #3e3e3e;
+    background-color: transparent;
+    border: 1px solid #8f8f8f;
     margin: 0 10px 10px 0;
+    /* font-size: 1.5rem; */
+    color: #8f8f8f;
     text-decoration: none;
 }
 #book-info .taglist a:hover,
