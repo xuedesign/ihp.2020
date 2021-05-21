@@ -2627,7 +2627,7 @@ input.checkme:checked~div.showme{
     position: relative;
     overflow: hidden;
     width: 890px;	/* (li 的寬度 + li 的邊框寬度 * 2 ) * 一次要顯示的數量 + li 的右邊界 * (一次要顯示的數量 - 1) */
-    height: 570px}
+    height: 600px}
 .abgne-carousel ul {
     position: absolute;
     width: 99999px}
@@ -2706,6 +2706,31 @@ input.checkme:checked~div.showme{
     text-decoration: none}
 .btn_reg a:hover{
     background: #941a1a}
+.ev-speaker{
+    display:block;
+    width: 95%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    -webkit-line-clamp:1; 
+    -webkit-box-orient:vertical;
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    font-size:1.6rem;
+    line-height: 2.4rem;
+    color: #3e3e3e;
+    padding-bottom: 5px}
+.ev-speaker span{
+    display: inline-block;
+    background: #B21111;
+    font-size:1.45rem;
+    line-height: 2.4rem;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 8px;
+    margin: 10px 10px 0 0;
+}
 
 /*首頁最新消息*/
 #hotnews{

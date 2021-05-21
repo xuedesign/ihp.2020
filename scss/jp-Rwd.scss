@@ -735,7 +735,7 @@ header,
     position: relative;
     float: none;
     width: 90%;
-    height: 570px;
+    height: 630px;
     margin: 0 auto 30px auto;
     padding: 15px;}
 .ev-thumb{
@@ -745,7 +745,7 @@ header,
     overflow: hidden;
     margin-bottom: 15px;}
 .btn_reg a{
-    bottom: 125px;
+    bottom: 175px;
     right: 0}
 #hotnews,
 #lastnews-list{
@@ -826,7 +826,13 @@ header,
 }
 
 @media(max-width:321px){
-    #gallery-view li{
-        width: 270px;
-        height: 270px}
+#gallery-view li{
+    width: 270px;
+    height: 270px}
+.abgne-carousel li{
+    height: 550px}
+.ev-thumb{
+    height: 350px}
+.btn_reg a{
+    bottom: 185px}
     }
