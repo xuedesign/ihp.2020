@@ -888,12 +888,22 @@ summary.nowin{
     margin-right: 8px}
 .event-type,
 .news-type,
-.positions-type{
+.positions-type,
+.event-speak{
     display: inline-block;
     color: #4d4d4d;
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 8px}
+.event-type{
+    margin-right: 25px;
+}
+.event-speak{
+    font-family: "Noto Serif JP";
+    font-weight: 700;
+    letter-spacing: 0;
+}   
+    
 .news-type,
 .news-time{
     display: inline}
@@ -952,8 +962,13 @@ summary.nowin{
 .timeout,
 .timeout h3 a,
 .timeout h3 a:hover,
-.timeout h3 a:visited{
+.timeout h3 a:visited,
+.timeout .event-speak,
+.timeout .event-type{
     color: #a7a6a6}
+.timeout .event-speak span{
+    background: #a7a6a6;
+}
 
 .event-option{
     display: flex;
@@ -2643,7 +2658,8 @@ input.checkme:checked~div.showme{
     line-height: 2.4rem;
     color: #3e3e3e;
     padding-bottom: 5px}
-.ev-speaker span{
+.ev-speaker span,
+.event-speak span{
     display: inline-block;
     background: #B21111;
     font-size:1.45rem;

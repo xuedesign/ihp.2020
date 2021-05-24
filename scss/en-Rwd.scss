@@ -565,7 +565,13 @@ header,
 #departments-title{
     display: block}
 #departments-title p{
-    padding-top: 8px}         
+    padding-top: 8px}
+.event-type{
+    margin-bottom: 10px;
+}
+.event-speak{ 
+    display: block;
+    margin: 0 0 15px 0}                      
 }
     
 /*
@@ -838,7 +844,7 @@ header,
     display:none}  
 .asiamojor-note{
     padding-left: 39px; 
-    text-indent: -28px}                 
+    text-indent: -28px}
 }
 
 @media(max-width:321px){
