@@ -2176,8 +2176,39 @@ table.bt.bt--no-header tbody td::before {
 #book-info p{
     line-height: 2.8rem;
     text-align: left}
+
+/*內頁標籤設定*/    
+#book-info .taglist,
+.tagsItem{
+    display: flex;
+    flex-wrap: wrap}
+.tagsItem{
+    margin-top: 30px;
+}
+
+#book-info .taglist a,
+#book-info .taglist a:visited,
+.tagsItem a,
+.tagsItem a:visited{
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #8f8f8f;
+    margin: 0 10px 10px 0;
+    /* font-size: 1.5rem; */
+    color: #8f8f8f;
+    text-decoration: none;
+}
+#book-info .taglist a:hover,
+.tagsItem a:hover{
+    background-color: #A51C30;
+    color: #fff;
+    text-decoration: none;
+}
+
+
 #book-brief{
-    margin-bottom: 50px}
+    margin-bottom: 70px}
 #book-brief p{
     margin-bottom: 15px}
 #book-brief-title{
@@ -2218,14 +2249,16 @@ table.bt.bt--no-header tbody td::before {
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #e1e1e1}
-#book-catalog h3{
+#book-catalog h3,
+#book-brief h3{
     /* font-family: "Lora"; */
     font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 3.3rem;
     color:#A51C30}    
-#book-catalog h3::before{
+#book-catalog h3::before,
+#book-brief h3::before{
     display: inline-block;
     content: url(../images/pot-book.svg);
     width: 19px;
@@ -2541,6 +2574,51 @@ input.checkme:checked~div.showme{
     text-align: left}
 .catlog-block li div:nth-child(even){
     background-color:#e9e9e9}
+
+/*標籤陳列頁*/
+.bookTagsList li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    width:94%;
+    padding: 2% 3%;
+    border-bottom: 1px dashed #bebebe;
+}
+.bookTagsList li img{
+    display: block;
+    flex: 1;
+    width: auto;
+    height: 180px}
+.bookInfo{
+    display:block;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-left: 30px
+}
+.bookInfo span{
+    font-size: 1.5rem;
+    color: #727272}
+.bookInfo span::before{
+    content: url(../images/dot_red-helf.svg);
+    padding: 13px 8px 0 0
+}
+.bookInfo p:nth-child(2){
+    font-weight: bold;
+    padding-bottom: 10px
+}
+.bookInfo p:nth-child(3){
+    color: #7a7070
+}
+.bookInfo p a{
+    color: #3E3E3E;
+    text-decoration: none}
+.bookInfo p a:hover{
+    color: #941E2D;
+    text-decoration: underline}
+.bookInfo p a:visited{
+    color: #727272;
+    text-decoration: none}
 
 /*
 ========== 首頁 ==========

@@ -439,6 +439,8 @@ header,
 #box-fontsize{
     margin-bottom: 0}
 #list-option{
+    margin-bottom: 15px}
+#book-info .taglist a{
     margin-bottom: 15px}     
 }
 
@@ -572,7 +574,9 @@ header,
 .event-speak{ 
     display: block;
     margin: 0 0 15px 0}                      
-}
+#book-info .taglist{
+    padding-top: 15px;}
+} 
     
 /*
 =====================================
@@ -845,6 +849,23 @@ header,
 .asiamojor-note{
     padding-left: 39px; 
     text-indent: -28px}
+.bookTagsList li{
+    display: block;
+    width:100%;
+    padding: 5% 0;
+    border-bottom: 1px dashed #bebebe;
+}
+.bookTagsList li img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 20px auto
+}
+.bookInfo{
+    display:block;
+    padding-left: 0
+}
+
 }
 
 @media(max-width:321px){
