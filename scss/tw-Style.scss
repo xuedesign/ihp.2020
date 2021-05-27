@@ -2240,7 +2240,8 @@ table.bt.bt--no-header tbody td::before {
     font-weight: bold;
     line-height: 2.4rem;
     padding-right: 20px;}
-.catalog-article a::after{
+.catalog-article a::after,
+.catlog-blank::after{
     display: inline-block;
     content: url(../images/pot-external.svg);
     opacity: .7;
@@ -3038,6 +3039,12 @@ input.checkme:checked~div.showme{
 #result-list h4 a:hover{
     color: #941E2D;
     text-decoration: underline}
+#result-list .keyword{
+    color:#d34115;
+    background: #f7fa41;
+    padding: 0 5px;
+}
+
 #map-big{
     display: block;
     width: 100%;
