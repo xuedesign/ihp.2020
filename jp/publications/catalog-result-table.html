@@ -296,11 +296,11 @@
                                             <label for="search-type" style="display: none">類別</label>
                                             <select id="search-type" name="event-type" class="myselect search-type">
                                                 <option value="all" selected="selected">すべて</option>
-                                                <option value="book-title"/>书名</option>
-                                                <option value="articles-title" />篇名</option>
-                                                <option value="author"/>著者</option>
+                                                <option value="title">书名.篇名</option>
+                                                <option value="author">著者</option>
                                                 <option value="summary">摘要</option>
                                                 <option value="keyword">キーワード</option>
+                                                <option value="isbn">ISBN</option>
                                             </select>
                                         </div>
 
@@ -311,9 +311,6 @@
                                                 <label for="sd-00">すべて</label>
                                             </div>
                                             <ul id="fruits_container">
-                                                <li><input type="checkbox" id="sd-01" name="sb" value="著書" checked="checked">
-                                                    <label for="sd-01">著書</label>
-                                                </li>
                                                 <li><input type="checkbox" id="sd-02" name="sb" value="史語所集刊" checked="checked">
                                                     <label for="sd-02">史語所集刊</label>
                                                 </li>
@@ -325,6 +322,9 @@
                                                 </li>    
                                                 <li><input type="checkbox" id="sd-05" name="sb" value="法制史研究" checked="checked">
                                                     <label for="sd-05">法制史研究</label>
+                                                </li>
+                                                <li><input type="checkbox" id="sd-01" name="sb" value="著書" checked="checked">
+                                                    <label for="sd-01">著書</label>
                                                 </li>
                                             </ul>   
                                         </div>                                        

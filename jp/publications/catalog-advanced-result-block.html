@@ -303,11 +303,11 @@
                                                 
                                                 <select id="f1" name="f1" class="myselect">
                                                     <option value="all" selected="selected">すべて</option>
-                                                    <option value="book-title"/>书名</option>
-                                                    <option value="articles-title" />篇名</option>
-                                                    <option value="author"/>著者</option>
+                                                    <option value="title">书名.篇名</option>
+                                                    <option value="author">著者</option>
                                                     <option value="summary">摘要</option>
                                                     <option value="keyword">キーワード</option>
+                                                    <option value="isbn">ISBN</option>
                                                 </select>
                                                 <label for="f1">欄位1</label>
                                             </div>
@@ -323,12 +323,11 @@
                                                 <label for="keyword2">關鍵字2</label>
                                                 
                                                 <select id="f2" name="f2" class="myselect">
-                                                    <option value="all" selected="selected">すべて</option>
-                                                    <option value="book-title"/>书名</option>
-                                                    <option value="articles-title" />篇名</option>
-                                                    <option value="author"/>著者</option>
+                                                    <option value="title" selected="selected">书名.篇名</option>
+                                                    <option value="author">著者</option>
                                                     <option value="summary">摘要</option>
                                                     <option value="keyword">キーワード</option>
+                                                    <option value="isbn">ISBN</option>
                                                 </select>
                                                 <label for="f2">欄位2</label>
                                             </div>
@@ -344,12 +343,11 @@
                                                 <label for="keyword3">關鍵字3</label>
                                                 
                                                 <select id="f3" name="f3" class="myselect">
-                                                    <option value="all" selected="selected">すべて</option>
-                                                    <option value="book-title"/>书名</option>
-                                                    <option value="articles-title" />篇名</option>
-                                                    <option value="author"/>著者</option>
+                                                    <option value="title" selected="selected">书名.篇名</option>
+                                                    <option value="author">著者</option>
                                                     <option value="summary">摘要</option>
                                                     <option value="keyword">キーワード</option>
+                                                    <option value="isbn">ISBN</option>
                                                 </select>
                                                 <label for="f3">欄位3</label>
                                             </div>
@@ -377,9 +375,6 @@
                                                 <label for="sd-00">すべて</label>
                                             </div>
                                             <ul id="fruits_container">
-                                                <li><input type="checkbox" id="sd-01" name="sb" value="著書" checked="checked">
-                                                    <label for="sd-01">著書</label>
-                                                </li>
                                                 <li><input type="checkbox" id="sd-02" name="sb" value="史語所集刊" checked="checked">
                                                     <label for="sd-02">史語所集刊</label>
                                                 </li>
@@ -391,6 +386,9 @@
                                                 </li>    
                                                 <li><input type="checkbox" id="sd-05" name="sb" value="法制史研究" checked="checked">
                                                     <label for="sd-05">法制史研究</label>
+                                                </li>
+                                                <li><input type="checkbox" id="sd-01" name="sb" value="著書" checked="checked">
+                                                    <label for="sd-01">著書</label>
                                                 </li>
                                             </ul>   
                                         </div>
@@ -408,7 +406,7 @@
                                         <select id="sort" name="sort" class="myselect">
                                             <option value="選択">選択</option>
                                             <option value="author">著者</option>
-                                            <option value="title">書.篇名</option>
+                                            <option value="title">书名.篇名</option>
                                             <option value="time">出版年</option>
                                         </select>
                                         <label for="mode">順序</label>
@@ -425,19 +423,19 @@
                                     </div>
                                 </div>
 
-                                <!---書.篇名連結依類別連結到PDF或是書籍介紹-->
+                                <!---书名.篇名連結依類別連結到PDF或是書籍介紹-->
                                 <div id="catlogtable" class="catlog-block">
                                     <ul>
                                         <li>
-                                            <div>書．篇名</div>
+                                            <div>书名.篇名</div>
                                             <div><a href="#" title="畲民之間：帝國晚期中國東南山區的國家治理與族群分類" target="_blank">畲民之間：帝國晚期中國東南山區的國家治理與族群分類</a></div>
                                         </li>
                                         <li>
-                                            <div>書．篇名（英）</div>
+                                            <div>书名.篇名（英）</div>
                                             <div>Becoming the She People: Governance and Ethnicity Categorization in the Southeastern Mountains during the Late Imperial China</div>
                                         </li>
                                         <li>
-                                            <div>著　　者</div>
+                                            <div>著者</div>
                                             <div><a href="catalog-result-author.html" title="李仁淵">李仁淵</a></div>
                                         </li>
                                         <li>
@@ -476,15 +474,15 @@
 
                                     <!-- <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="《刑案彙覽三編》中的「罪名」—— 兼論對中國傳統律典中「罪名」的解讀" target="_blank">《刑案彙覽三編》中的「罪名」—— 兼論對中國傳統律典中「罪名」的解讀</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>The“zuiming”in The Trilogy of Criminal Cases Compilation</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="王瑞峰">王瑞峰</a></p>
                                         </li>
                                         <li>
@@ -523,15 +521,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="《段玉裁年譜》訂補" target="_blank">《段玉裁年譜》訂補</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>Critical Comments on the Chronological Biography of Tuan Yü-ts'ai</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="陳鴻森">陳鴻森</a></p>
                                         </li>
                                         <li>
@@ -570,15 +568,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="《清史稿・地理志》府州廳縣職官缺分繁簡訂誤" target="_blank">《清史稿・地理志》府州廳縣職官缺分繁簡訂誤</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>A Revision to the Post Designations in the "Treatise on Geography" of the Ch'ing-shih kao</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="劉錚雲">劉錚雲</a></p>
                                         </li>
                                         <li>
@@ -617,15 +615,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="「心即理」說的動搖與明末清初學風之轉變" target="_blank">「心即理」說的動搖與明末清初學風之轉變</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>The Intellectual Transformation of the Late Ming and Early Ch'ing as Seen in the Crisis of the 'Mind is Principle' Doctrine</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="王汎森">王汎森</a></p>
                                         </li>
                                         <li>
@@ -664,15 +662,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="「穿破浮雲上雲霄」—— 論 清代 叩閽制度" target="_blank">「穿破浮雲上雲霄」—— 論 清代 叩閽制度</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>On Kouhun of Qing Dynasty</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="李典蓉">李典蓉</a></p>
                                         </li>
                                         <li>
@@ -711,15 +709,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="「淡新檔案」研究成果之一範例：戴著《 清代 台灣之鄉治》初讀、選錄及書後" target="_blank">「淡新檔案」研究成果之一範例：戴著《 清代 台灣之鄉治》初讀、選錄及書後</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>A Remarkable Example of Research on the "Dan-Xin Archives":An Initial Reading of Tai Yan-Hui's "Rural Government in Taiwan During the Qing Dynasty" with Select Excerpts and Postscript</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="黃靜嘉">黃靜嘉</a></p>
                                         </li>
                                         <li>
@@ -770,15 +768,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="「衝、繁、疲、難」： 清代 道府廳州縣等級初探" target="_blank">「衝、繁、疲、難」： 清代 道府廳州縣等級初探</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>Chung Fan P'i Nan: A Preliminary Study of Post Designations during the Ch'ing</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="劉錚雲">劉錚雲</a></p>
                                         </li>
                                         <li>
@@ -817,15 +815,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="十八世紀清政府修訂〈教唆詞訟〉律例下的查拿訟師事件" target="_blank">十八世紀清政府修訂〈教唆詞訟〉律例下的查拿訟師事件</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>Regulating Litigation Masters in Eighteenth-Century China</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="邱澎生">邱澎生</a></p>
                                         </li>
                                         <li>
@@ -864,15 +862,15 @@
                                     
                                     <ul>
                                         <li>
-                                            <p>書．篇名</p>
+                                            <p>书名.篇名</p>
                                             <p><a href="#" title="「衝、繁、疲、難」： 清代 道府廳州縣等級初探" target="_blank">「衝、繁、疲、難」： 清代 道府廳州縣等級初探</a></p>
                                         </li>
                                         <li>
-                                            <p>書．篇名（英）</p>
+                                            <p>书名.篇名（英）</p>
                                             <p>Chung Fan P'i Nan: A Preliminary Study of Post Designations during the Ch'ing</p>
                                         </li>
                                         <li>
-                                            <p>著　　者</p>
+                                            <p>著者</p>
                                             <p><a href="catalog-result-author.html" title="劉錚雲">劉錚雲</a></p>
                                         </li>
                                         <li>
