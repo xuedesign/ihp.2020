@@ -602,8 +602,9 @@ summary.nowin{
     vertical-align: middle;
     margin-right: 10px}
 #toolbar{ 
-    width: 60%;
-    text-align: right}
+    width: 50%;
+    text-align: right;
+    padding-top: 10px;}
 #toolbar li{
     display: inline-block;
     font-size: 1.6rem;
@@ -2857,6 +2858,8 @@ input.checkme:checked~div.showme{
     -webkit-line-clamp:3; 
     -webkit-box-orient:vertical}
 .indexlink-list li{
+    display: flex;
+    align-items: center;
     width: 49%;
     min-height: 48px;
     border: 1px solid #e1e1e1;
@@ -2868,15 +2871,15 @@ input.checkme:checked~div.showme{
     display:-webkit-box;
     overflow:hidden;
     text-overflow:ellipsis;
-    -webkit-line-clamp:1; 
+    -webkit-line-clamp:3; 
     -webkit-box-orient:vertical;
     font-family: "Noto Serif JP";
     font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 5.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     color: #5c5c5c;
     text-decoration: none;
-    padding-left: 35px;
+    padding: 0 10px 0 35px;
     text-shadow: 0 0 2px #fff}
 .indexlink-list li a:hover{
     color: #A51C30;
