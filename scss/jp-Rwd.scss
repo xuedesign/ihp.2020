@@ -79,7 +79,7 @@
     right: 5rem;
     bottom: 14rem}  
 .book-thumbnail span{
-    height: 250px}
+    height: 275px}
 .book-price{
     width: 25%}  
 }
@@ -92,12 +92,9 @@
 .book-thumbnail li{
     margin: 0 6px 30px}
 .book-thumbnail span{
-    height: 200px}
-#bulletin-title{
-    display: block}
+    height: 240px}
 #bulletin-option{
-    width: 100%;
-    margin-top: 20px}
+    width: 50%}
 }    
 
 /*
@@ -233,7 +230,7 @@ header,
     width: 155px;
     height: 155px}
 .book-thumbnail span{
-    height: 170px}
+    height: 182px}
 .pub-year{
     width: 12%}
 .pub-title{
@@ -332,6 +329,11 @@ header,
     display: block;
     width: 100%;
     margin-bottom: 15px}
+#bulletin-title{
+    display: block}
+#bulletin-option{
+    width: 100%;
+    margin-top: 20px}
 }
 
 /*
@@ -452,7 +454,7 @@ header,
 #map-guide{
     padding: 3px 0 3px 50px}
 .book-thumbnail span{
-    height: 160px}
+    height: 175px}
 #box-copyright{
     font-size: 1.4rem;
     line-height: 2.2rem;

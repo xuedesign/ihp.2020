@@ -76,17 +76,19 @@
     right: 5rem;
     bottom: 14rem}  
 .book-thumbnail span{
-    height: 250px}
+    height: 275px}
 .sf-menu ul#oo{ left: -55%}
 .book-price{
-    width: 25%} 
+    width: 25%}
+#bulletin-option{
+    width: 42%}  
 }
 
 @media (max-width:1300px) {
 .book-thumbnail li{
     margin: 0 6px 30px}
 .book-thumbnail span{
-    height: 200px} 
+    height: 240px}
 }    
 
 /*
@@ -173,8 +175,13 @@ header,
     width: 84%}
 .event-option{
     width: 15%}
+#bulletin-title{
+    display: block}
 #bulletin-option{
-    width: 50%}
+    width: 100%;
+    margin-top: 20px}
+/* #bulletin-option{
+    width: 55%} */
 /*.positions-type{ 
     width: 25%}
 .positions-item h3{ 
@@ -222,7 +229,7 @@ header,
     width: 155px;
     height: 155px}
 .book-thumbnail span{
-    height: 170px}
+    height: 182px}
 .pub-year{
     width: 12%}
 .pub-title{
@@ -351,8 +358,8 @@ header,
     margin-bottom: 15px}
 #bulletin-main{
     display: block}
-#bulletin-option{
-    width: 60%}
+/* #bulletin-option{
+    width: 60%} */
 #bulletin-poster{
     display: block;
     width: 60%;
@@ -435,7 +442,7 @@ header,
 #map-guide{
     padding: 3px 0 3px 50px}
 .book-thumbnail span{
-    height: 160px}
+    height: 175px}
 #box-fontsize{
     margin-bottom: 0}
 #list-option{
@@ -474,11 +481,6 @@ header,
 /*.positions-type{ width: 30%}
 .positions-time{ width: 100%}
 .positions-item h3{ width: 65%}*/
-#bulletin-title{
-    display: block}
-#bulletin-option{
-    width: 100%;
-    margin-top: 20px}
 .pic_fsnl{
     float: none;
     width: 100%;
