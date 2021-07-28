@@ -3039,11 +3039,16 @@ input.checkme:checked~div.showme{
 #result-list h4 a:hover{
     color: #941E2D;
     text-decoration: underline}
-#result-list .keyword{
+#catlogtable mark{
+    font-weight: bold;
+    color:#3e3e3e;
+    background: #f7fa41;
+    padding: 0 3px}
+#result-list mark{
+    font-weight: bold;
     color:#d34115;
     background: #f7fa41;
-    padding: 0 5px;
-}
+    padding: 0 3px}
 
 #map-big{
     display: block;
