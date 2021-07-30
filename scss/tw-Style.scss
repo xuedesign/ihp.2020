@@ -1151,7 +1151,7 @@ summary.nowin{
 #academic-main ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 2px solid #C4C4C4;
     width: 100%;
     padding-bottom: 40px}
@@ -3045,11 +3045,11 @@ input.checkme:checked~div.showme{
     color:#3e3e3e;
     background: #f7fa41;
     padding: 0 3px}
-#catlogtable mark.keyword{
+/* #catlogtable mark.keyword{
     font-weight: bold;
     color:#d34115;
     background: #f7fa41;
-    padding: 0 3px}
+    padding: 0 3px} */
 
 #result-list mark{
     font-weight: bold;
