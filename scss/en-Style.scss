@@ -84,7 +84,8 @@ img::-moz-selection { background: transparent}
 :focus{outline:#ebada8 solid 3px}    
 
 /*＝＝＝ 網站結構 ＝＝＝*/
-#mobile-topbar{ display: none}
+#mobile-topbar,
+#langbar{ display: none}
 #wrap,
 header,
 #hdr-fixed,
