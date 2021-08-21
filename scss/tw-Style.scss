@@ -2027,6 +2027,22 @@ table.bt.bt--no-header tbody td::before {
     display: inline-block;
     width: 33%;
     text-align: left}
+
+#publications-article .publications-item{
+    display: block;
+    width: 100%;
+    margin: 15px auto}
+#publications-article section{
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #a5a5a5;}
+#publications-article summary{
+    font-weight: bold;
+    color:#474747;
+    margin: 0 0 20px 3px}
+#publications-article summary:hover{
+    cursor: pointer} 
+
     
 #buy-list{
     display: block;
