@@ -948,7 +948,8 @@ summary.nowin{
 .event-info h3 a,
 .news-info h3 a,
 .positions-item h3 a,
-#bulletin-title h3{
+#bulletin-title h3,
+#bulletin-title2 h3{
     font-family: "Noto Serif TC";
     font-weight: 700;
     line-height: 3.3rem;
@@ -1003,14 +1004,20 @@ summary.nowin{
 #page-btn-right .mybtn{
     padding: 4px 8px}
 
+#bulletin-title,
+#bulletin-title2{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0}
 #bulletin-title{
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 30px 0 40px;
-    padding: 15px 0}
-#bulletin-title h3{
+    margin: 30px 0 40px;}
+#bulletin-title2{
+    display: block;
+    margin: 30px 0 10px;}
+#bulletin-title h3,
+#bulletin-title2 h3{
     width: 100%;
     padding-right: 15px}
 #bulletin-option{
