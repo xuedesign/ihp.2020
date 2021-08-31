@@ -1130,6 +1130,32 @@ summary.nowin{
 #down-option> a.btn-bulletin-back{
     float: right}
 
+#bulletin-form{
+    display: block;
+    padding: 30px 0 0;
+}
+#bulletin-form li{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+#bulletin-form .mylabel{
+    display: inline-block;
+    width: 15%;
+    text-align:right;
+    font-weight: bold;
+}
+#bulletin-form .finput{
+    width: 300px;
+    padding: 5px;
+}
+#bulletin-article p.form-privacy{
+    font-size:1.6rem; 
+    font-color:rgb(172, 55, 55)
+}
+
 /*
 ========== 學術資源==========
 */
