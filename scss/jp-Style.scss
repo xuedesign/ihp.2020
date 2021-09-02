@@ -944,7 +944,8 @@ summary.nowin{
 .event-info h3 a,
 .news-info h3 a,
 .positions-item h3 a,
-#bulletin-title h3{
+#bulletin-title h3,
+#bulletin-title2 h3{
     font-family: "Noto Serif JP";
     font-weight: 700;
     line-height: 3.3rem;
@@ -1000,14 +1001,20 @@ summary.nowin{
 #page-btn-right .mybtn{
     padding: 4px 8px}
 
+#bulletin-title,
+#bulletin-title2{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0}
 #bulletin-title{
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 30px 0 40px;
-    padding: 15px 0}
-#bulletin-title h3{
+    margin: 30px 0 40px;}
+#bulletin-title2{
+    display: block;
+    margin: 30px 0 10px;}
+#bulletin-title h3,
+#bulletin-title2 h3{
     width: 100%;
     padding-right: 15px}
 #bulletin-option{
@@ -1120,6 +1127,43 @@ summary.nowin{
     float: left}
 #down-option> a.btn-bulletin-back{
     float: right}
+
+#bulletin-form{
+    display: block;
+    padding: 30px 0 0;
+}
+#bulletin-form li{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+#bulletin-form .mylabel{
+    display: inline-block;
+    width: 15%;
+    text-align:right;
+    font-weight: bold;
+}
+#bulletin-form .finput{
+    width: 300px;
+    padding: 5px;
+}
+#bulletin-article p.form-privacy{
+    font-size:1.6rem; 
+    font-color:rgb(172, 55, 55)
+}
+#bulletin-article .regdone{
+    display:block;
+    width:50%;
+    margin: 30px auto 0 auto;
+    padding: 20px 0;
+    background:#e4e4e4;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
 
 /*
 ========== 施設とデータベース案内==========

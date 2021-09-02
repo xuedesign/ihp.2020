@@ -95,6 +95,8 @@
     height: 240px}
 #bulletin-option{
     width: 50%}
+#bulletin-form .mylabel{
+    width: 18%}   
 }    
 
 /*
@@ -388,6 +390,8 @@ header,
     margin: 0 0 0 5px}
 #langbar summary::-webkit-details-marker{
     display: none}
+#bulletin-form .mylabel{
+    width: 22%}
 }
 
 /*
@@ -623,7 +627,16 @@ header,
 .pub-list li{
     padding: 0;}
 #page-control{
-    width: 100%}             
+    width: 100%}
+#bulletin-form .mylabel{
+    display: block;
+    width: 100%;
+    text-align:left;
+    margin-bottom: 10px;}
+#bulletin-form .finput{
+    width: 95%}
+#bulletin-article .regdone{
+    width: 80%}           
 }
     
 /*

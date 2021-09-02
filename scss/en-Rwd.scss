@@ -81,7 +81,9 @@
 .book-price{
     width: 25%}
 #bulletin-option{
-    width: 42%}  
+    width: 42%}
+#bulletin-form .mylabel{
+    width: 18%}    
 }
 
 @media (max-width:1300px) {
@@ -384,6 +386,8 @@ header,
     margin: 0 0 0 5px}
 #langbar summary::-webkit-details-marker{
     display: none}
+#bulletin-form .mylabel{
+    width: 22%}
 }
 
 /*
@@ -632,6 +636,15 @@ header,
     margin: 0 0 15px 0}                      
 #book-info .taglist{
     padding-top: 15px;}
+#bulletin-form .mylabel{
+    display: block;
+    width: 100%;
+    text-align:left;
+    margin-bottom: 10px;}
+#bulletin-form .finput{
+    width: 95%}
+#bulletin-article .regdone{
+    width: 80%}
 } 
     
 /*
