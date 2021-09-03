@@ -1141,11 +1141,18 @@ summary.nowin{
     padding-bottom: 20px;
     border-bottom: 1px dashed #e1e1e1;
 }
+#bulletin-form section{
+    display: inline-block;
+}
 #bulletin-form .mylabel{
     display: inline-block;
     width: 15%;
     text-align:right;
     font-weight: bold;
+    vertical-align:top
+}
+#bulletin-form .sublabel{
+    margin-right: 20px;
 }
 #bulletin-form .finput{
     width: 300px;
