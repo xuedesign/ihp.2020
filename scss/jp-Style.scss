@@ -1132,6 +1132,9 @@ summary.nowin{
     display: block;
     padding: 30px 0 0;
 }
+#bulletin-form section{
+    display: inline-block;
+}
 #bulletin-form li{
     display: block;
     width: 100%;
@@ -1144,6 +1147,7 @@ summary.nowin{
     width: 15%;
     text-align:right;
     font-weight: bold;
+    vertical-align:top
 }
 #bulletin-form .finput{
     width: 300px;
