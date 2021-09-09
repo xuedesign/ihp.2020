@@ -270,74 +270,76 @@
                             <p class="event-place"><span>場所：</span>本所歷史文物陳列館 B1 演講廳</p>
 
                             
-                            <form action="">
+                            <form action="#" method="POST">
                                 <div id="bulletin-main">
                                     <div id="bulletin-article"><!--內文區塊-->
                                         <ul id="bulletin-form">
                                             <li>
-                                                <label for="username" class="mylabel">名前：</label>
-                                                <input id="username" name="username" type="text" title="名前" class="myinput finput">
+                                                <label for="username" class="mylabel">姓名：</label>
+                                                <input id="username" name="username" type="text" title="姓名" class="myinput finput">
                                             </li>
 
                                             <li>
-                                                <label for="institution" class="mylabel">所属：</label>
-                                                <input id="institution" name="institution" type="text" title="所属" class="myinput finput">
+                                                <label for="institution" class="mylabel">所屬單位：</label>
+                                                <input id="institution" name="institution" type="text" title="所屬單位" class="myinput finput">
                                             </li>
 
                                             <li>
-                                                <label for="title" class="mylabel">職名：</label>
-                                                <input id="title" name="title" type="text" title="職名" class="myinput finput">
+                                                <label for="title" class="mylabel">職稱：</label>
+                                                <input id="title" name="title" type="text" title="職稱" class="myinput finput">
                                             </li>
 
                                             <li>
-                                                <label for="tel" class="mylabel">連絡先番号：</label>
-                                                <input id="tel" name="tel" type="tel" title="連絡先番号" class="myinput finput">
+                                                <label for="tel" class="mylabel">聯絡電話：</label>
+                                                <input id="tel" name="tel" type="tel" title="聯絡電話" class="myinput finput">
                                             </li>
 
                                             <li>
-                                                <label for="email" class="mylabel">Email：</label>
-                                                <input id="email" name="email" type="email" title="Email" class="myinput finput">
+                                                <label for="email" class="mylabel">電子郵件：</label>
+                                                <input id="email" name="email" type="email" title="電子郵件" class="myinput finput">
                                             </li>
+
                                             <li>
-                                                <h4 class="mylabel">場次：</h4>
+                                                <h4 class="mylabel">報名場次：</h4>
                                                 <section>
                                                     <div class="dayitem">
                                                         <input id="date" name="date" type="checkbox" title="報名場次">
                                                         <label for="date" class="sublabel">2020-09-30</label>
                                                         <input id="option1-1" name="option1" type="radio" title="選項1" class="myinput">
-                                                        <label for="option1-1">食事</label>
+                                                        <label for="option1-1">用餐</label>
                                                         <input id="option1-2" name="option1" type="radio" title="選項2" class="myinput">
-                                                        <label for="option1-2">食事なし</label>
+                                                        <label for="option1-2">不用餐</label>
                                                     </div>
 
                                                     <div class="dayitem">
                                                         <input id="date" name="date" type="checkbox" title="報名場次">
                                                         <label for="date" class="sublabel">2020-10-01</label>
                                                         <input id="option2-1" name="option2" type="radio" title="選項1" class="myinput">
-                                                        <label for="option2-1">食事</label>
+                                                        <label for="option2-1">用餐</label>
                                                         <input id="option2-2" name="option2" type="radio" title="選項2" class="myinput">
-                                                        <label for="option2-2">食事なし</label>
+                                                        <label for="option2-2">不用餐</label>
                                                     </div>
 
                                                     <div class="dayitem">
                                                         <input id="date" name="date" type="checkbox" title="報名場次">
                                                         <label for="date" class="sublabel">2020-10-02</label>
                                                         <input id="option3-1" name="option3" type="radio" title="選項1" class="myinput">
-                                                        <label for="option3-1">食事</label>
+                                                        <label for="option3-1">用餐</label>
                                                         <input id="option3-2" name="option3" type="radio" title="選項2" class="myinput">
-                                                        <label for="option3-2">食事なし</label>
+                                                        <label for="option3-2">不用餐</label>
                                                     </div>
                                                 </section>
                                             </li>
+
                                             <li>
-                                                <label for="note1" class="mylabel">述べる：</label>
-                                                <input id="note1" name="note1" type="text" title="述べる" class="myinput finput">
+                                                <label for="note1" class="mylabel">備註：</label>
+                                                <input id="note1" name="note1" type="text" title="電子郵件" class="myinput finput">
                                             </li>
                                         </ul>
 
-                                        <p class="form-privacy">個人情報保護法の規定に従い、オンラインで報告する前に、<a href="../privacy.html" title="当社のプライバシーに関する声明" target="_blank">本プライバシーポリシーに</a>基づく個人データの収集および適用に関するポリシーを参照してください。<br><br>
+                                        <p class="form-privacy">為遵守個人資料保護法規定，在您提供個人資料進行線上報名前，請詳閱<a href="../privacy.html" title="史語所隱私權聲明" target="_blank">本所隱私權聲明項</a>下個人資料之蒐集政策及運用政策。<br>
                                         <input type="checkbox" required>
-                                        当社の個人情報収集ポリシーおよび使用ポリシーを詳細に読み、同意しました</p>
+                                        已詳閱並同意本所個人資料之蒐集政策及運用政策</p>
                                         <div id="formbtn">
                                             <input type="reset" class="mybtn" value="キャンセル" onclick="location.href='javascript:history.go(-1);'"/>
                                             <input type="submit" class="mybtn catalog-send" value="イベント登録" onclick="location.href='registration-finished.html'"/>
