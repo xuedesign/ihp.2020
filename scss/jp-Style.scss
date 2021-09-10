@@ -2772,7 +2772,7 @@ input.checkme:checked~div.showme{
     font-weight: bold;
     color: #664a4a;
     padding-right: 8px;}
-.btn_reg a{
+/* .btn_reg a{
     display: inline-block;
     position: absolute;
     bottom: 200px;
@@ -2787,9 +2787,29 @@ input.checkme:checked~div.showme{
     text-align: center;
     vertical-align: middle;
     color: #fff;
+    text-decoration: none} */
+.btn_reg a{
+    display: inline-block;
+    position: absolute;
+    bottom: 195px;
+    right: 15px;
+    width:50px;
+    height:50px;
+    padding: 8px 10px 10px;
+    border-radius:999em;
+    box-shadow: 1px 1px 5px rgba(92, 91, 91, 0.5);
+    background: #978585;
+    /* background: #B21111; */
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
     text-decoration: none}
 .btn_reg a:hover{
-    background: #941a1a}
+    background: #B21111;
+    /* background: #941a1a */}
 .ev-speaker{
     display:block;
     width: 95%;
