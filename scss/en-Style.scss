@@ -2872,6 +2872,24 @@ input.checkme:checked~div.showme{
     vertical-align: middle;
     color: #fff;
     text-decoration: none} */
+/* .btn_reg a{
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    right: 15px;
+    width:80px;
+    height:40px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #978585;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none} */
+
 .btn_reg a{
     display: inline-block;
     position: absolute;
@@ -2883,7 +2901,7 @@ input.checkme:checked~div.showme{
     border-radius:999em;
     box-shadow: 1px 1px 5px rgba(92, 91, 91, 0.5);
     background: #978585;
-    /* background: #B21111; */
+    /* background: #B21111;*/
     font-size: 1.3rem;
     line-height: 1.8rem;
     letter-spacing: 1px;
@@ -2891,6 +2909,26 @@ input.checkme:checked~div.showme{
     vertical-align: middle;
     color: #fff;
     text-decoration: none}
+
+/* .btn_reg a{
+    display: inline-block;
+    position: absolute;
+    bottom: 195px;
+    right: 5px;
+    width:60px;
+    height:60px;
+    padding: 22px 10px 10px 2px;
+    border-radius:999em;
+    box-shadow: 1px 1px 5px rgba(92, 91, 91, 0.5);
+    background: #978585;
+    -webkit-transform : scale(0.84,0.84) ;
+    *font-size:8px;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none} */
 .btn_reg a:hover{
     background: #B21111;
     /* background: #941a1a */}
