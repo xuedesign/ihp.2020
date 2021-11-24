@@ -1750,6 +1750,8 @@ table.bt.bt--no-header tbody td::before {
 .periodical-item ul{
     padding: 15px 15px 15px 25px}
 .awards-item li span{
+    display: inline-block;
+    width: 65px;
     color: #af8585;
     /* font-weight: bold; */
     padding-right: 15px}
