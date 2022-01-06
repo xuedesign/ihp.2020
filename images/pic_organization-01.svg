@@ -3,237 +3,259 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="organization" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" width="992px" height="970px" viewBox="0 0 992 970" enable-background="new 0 0 992 970" xml:space="preserve">
-<filter  width="200%" height="200%" y="-50%" x="-50%" ilterUnits="objectBoundingBox" id="drop-shadow">
-	<feGaussianBlur  stdDeviation="5" result="DROP" in="SourceAlpha"></feGaussianBlur>
-	<feFlood  flood-color="#c6c6c6" result="COLOR"></feFlood>
-	<feComposite  result="SHADOW" in2="DROP" operator="in" in="COLOR"></feComposite>
-	<feOffset  dx="3" dy="3" result="DROPSHADOW" in="SHADOW"></feOffset>
+<filter  y="-50%" x="-50%" width="200%" height="200%" id="drop-shadow" ilterUnits="objectBoundingBox">
+	<feGaussianBlur  result="DROP" in="SourceAlpha" stdDeviation="5"></feGaussianBlur>
+	<feFlood  result="COLOR" flood-color="#c6c6c6"></feFlood>
+	<feComposite  result="SHADOW" operator="in" in="COLOR" in2="DROP"></feComposite>
+	<feOffset  result="DROPSHADOW" in="SHADOW" dx="3" dy="3"></feOffset>
 	<feMerge>
 		<feMergeNode  in="DROPSHADOW"></feMergeNode>
 		<feMergeNode  in="SourceGraphic"></feMergeNode>
 	</feMerge>
 </filter>
+
+<!--載入字體-->
 <defs>
 <style type="text/css">@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600");</style>
 </defs>
 
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="289" y1="259" x2="384" y2="259"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="620" y1="259" x2="525" y2="259"/>
+<g>
+	<path fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" d="M83,576H69.02c-5.5,0-10.02-4.023-10.02-9.523v-423
+		c0-5.5,4.52-10.477,10.02-10.477H83"/>
+</g>
+<g>
+	<path fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" d="M102,912c0,0-4.028,0-8.979,0
+		S84,907.977,84,902.477v-635c0-5.5,4.071-10.477,9.021-10.477s8.979,0,8.979,0"/>
+</g>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="152" y1="73" x2="152" y2="117"/>
 <g>
 	<g>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="289" y1="255.273" x2="384" y2="255.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="620" y1="255.273" x2="525" y2="255.273"/>
-		<g>
-			<path fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" d="M83,572.273H69.02
-				c-5.5,0-10.02-4.023-10.02-9.523v-423c0-5.5,4.52-10.477,10.02-10.477H83"/>
-		</g>
-		<g>
-			<path fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" d="M102,908.273c0,0-4.028,0-8.979,0
-				S84,904.25,84,898.75v-635c0-5.5,4.071-10.477,9.021-10.477s8.979,0,8.979,0"/>
-		</g>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="152" y1="69.273" x2="152" y2="113.273"/>
-		<g>
-			<g>
-				<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="290" y1="908.273" x2="292" y2="908.273"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="294" y1="908.273" x2="477" y2="908.273"/>
-				<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="478" y1="908.273" x2="479" y2="908.273"/>
-			</g>
-		</g>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="840.273" x2="462" y2="840.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="722.273" x2="198" y2="722.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="781.273" x2="198" y2="781.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="354.273" x2="620" y2="354.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="442.273" x2="150" y2="442.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="524.273" x2="150" y2="524.273"/>
-		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="620.273" x2="150" y2="620.273"/>
+		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="290" y1="912" x2="292" y2="912"/>
 		
-			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="291" y1="440.273" x2="306" y2="440.273"/>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="152,543.273 
-			152,566.273 201,566.273 		"/>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="152,637.273 
-			152,660.273 201,660.273 		"/>
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="294" y1="912" x2="477" y2="912"/>
+		<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="478" y1="912" x2="479" y2="912"/>
 	</g>
+</g>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="844" x2="462" y2="844"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="726" x2="198" y2="726"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="785" x2="198" y2="785"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="84" y1="358" x2="620" y2="358"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="446" x2="150" y2="446"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="528" x2="150" y2="528"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="83" y1="624" x2="150" y2="624"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="291" y1="444" x2="306" y2="444"/>
+<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="152,547 152,570 
+	201,570 "/>
+<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="152,641 152,664 
+	201,664 "/>
+<g filter="url(#drop-shadow)">
+	<path fill="#FAF5F5" d="M922.98,707.977c0,5.5-4.5,10-10,10h-282c-5.5,0-10-4.5-10-10v-507c0-5.5,4.5-10,10-10h282
+		c5.5,0,10,4.5,10,10V707.977z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#FAF5F5" d="M539.48,311.477c0,5.5-4.5,10-10,10h-153c-5.5,0-10-4.5-10-10v-110c0-5.5,4.5-10,10-10h153
+		c5.5,0,10,4.5,10,10V311.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#FAF5F5" d="M598.48,899.477c0,5.5-4.5,10-10,10h-117c-5.5,0-10-4.5-10-10v-114c0-5.5,4.5-10,10-10h117
+		c5.5,0,10,4.5,10,10V899.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#F7E6E8" d="M229.195,67.227c0,3.85-3.15,7-7,7h-141c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h141c3.85,0,7,3.15,7,7
+		V67.227z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#F7E6E8" d="M448.042,45.727c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7
+		V45.727z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#F7E6E8" d="M448.042,92.227c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7
+		V92.227z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#F7E6E8" d="M229.195,144.227c0,3.85-3.15,7-7,7h-141c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h141c3.85,0,7,3.15,7,7
+		V144.227z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<rect x="305.02" y="426.477" fill="#E6EDCF" width="124" height="34"/>
 	<g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#FAF5F5" d="M922.98,792.25c0,5.5-4.5,10-10,10h-282c-5.5,0-10-4.5-10-10v-595c0-5.5,4.5-10,10-10h282
-				c5.5,0,10,4.5,10,10V792.25z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#FAF5F5" d="M539.48,307.75c0,5.5-4.5,10-10,10h-153c-5.5,0-10-4.5-10-10v-110c0-5.5,4.5-10,10-10h153
-				c5.5,0,10,4.5,10,10V307.75z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#FAF5F5" d="M598.48,895.75c0,5.5-4.5,10-10,10h-117c-5.5,0-10-4.5-10-10v-114c0-5.5,4.5-10,10-10h117
-				c5.5,0,10,4.5,10,10V895.75z"/>
-		</g>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="429.02,458.977 429.02,460.477 
+			427.52,460.477 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9754,1.9836" x1="425.536" y1="460.477" x2="307.511" y2="460.477"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="306.52,460.477 305.02,460.477 
+			305.02,458.977 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9062,1.9375" x1="305.02" y1="457.039" x2="305.02" y2="428.945"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="305.02,427.977 305.02,426.477 
+			306.52,426.477 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9754,1.9836" x1="308.503" y1="426.477" x2="426.528" y2="426.477"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="427.52,426.477 429.02,426.477 
+			429.02,427.977 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9062,1.9375" x1="429.02" y1="429.914" x2="429.02" y2="458.008"/>
 	</g>
-	<g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#F7E6E8" d="M229.195,63.5c0,3.85-3.15,7-7,7h-141c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h141c3.85,0,7,3.15,7,7
-				V63.5z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#F7E6E8" d="M448.042,42c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7V22c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7V42z"
-				/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#F7E6E8" d="M448.042,88.5c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7
-				V88.5z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#F7E6E8" d="M229.195,140.5c0,3.85-3.15,7-7,7h-141c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h141c3.85,0,7,3.15,7,7
-				V140.5z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<rect x="305.02" y="422.75" fill="#E6EDCF" width="124" height="34"/>
-			<g>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="429.02,455.25 429.02,456.75 
-					427.52,456.75 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9754,1.9836" x1="425.536" y1="456.75" x2="307.511" y2="456.75"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="306.52,456.75 305.02,456.75 
-					305.02,455.25 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9062,1.9375" x1="305.02" y1="453.312" x2="305.02" y2="425.218"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="305.02,424.25 305.02,422.75 
-					306.52,422.75 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9754,1.9836" x1="308.503" y1="422.75" x2="426.528" y2="422.75"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="427.52,422.75 429.02,422.75 
-					429.02,424.25 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9062,1.9375" x1="429.02" y1="426.187" x2="429.02" y2="454.281"/>
-			</g>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<rect x="304" y="821.273" fill="#E6EDCF" width="124" height="34"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#CDD2EB" d="M289.695,263.75c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7
-				V263.75z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#CDD2EB" d="M289.695,430.75c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
-				V430.75z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#CDD2EB" d="M289.695,513.75c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
-				V513.75z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#CDD2EB" d="M289.695,608.75c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
-				V608.75z"/>
-		</g>
-		<g filter="url(#drop-shadow)">
-			<path fill="#CDD2EB" d="M289.695,899.75c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
-				V899.75z"/>
-		</g>
-		<g>
-			<path fill="#FAE3AC" d="M526,202.273c0,3.866-3.134,7-7,7H388c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h131
-				c3.866,0,7,3.134,7,7V202.273z M526,223.273c0-3.866-3.134-7-7-7H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131
-				c3.866,0,7-3.134,7-7V223.273z M526,263.273c0-3.866-3.134-7-7-7H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131
-				c3.866,0,7-3.134,7-7V263.273z M526,304.273c0-3.866-3.134-7-7-7H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131
-				c3.866,0,7-3.134,7-7V304.273z"/>
-		</g>
-		<g>
-			<path fill="#F5DED4" d="M909,202.273c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260
-				c3.866,0,7,3.134,7,7V202.273z M909,222.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V222.273z M909,262.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V262.273z M909,303.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V303.273z M909,343.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V343.273z M909,383.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V383.273z M909,423.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V423.273z M909,463.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V463.273z M909,504.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V504.273z"/>
-		</g>
-		<g>
-			<path fill="#D4DEEB" d="M909,564.273c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260
-				c3.866,0,7,3.134,7,7V564.273z M909,584.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V584.273z M909,624.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V624.273z M909,664.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V664.273z M909,705.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V705.273z"/>
-		</g>
-		<g>
-			<path fill="#CDDED7" d="M909,765.273c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260
-				c3.866,0,7,3.134,7,7V765.273z M909,785.273c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260
-				c3.866,0,7-3.134,7-7V785.273z"/>
-		</g>
-		<rect x="478" y="761.273" fill="#E6EDCF" width="106" height="34"/>
-		<rect x="478" y="801.273" fill="#E6EDCF" width="106" height="34"/>
-		<rect x="478" y="842.273" fill="#E6EDCF" width="106" height="34"/>
-		<g>
-			<rect x="478" y="882.273" fill="#E6EDCF" width="106" height="34"/>
-			<g>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="584.02,884.25 584.02,882.75 
-					582.52,882.75 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="580" y1="882.273" x2="481" y2="882.273"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="479.52,882.75 478.02,882.75 
-					478.02,884.25 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="478" y1="886.273" x2="478" y2="914.273"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="478.02,915.25 478.02,916.75 
-					479.52,916.75 				"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="482" y1="916.273" x2="582" y2="916.273"/>
-				<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="582.52,916.75 584.02,916.75 
-					584.02,915.25 	Noto Serif TC			"/>
-				
-					<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="584" y1="913.273" x2="584" y2="885.273"/>
-			</g>
-		</g>
-	</g>
+</g>
+<g filter="url(#drop-shadow)">
+	<rect x="304" y="825" fill="#E6EDCF" width="124" height="34"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#CDD2EB" d="M289.695,267.477c0,3.85-3.15,7-7,7h-176c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h176c3.85,0,7,3.15,7,7
+		V267.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#CDD2EB" d="M289.695,434.477c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
+		V434.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#CDD2EB" d="M289.695,517.477c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
+		V517.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#CDD2EB" d="M289.695,612.477c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
+		V612.477z"/>
+</g>
+<g filter="url(#drop-shadow)">
+	<path fill="#CDD2EB" d="M289.695,903.477c0-3.85-3.15-7-7-7h-176c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h176c3.85,0,7-3.15,7-7
+		V903.477z"/>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 650.6943 200.23)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/cultural-and-intellectual-history" target="top">文化思想史研究室</a></tspan>
-	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/legal-history" target="top">法律史研究室</a></tspan>
-	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="top">臺灣與東南亞考古學研究室</a></tspan>
-	<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/images-and-artifacts" target="top">文物圖象研究室</a></tspan>
-	<tspan x="0" y="160.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/history-of-health-and-healing" target="top">生命醫療史研究室</a></tspan>
-	<tspan x="0" y="201" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/custom-religion-and-daily-life" target="top">禮俗宗教研究室</a></tspan>
-	<tspan x="0" y="241.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/world-history" target="top">世界史研究室</a></tspan>
-	<tspan x="0" y="281.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/ancient-civilizations" target="top">古代文明研究室</a></tspan>
-	<tspan x="0" y="321.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/digital-humanities" target="top">數位人學研究室</a></tspan>
-	<tspan x="0" y="361.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/culturalAndAntellectualHistory" target="top">明清檔案工作室</a></tspan>
-	<tspan x="0" y="402" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/scriptaSinica" target="top">漢籍全文資料庫工作室</a></tspan>
-	<tspan x="0" y="442.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/geographical" target="top">地理資訊系統工作室</a></tspan>
-	<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/bronzeInscriptions" target="top">金文工作室</a></tspan>
-	<tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/anyangArchaeologicalSite" target="top">安陽工作室</a></tspan>
-	<tspan x="0" y="562.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">科技考古實驗室</tspan>
-	<tspan x="0" y="603" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">文物維護實驗室</tspan></text>
-	<text transform="matrix(1 0 0 1 411.7114 200.23)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/history" target="top">歷史學門</a></tspan>
-	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/archaeology" target="top">考古學門</a></tspan>
-	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/anthropology" target="top">人類學門</a></tspan>
-	<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/philology" target="top">文字學門</a></tspan></text>
-	<g>
-	<text transform="matrix(1 0 0 1 500.2114 785.8403)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=1" target="top">事務室</a></tspan>
-	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=3" target="top">秘書室</a></tspan>
-	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=2" target="top">會計室</a></tspan>
-	<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=7" target="top">資訊室</a></tspan></text>
-	</g>
-	<text transform="matrix(1 0 0 1 124.1006 260.229)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">學術發展委員會</text>
-	<text transform="matrix(1 0 0 1 114 447.23)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Publications/Bulletin2" target="top">出版品編輯委員會</a></text>
-	<g>
-	<text transform="matrix(1 0 0 1 134.2002 530.229)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">圖書館委員會</text>
-	</g>
-	<text transform="matrix(1 0 0 1 114 626.229)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">檔案館管理委員會</text>
-	<text transform="matrix(1 0 0 1 144.2998 916.23)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">資訊委員會</text>
-	<text transform="matrix(1 0 0 1 317.043 447.23)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=6" target="top">編輯出版部</a></text>
-	<g>
-	<text transform="matrix(1 0 0 1 206.7568 571.8501)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Library" target="top">傅斯年圖書館</a></text>
-	</g>
-	<g>
-	<text transform="matrix(1 0 0 1 206.7568 667.0483)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Archives" target="top">檔案館</a></text>
-	</g>
-	<text transform="matrix(1 0 0 1 206.7568 728.7593)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Museum" target="top">歷史文物陳列館</a></text>
-	<text transform="matrix(1 0 0 1 206.7568 786.9595)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/CTA" target="top">臺灣考古館</a></text>
-	<g>
-	<text transform="matrix(1 0 0 1 327.1436 845.1597)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">行政事務</text>
-	</g>
-	<text transform="matrix(1 0 0 1 129.3369 61.2397)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="top">所長</a></text>
-	<text transform="matrix(1 0 0 1 121.1367 138.7725)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="top">副所長</a></text>
-	<text transform="matrix(1 0 0 1 313.4785 39.5576)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">所務會議</text>
-	<text transform="matrix(1 0 0 1 283.1787 86.48)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/AdvisoryBoard" target="top">學術諮詢委員會</a></text>
+	<path fill="#FAE3AC" d="M526,206c0,3.866-3.134,7-7,7H388c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h131c3.866,0,7,3.134,7,7
+		V206z M526,227c0-3.866-3.134-7-7-7H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131c3.866,0,7-3.134,7-7V227z M526,267
+		c0-3.866-3.134-7-7-7H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131c3.866,0,7-3.134,7-7V267z M526,308c0-3.866-3.134-7-7-7
+		H388c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h131c3.866,0,7-3.134,7-7V308z"/>
 </g>
+<g>
+	<path fill="#F5DED4" d="M909,206c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V206z M909,226c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V226z M909,266
+		c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V266z M909,307c0-3.866-3.134-7-7-7
+		H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V307z M909,347c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V347z M909,387c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V387z M909,427c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V427z M909,467c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V467z"/>
+</g>
+<g>
+	<path fill="#D4DEEB" d="M909,528c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V528z M909,548c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V548z M909,588
+		c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V588z M909,628c0-3.866-3.134-7-7-7
+		H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V628z"/>
+</g>
+<g>
+	<path fill="#CDDED7" d="M909,689c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V689z M909,709c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V709z"/>
+</g>
+<rect x="478" y="765" fill="#E6EDCF" width="106" height="34"/>
+<rect x="478" y="805" fill="#E6EDCF" width="106" height="34"/>
+<rect x="478" y="846" fill="#E6EDCF" width="106" height="34"/>
+<g>
+	<rect x="478" y="886" fill="#E6EDCF" width="106" height="34"/>
+	<g>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="584.02,887.977 584.02,886.477 
+			582.52,886.477 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="580" y1="886" x2="481" y2="886"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="479.52,886.477 478.02,886.477 
+			478.02,887.977 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="478" y1="890" x2="478" y2="918"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="478.02,918.977 478.02,920.477 
+			479.52,920.477 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="482" y1="920" x2="582" y2="920"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="582.52,920.477 584.02,920.477 
+			584.02,918.977 		"/>
+		
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" x1="584" y1="917" x2="584" y2="889"/>
+	</g>
+</g>
+
+<!--文字內容-->
+<text transform="matrix(1 0 0 1 650.6943 203.957)">
+<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/cultural-and-intellectual-history" target="_self">文化思想史研究室</a></tspan>
+
+<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/legal-history" target="_self">制度與社會研究室</a></tspan>
+
+<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="_self">臺灣與東南亞考古學研究室</a></tspan>
+
+<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/images-and-artifacts" target="_self">文物圖象研究室</a></tspan>
+
+<tspan x="0" y="160.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/history-of-health-and-healing" target="_self">生命醫療史研究室</a></tspan>
+
+<tspan x="0" y="201" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/custom-religion-and-daily-life" target="_self">禮俗宗教研究室</a></tspan>
+
+<tspan x="0" y="241.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/world-history" target="_self">世界史研究室</a></tspan>
+
+<tspan x="0" y="281.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/digital-humanities" target="_self">數位人學研究室</a></tspan>
+
+<tspan x="0" y="321.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/culturalAndAntellectualHistory" target="_self">明清檔案工作室</a></tspan>
+
+<tspan x="0" y="361.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/scriptaSinica" target="_self">漢籍全文資料庫工作室</a></tspan>
+
+<tspan x="0" y="402" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/bronzeInscriptions" target="_self">金文工作室</a></tspan>
+
+<tspan x="0" y="442.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/anyangArchaeologicalSite" target="_self">安陽工作室</a></tspan>
+
+<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">科技考古實驗室</tspan><tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">文物維護實驗室</tspan>
+</text>
+
+
+<text transform="matrix(1 0 0 1 411.7114 203.957)">
+<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/history" target="_self">歷史學門</a></tspan>
+
+<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/archaeology" target="_self">考古學門</a></tspan>
+
+<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/anthropology" target="_self">人類學門</a></tspan>
+
+<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/anthropology" target="_self">文字學門</a></tspan></text>
+
+<g>
+	<text transform="matrix(1 0 0 1 500.2114 789.5674)">
+	<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=1" target="_self">事務室</a></tspan>
+	
+	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=3" target="_self">秘書室</a></tspan>
+	
+	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=2" target="_self">會計室</a></tspan>
+	
+	<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=7" target="_self">資訊室</a></tspan></text>
+</g>
+
+<text transform="matrix(1 0 0 1 124.1006 263.9561)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">學術發展委員會</text>
+<text transform="matrix(1 0 0 1 114 450.957)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Publications/Bulletin2" target="_self">出版品編輯委員會</a></text>
+
+<g>
+	
+		<text transform="matrix(1 0 0 1 134.2002 533.9561)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">圖書館委員會</text>
+</g>
+
+<text transform="matrix(1 0 0 1 114 629.9561)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">檔案館管理委員會</text>
+<text transform="matrix(1 0 0 1 144.2998 919.957)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">資訊委員會</text>
+<text transform="matrix(1 0 0 1 317.043 450.957)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=6" target="_self">編輯出版部</a></text>
+
+<g>
+	<text transform="matrix(1 0 0 1 206.7568 575.5771)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Library" target="_self">傅斯年圖書館</a></text>
+</g>
+
+<g>
+	<text transform="matrix(1 0 0 1 206.7568 670.7754)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/Resource/Archives" target="_self">檔案館</a></text>
+</g>
+
+<text transform="matrix(1 0 0 1 206.7568 732.4863)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Museum" target="_self">歷史文物陳列館</a></text>
+
+<text transform="matrix(1 0 0 1 206.7568 790.6865)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/CTA" target="_self">臺灣考古館</a></text>
+
+<g>
+	<text transform="matrix(1 0 0 1 327.1436 848.8867)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">行政事務</text>
+</g>
+
+<text transform="matrix(1 0 0 1 129.3369 64.9668)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="4"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="_self">所長</a></text>
+
+<text transform="matrix(1 0 0 1 121.1367 142.4995)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="_self">副所長</a></text>
+
+<text transform="matrix(1 0 0 1 313.4785 43.2847)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">所務會議</text>
+
+<text transform="matrix(1 0 0 1 283.1787 90.207)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/AdvisoryBoard" target="_self">學術諮詢委員會</a></text>
 </svg>
