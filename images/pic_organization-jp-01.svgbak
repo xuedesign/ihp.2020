@@ -176,33 +176,31 @@
 
 <!--文字內容-->
 <text transform="matrix(1 0 0 1 650.6943 202.5669)">
-<tspan x="-8" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/cultural-and-intellectual-history" target="_top">⽂化思想史研究室</a></tspan>
+<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/cultural-and-intellectual-history" target="_top">⽂化思想史研究室</a></tspan>
 
-<tspan x="-8" y="40.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/legal-history" target="_top">制度‧社会研究室</a></tspan>
+<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/legal-history" target="_top">制度‧社会研究室</a></tspan>
 
-<tspan x="-8" y="80.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="_top">台湾・東南アジア考古学研究室</a></tspan>
+<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="_top">台湾・東南アジア考古学研究室</a></tspan>
 
-<tspan x="-8" y="120.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/images-and-artifacts" target="_top">⽂物・図像研究室</a></tspan>
+<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/images-and-artifacts" target="_top">⽂物・図像研究室</a></tspan>
 
-<tspan x="-8" y="160.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/history-of-health-and-healing" target="_top">⽣命・医療史研究室</a></tspan>
+<tspan x="0" y="160.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/history-of-health-and-healing" target="_top">⽣命・医療史研究室</a></tspan>
 
-<tspan x="-8" y="201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/custom-religion-and-daily-life" target="_top">礼俗・宗教研究室</a></tspan>
+<tspan x="0" y="201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/custom-religion-and-daily-life" target="_top">礼俗・宗教研究室</a></tspan>
 
-<tspan x="-8" y="241.201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/world-history" target="_top">世界史研究室</a></tspan>
+<tspan x="0" y="241.201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/world-history" target="_top">世界史研究室</a></tspan>
 
-<tspan x="-8" y="281.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/digital-humanities" target="_top">デジタル⼈⽂学研究室</a></tspan>
+<tspan x="0" y="281.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/digital-humanities" target="_top">デジタル⼈⽂学研究室</a></tspan>
 
-<tspan x="-8" y="321.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/culturalAndAntellectualHistory" target="_top">明清檔案研究グループ</a></tspan>
+<tspan x="0" y="321.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/culturalAndAntellectualHistory" target="_top">明清檔案研究グループ</a></tspan>
 
-<tspan x="-8" y="361.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/scriptaSinica" target="_top">漢籍全文データベース研究グループ</a></tspan>
+<tspan x="0" y="361.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/scriptaSinica" target="_top">漢籍全文データベース研究グループ</a></tspan>
 
-<tspan x="-8" y="402" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/bronzeInscriptions" target="_top">⾦⽂研究グループ</a></tspan>
+<tspan x="0" y="402" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/bronzeInscriptions" target="_top">⾦⽂研究グループ</a></tspan>
 
-<tspan x="-8" y="442.201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/anyangArchaeologicalSite" target="_top">安陽研究グループ</a></tspan>
+<tspan x="0" y="442.201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/anyangArchaeologicalSite" target="_top">安陽研究グループ</a></tspan>
 
-<tspan x="-8" y="482.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5">考古科学研究実験室</tspan>
-
-<tspan x="-8" y="522.601" fill="#333333" font-family="'Noto Serif JP', serif" font-size="16.5">⽂物保存修復実験室</tspan></text>
+<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">考古科学研究実験室</tspan><tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">⽂物保存修復実験室</tspan></text>
 
 <text transform="matrix(1 0 0 1 415.8613 202.957)">
 <tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Departments/history" target="_top">歴史学⾨</a></tspan>
