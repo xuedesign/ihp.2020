@@ -51,8 +51,8 @@
 <polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="152,641 152,664 
 	201,664 "/>
 <g filter="url(#drop-shadow)">
-	<path fill="#FAF5F5" d="M922.98,707.977c0,5.5-4.5,10-10,10h-282c-5.5,0-10-4.5-10-10v-507c0-5.5,4.5-10,10-10h282
-		c5.5,0,10,4.5,10,10V707.977z"/>
+	<path fill="#FAF5F5" d="M922.98,749.977c0,5.5-4.5,10-10,10h-282c-5.5,0-10-4.5-10-10v-549c0-5.5,4.5-10,10-10h282
+		c5.5,0,10,4.5,10,10V749.977z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#FAF5F5" d="M539.48,311.477c0,5.5-4.5,10-10,10h-153c-5.5,0-10-4.5-10-10v-110c0-5.5,4.5-10,10-10h153
@@ -142,11 +142,12 @@
 	<path fill="#D4DEEB" d="M909,528c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
 		V528z M909,548c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V548z M909,588
 		c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V588z M909,628c0-3.866-3.134-7-7-7
-		H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V628z"/>
+		H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V628z M909,669c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V669z"/>
 </g>
 <g>
-	<path fill="#CDDED7" d="M909,689c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
-		V689z M909,709c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V709z"/>
+	<path fill="#CDDED7" d="M909,729c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V729z M909,749c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V749z"/>
 </g>
 <rect x="478" y="765" fill="#E6EDCF" width="106" height="34"/>
 <rect x="478" y="805" fill="#E6EDCF" width="106" height="34"/>
@@ -199,7 +200,11 @@
 
 <tspan x="0" y="442.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/anyangArchaeologicalSite" target="_top">安陽工作室</a></tspan>
 
-<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">科技考古實驗室</tspan><tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">文物維護實驗室</tspan>
+<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/history-of-the-ihp" target="_top">所史工作室</a></tspan>
+
+<tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">科技考古實驗室</tspan>
+
+<tspan x="0" y="562.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">文物維護實驗室</tspan>
 </text>
 
 
