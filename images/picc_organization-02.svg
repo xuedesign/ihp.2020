@@ -16,7 +16,7 @@
 
 <!--載入字體-->
 <defs>
-<style type="text/css">@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600");</style>
+<style type="text/css">@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600");</style>
 </defs>
 
 <line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="746" x2="51" y2="746"/>
@@ -55,8 +55,8 @@
 <polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1287 91,1310 
 	140,1310 "/>
 <g filter="url(#drop-shadow)">
-	<path fill="#FAF5F5" d="M352,954.227c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-507c0-5.5,4.5-10,10-10h282c5.5,0,10,4.5,10,10
-		V954.227z"/>
+	<path fill="#FAF5F5" d="M352,996.227c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-549c0-5.5,4.5-10,10-10h282c5.5,0,10,4.5,10,10
+		V996.227z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#FAF5F5" d="M214,373.727c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-110c0-5.5,4.5-10,10-10h144c5.5,0,10,4.5,10,10
@@ -80,11 +80,12 @@
 	<path fill="#D4DEEB" d="M339,775c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
 		V775z M339,795c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V795z M339,835
 		c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V835z M339,875c0-3.866-3.134-7-7-7
-		H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V875z"/>
+		H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V875z M339,916c0-3.866-3.134-7-7-7H72
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V916z"/>
 </g>
 <g>
-	<path fill="#CDDED7" d="M339,936c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
-		V936z M339,956c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V956z"/>
+	<path fill="#CDDED7" d="M339,976c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V976z M339,996c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V996z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#F7E6E8" d="M156,62.227c0,3.85-3.15,7-7,7H28c-3.85,0-7-3.15-7-7v-20c0-3.85,3.15-7,7-7h121c3.85,0,7,3.15,7,7V62.227z
@@ -173,90 +174,90 @@
 </g>
 
 <!--文字內容-->
-<text transform="matrix(1 0 0 1 81.7139 449.3398)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/cultural-and-intellectual-history" target="_top">⽂化思想史研究室</a></tspan>
+<text transform="matrix(1 0 0 1 81.7139 450.207)">
+<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/cultural-and-intellectual-history" target="_top">文化思想史研究室</a></tspan>
 
-<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/legal-history" target="_top">制度‧社会研究室</a></tspan>
+<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/legal-history" target="_top">制度與社會研究室</a></tspan>
 
-<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="_top">台湾・東南アジア考古学研究室</a></tspan>
+<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/archaeology-of-taiwan-and-southeast-asia" target="_top">臺灣與東南亞考古學研究室</a></tspan>
 
-<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/images-and-artifacts" target="_top">⽂物・図像研究室</a></tspan>
+<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/images-and-artifacts" target="_top">文物圖象研究室</a></tspan>
 
-<tspan x="0" y="160.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/history-of-health-and-healing" target="_top">⽣命・医療史研究室</a></tspan>
+<tspan x="0" y="160.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/history-of-health-and-healing" target="_top">生命醫療史研究室</a></tspan>
 
-<tspan x="0" y="201" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/custom-religion-and-daily-life" target="_top">礼俗・宗教研究室</a></tspan>
+<tspan x="0" y="201" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/custom-religion-and-daily-life" target="_top">禮俗宗教研究室</a></tspan>
 
-<tspan x="0" y="241.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/world-history" target="_top">世界史研究室</a></tspan>
+<tspan x="0" y="241.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/world-history" target="_top">世界史研究室</a></tspan>
 
-<tspan x="0" y="281.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Centers/digital-humanities" target="_top">デジタル⼈⽂学研究室</a></tspan>
+<tspan x="0" y="281.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Centers/digital-humanities" target="_top">數位人學研究室</a></tspan>
 
-<tspan x="0" y="321.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/culturalAndAntellectualHistory" target="_top">明清檔案研究グループ</a></tspan>
+<tspan x="0" y="321.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/culturalAndAntellectualHistory" target="_top">明清檔案工作室</a></tspan>
 
-<tspan x="0" y="361.8" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/scriptaSinica" target="_top">漢籍全文データベース研究グループ</a></tspan>
+<tspan x="0" y="361.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/scriptaSinica" target="_top">漢籍全文資料庫工作室</a></tspan>
 
-<tspan x="0" y="402" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/bronzeInscriptions" target="_top">⾦⽂研究グループ</a></tspan>
+<tspan x="0" y="402" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/bronzeInscriptions" target="_top">金文工作室</a></tspan>
 
-<tspan x="0" y="442.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Research/Groups/anyangArchaeologicalSite" target="_top">安陽研究グループ</a></tspan>
+<tspan x="0" y="442.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/anyangArchaeologicalSite" target="_top">安陽工作室</a></tspan>
 
-<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">考古科学研究実験室</tspan><tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">⽂物保存修復実験室</tspan>
+<tspan x="0" y="482.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Research/Groups/history-of-the-ihp" target="_top">所史研究室</a></tspan>
+
+<tspan x="0" y="522.601" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">科技考古實驗室</tspan>
+
+<tspan x="0" y="562.8" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">文物維護實驗室</tspan>
 </text>
 
 
-<text transform="matrix(1 0 0 1 94.1504 265.3403)">
-<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Departments/history" target="_top">歴史学⾨</a></tspan>
+<text transform="matrix(1 0 0 1 90 266.207)">
+<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/history" target="_top">歷史學門</a></tspan>
 
-<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Departments/archaeology" target="_top">考古学⾨</a></tspan>
+<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/archaeology" target="_top">考古學門</a></tspan>
 
-<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Departments/anthropology" target="_top">⼈類学⾨</a></tspan>
+<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/anthropology" target="_top">人類學門</a></tspan>
 
-<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Departments/anthropology" target="_top">⽂字学⾨</a></tspan></text>
+<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Departments/anthropology" target="_top">文字學門</a></tspan></text>
 
 <g>
-	<text transform="matrix(1 0 0 1 256.9609 1504.4531)">
-	<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff" target="_top">事務室</a></tspan>
+	<text transform="matrix(1 0 0 1 253.75 1506.21)">
+	<tspan x="0" y="0" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=1" target="_top">事務室</a></tspan>
 	
-	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff" target="_top">秘書室</a></tspan>
+	<tspan x="0" y="40.2" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=3" target="_top">秘書室</a></tspan>
 	
-	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff" target="_top">会計室</a></tspan>
-	</text>
+	<tspan x="0" y="80.4" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=2" target="_top">會計室</a></tspan>
+	
+	<tspan x="0" y="120.6" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=7" target="_top">資訊室</a></tspan></text>
 </g>
 
-<text transform="matrix(1 0 0 1 67.1406 198.2061)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">学術発展委員会</text>
-
-<text transform="matrix(1 0 0 1 61.1309 1072.8398)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Publications/Bulletin2" target="_top">出版品編集委員会</a></text>
-
+<text transform="matrix(1 0 0 1 60.0811 199.2061)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">學術發展委員會</text>
+<text transform="matrix(1 0 0 1 53 1074.5996)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Publications/Bulletin2" target="_top">出版品編輯委員會</a></text>
 <g>
-	<text transform="matrix(1 0 0 1 79.3105 1178.8389)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">図書館委員会</text>
+	
+		<text transform="matrix(1 0 0 1 73.2002 1180.5986)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">圖書館委員會</text>
 </g>
-
-<text transform="matrix(1 0 0 1 79.3105 1274.8389)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">档案館委員会</text>
-
-<text transform="matrix(1 0 0 1 48.5303 1678.8398)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="1">情報システム</tspan><tspan x="116.1" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">委員会</tspan></text>
-
-<text transform="matrix(1 0 0 1 237.0537 1114.8398)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff" target="_top">編集・出版部</a></text>
+<text transform="matrix(1 0 0 1 53 1276.5986)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">檔案館管理委員會</text>
+<text transform="matrix(1 0 0 1 83.2998 1680.5996)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">資訊委員會</text>
+<text transform="matrix(1 0 0 1 241.043 1116.5996)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/People/AdministrativeStaff?type=6" target="_top">編輯出版部</a></text>
 
 <g>
-	<text transform="matrix(1 0 0 1 145.8174 1219.46)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Resource/Library" target="_top">傅斯年図書館</a></text>
+	<text transform="matrix(1 0 0 1 145.7568 1221.2197)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Library" target="_top">傅斯年圖書館</a></text>
 </g>
 
 <g>
-	<text transform="matrix(1 0 0 1 145.8174 1314.6582)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/Resource/Archives" target="_top">档案館</a></text>
+	<text transform="matrix(1 0 0 1 145.7568 1316.418)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/Resource/Archives" target="_top">檔案館</a></text>
 </g>
 
-<text transform="matrix(1 0 0 1 145.8174 1376.3691)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Resource/Museum" target="_top">歴史⽂物陳列館</a></text>
+<text transform="matrix(1 0 0 1 145.7568 1378.1289)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/Museum" target="_top">歷史文物陳列館</a></text>
 
-<text transform="matrix(1 0 0 1 145.8174 1434.5693)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/Resource/CTA" target="_top">台湾考古館</a></text>
+<text transform="matrix(1 0 0 1 145.7568 1436.3291)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/Resource/CTA" target="_top">臺灣考古館</a></text>
 
 <g>
-	<text transform="matrix(1 0 0 1 84.7734 1563.7695)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">事務業務</text>
+	<text transform="matrix(1 0 0 1 80.6826 1565.5293)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">行政事務</text>
 </g>
 
-<text transform="matrix(1 0 0 1 69.3418 58.9668)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18" letter-spacing="3"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Directors" target="_top">所⻑</a></text>
+<text transform="matrix(1 0 0 1 67.1416 59.9668)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20" letter-spacing="4"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="_top">所長</a></text>
 
-<text transform="matrix(1 0 0 1 61.9619 136.4995)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/Directors" target="_top">副所⻑</a></text>
+<text transform="matrix(1 0 0 1 58.9414 137.4995)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/Directors" target="_top">副所長</a></text>
 
-<text transform="matrix(1 0 0 1 232.4678 33.5576)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18">所務会議</text>
+<text transform="matrix(1 0 0 1 228.4375 34.5576)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20">所務會議</text>
 
-<text transform="matrix(1 0 0 1 205.1973 79.207)" fill="#333333" font-family="'Noto Serif JP', serif" font-size="18"><a href="https://www1.ihp.sinica.edu.tw/jp/AboutIHP/AdvisoryBoard" target="_top">学術諮問委員会</a></text>
-
-<text transform="matrix(1 0 0 1 238.9336 1617.8359)"><tspan x="0" y="0" fill="#333333" font-family="'Noto Serif JP', serif" font-size="15" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff?type=7" target="_top">情報システム</a></tspan><tspan x="24.188" y="15.5" fill="#333333" font-family="'Noto Serif JP', serif" font-size="15" letter-spacing="1"><a href="https://www1.ihp.sinica.edu.tw/jp/People/AdministrativeStaff" target="_top">管理室</a></tspan></text>
+<text transform="matrix(1 0 0 1 198.1377 80.207)" fill="#333333" font-family="'Noto Serif TC', serif" font-size="20"><a href="https://www1.ihp.sinica.edu.tw/AboutIHP/AdvisoryBoard" target="_top">學術諮詢委員會</a></text>
 </svg>

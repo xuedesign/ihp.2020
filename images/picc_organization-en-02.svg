@@ -44,32 +44,32 @@
 	</g>
 </g>
 <line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1442" x2="136" y2="1442"/>
-<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="23" y1="1316" x2="137" y2="1316"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="23" y1="1320" x2="137" y2="1320"/>
 <line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="23" y1="1378" x2="137" y2="1378"/>
-<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1019" x2="89" y2="1019"/>
-<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1124" x2="89" y2="1124"/>
-<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1220" x2="89" y2="1220"/>
-<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1143 91,1166 
-	140,1166 "/>
-<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1035 91,1061 
-	140,1061 "/>
-<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1237 91,1260 
-	140,1260 "/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1044" x2="89" y2="1044"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1145" x2="89" y2="1145"/>
+<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" x1="22" y1="1237" x2="89" y2="1237"/>
+<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1164 91,1187 
+	140,1187 "/>
+<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1060 91,1086 
+	140,1086 "/>
+<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3,2" points="91,1254 91,1277 
+	140,1277 "/>
 <g filter="url(#drop-shadow)">
-	<rect x="137" y="1045" fill="#E6EDCF" width="214" height="32"/>
+	<rect x="137" y="1070" fill="#E6EDCF" width="214" height="32"/>
 	<g>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="351,1075.5 351,1077 349.5,1077 		"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="351,1100.5 351,1102 349.5,1102 		"/>
 		
-			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9858,1.9906" x1="347.51" y1="1077" x2="139.495" y2="1077"/>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="138.5,1077 137,1077 137,1075.5 		"/>
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9858,1.9906" x1="347.51" y1="1102" x2="139.495" y2="1102"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="138.5,1102 137,1102 137,1100.5 		"/>
 		
-			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3.2222,2.1481" x1="137" y1="1073.352" x2="137" y2="1047.574"/>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="137,1046.5 137,1045 138.5,1045 		"/>
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3.2222,2.1481" x1="137" y1="1098.352" x2="137" y2="1072.574"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="137,1071.5 137,1070 138.5,1070 		"/>
 		
-			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9858,1.9906" x1="140.49" y1="1045" x2="348.505" y2="1045"/>
-		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="349.5,1045 351,1045 351,1046.5 		"/>
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2.9858,1.9906" x1="140.49" y1="1070" x2="348.505" y2="1070"/>
+		<polyline fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" points="349.5,1070 351,1070 351,1071.5 		"/>
 		
-			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3.2222,2.1481" x1="351" y1="1048.648" x2="351" y2="1074.426"/>
+			<line fill="none" stroke="#BB4460" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3.2222,2.1481" x1="351" y1="1073.648" x2="351" y2="1099.426"/>
 	</g>
 </g>
 <g filter="url(#drop-shadow)">
@@ -77,8 +77,8 @@
 		V1615z"/>
 </g>
 <g filter="url(#drop-shadow)">
-	<path fill="#FAF5F5" d="M352,930.227c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-507c0-5.5,4.5-10,10-10h282c5.5,0,10,4.5,10,10
-		V930.227z"/>
+	<path fill="#FAF5F5" d="M352,972.227c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-549c0-5.5,4.5-10,10-10h282c5.5,0,10,4.5,10,10
+		V972.227z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#FAF5F5" d="M284,362.727c0,5.5-4.5,10-10,10H60c-5.5,0-10-4.5-10-10v-110c0-5.5,4.5-10,10-10h214c5.5,0,10,4.5,10,10
@@ -98,11 +98,12 @@
 	<path fill="#D4DEEB" d="M339,751c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
 		V751z M339,771c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V771z M339,811
 		c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V811z M339,851c0-3.866-3.134-7-7-7
-		H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V851z"/>
+		H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V851z M339,892c0-3.866-3.134-7-7-7H72
+		c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V892z"/>
 </g>
 <g>
-	<path fill="#CDDED7" d="M339,912c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
-		V912z M339,932c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V932z"/>
+	<path fill="#CDDED7" d="M339,952c0,3.866-3.134,7-7,7H72c-3.866,0-7-3.134-7-7v-20c0-3.866,3.134-7,7-7h260c3.866,0,7,3.134,7,7
+		V952z M339,972c0-3.866-3.134-7-7-7H72c-3.866,0-7,3.134-7,7v20c0,3.866,3.134,7,7,7h260c3.866,0,7-3.134,7-7V972z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#F7E6E8" d="M156,63.227c0,3.85-3.15,7-7,7H28c-3.85,0-7-3.15-7-7v-22c0-3.85,3.15-7,7-7h121c3.85,0,7,3.15,7,7V63.227z
@@ -127,15 +128,15 @@
 		V202.727z"/>
 </g>
 <g filter="url(#drop-shadow)">
-	<path fill="#CDD2EB" d="M291.676,1007c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1007
+	<path fill="#CDD2EB" d="M291.676,1032c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1032
 		z"/>
 </g>
 <g filter="url(#drop-shadow)">
-	<path fill="#CDD2EB" d="M291.676,1113c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1113
+	<path fill="#CDD2EB" d="M291.676,1134c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1134
 		z"/>
 </g>
 <g filter="url(#drop-shadow)">
-	<path fill="#CDD2EB" d="M291.676,1208c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1208
+	<path fill="#CDD2EB" d="M291.676,1225c0-3.85-3.15-7-7-7h-242c-3.85,0-7,3.15-7,7v20c0,3.85,3.15,7,7,7h242c3.85,0,7-3.15,7-7V1225
 		z"/>
 </g>
 <g filter="url(#drop-shadow)">
@@ -243,7 +244,12 @@
 
 <tspan x="0" y="201" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Research/Groups/anyangArchaeologicalSite" target="_top">Anyang Research Group</a></tspan>
 
-<tspan x="0" y="241.2" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Archaeometry Laboratory</tspan><tspan x="0" y="281.4" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Cultural Relic Preservation Laboratory</tspan></text>
+<tspan x="0" y="241.2" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Research/Groups/history-of-the-ihp" target="_top">History of the IHP</a></tspan>
+
+<tspan x="0" y="281.4" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Archaeometry Laboratory</tspan>
+
+<tspan x="0" y="321.6" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Cultural Relic Preservation Laboratory</tspan>
+</text>
 
 <text transform="matrix(1 0 0 1 78.8594 253.2905)">
 <tspan x="0" y="0" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/AboutIHP/Departments/history" target="_top">History Department</a></tspan>
@@ -265,7 +271,7 @@
 <tspan x="0" y="118.8" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/People/AdministrativeStaff" target="_top">Information Center</a></tspan></text>
 
 
-<text transform="matrix(1 0 0 1 145.1494 1065.7139)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/People/AdministrativeStaff" target="_top">Editorial and Publishing Office</a></text>
+<text transform="matrix(1 0 0 1 145.1494 1090.7139)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/People/AdministrativeStaff" target="_top">Editorial and Publishing Office</a></text>
 <text transform="matrix(1 0 0 1 50.3066 197.2061)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Academic Development Committee</text>
 
 <text transform="matrix(1 0 0 1 59.3887 57.9668)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/AboutIHP/Directors" target="_top">Director</a></text>
@@ -276,25 +282,25 @@
 
 <text transform="matrix(1 0 0 1 202.583 78.207)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/AboutIHP/AdvisoryBoard" target="_top">Advisory Committee</a></text>
 
-<text transform="matrix(1 0 0 1 49.0176 1022.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Publications/Bulletin2" target="_top">Editorial and Publishing Committee</a></text>
+<text transform="matrix(1 0 0 1 50.0176 1047.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Publications/Bulletin2" target="_top">Editorial and Publishing Committee</a></text>
 
 <g>
-	<text transform="matrix(1 0 0 1 92.083 1128.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Library Committee</text>
+	<text transform="matrix(1 0 0 1 95.083 1149.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Library Committee</text>
 </g>
 
-<text transform="matrix(1 0 0 1 78.3857 1224.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">IHP Archives Committee</text>
+<text transform="matrix(1 0 0 1 80.3857 1241.4736)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">IHP Archives Committee</text>
 
-<text transform="matrix(1 0 0 1 64.1191 1674.5645)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Information Center Committee</text>
+<text transform="matrix(1 0 0 1 65.1191 1674.5645)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13">Information Center Committee</text>
 
 <g>
-	<text transform="matrix(1 0 0 1 145.0703 1170.0947)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Library" target="_top">Fu Ssu-nien Library</a></text>
+	<text transform="matrix(1 0 0 1 145.0703 1191.0947)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Library" target="_top">Fu Ssu-nien Library</a></text>
 </g>
 
 <g>
-	<text transform="matrix(1 0 0 1 145.0703 1265.293)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Archives" target="_top">IHP Archives</a></text>
+	<text transform="matrix(1 0 0 1 145.0703 1282.293)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Archives" target="_top">IHP Archives</a></text>
 </g>
 
-<text transform="matrix(1 0 0 1 145.0703 1321.1562)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Museum" target="_top">Museum of the IHP</a></text>
+<text transform="matrix(1 0 0 1 145.0703 1325.1562)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/Museum" target="_top">Museum of the IHP</a></text>
 
 <text transform="matrix(1 0 0 1 145.0703 1375.1562)"><tspan x="0" y="0" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/CTA" target="_top">Taiwan Archaeological</a></tspan><tspan x="0" y="15.6" fill="#333333" font-family="'Merriweather', Times, serif" font-size="13"><a href="https://www1.ihp.sinica.edu.tw/en/Resource/CTA" target="_top">Studies Building</a></tspan></text>
 

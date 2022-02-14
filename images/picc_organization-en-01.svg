@@ -115,8 +115,8 @@
 		c3.85,0,7-3.15,7-7V900.477z"/>
 </g>
 <g filter="url(#drop-shadow)">
-	<path fill="#FAF5F5" d="M961,767.727c0,5.5-4.5,10-10,10H631c-5.5,0-10-4.5-10-10v-572c0-5.5,4.5-10,10-10h320c5.5,0,10,4.5,10,10
-		V767.727z"/>
+	<path fill="#FAF5F5" d="M961,809.727c0,5.5-4.5,10-10,10H631c-5.5,0-10-4.5-10-10v-614c0-5.5,4.5-10,10-10h320c5.5,0,10,4.5,10,10
+		V809.727z"/>
 </g>
 <g filter="url(#drop-shadow)">
 	<path fill="#FAF5F5" d="M603,313.727c0,5.5-4.5,10-10,10H373c-5.5,0-10-4.5-10-10v-118c0-5.5,4.5-10,10-10h220c5.5,0,10,4.5,10,10
@@ -142,11 +142,12 @@
 	<path fill="#D4DEEB" d="M946,560c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-26c0-3.866,3.134-7,7-7h297c3.866,0,7,3.134,7,7
 		V560z M946,579c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V579z M946,624
 		c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V624z M946,669c0-3.866-3.134-7-7-7
-		H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V669z"/>
+		H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V669z M946,714c0-3.866-3.134-7-7-7H642
+		c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V714z"/>
 </g>
 <g>
-	<path fill="#CDDED7" d="M946,740c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-26c0-3.866,3.134-7,7-7h297c3.866,0,7,3.134,7,7
-		V740z M946,759c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V759z"/>
+	<path fill="#CDDED7" d="M946,785c0,3.866-3.134,7-7,7H642c-3.866,0-7-3.134-7-7v-26c0-3.866,3.134-7,7-7h297c3.866,0,7,3.134,7,7
+		V785z M946,804c0-3.866-3.134-7-7-7H642c-3.866,0-7,3.134-7,7v26c0,3.866,3.134,7,7,7h297c3.866,0,7-3.134,7-7V804z"/>
 </g>
 <g>
 	<path fill="#E6EDCF" d="M582,928H414v-38h168V928z M582,755H414v40h168V755z M582,800H414v40h168V800z M582,845H414v39h168V845z"/>
@@ -244,8 +245,13 @@
 
 <tspan x="0" y="225" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15"><a href="https://www1.ihp.sinica.edu.tw/en/Research/Groups/anyangArchaeologicalSite" target="_top">Anyang Research Group</a></tspan>
 
-<tspan x="0" y="270" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15">Archaeometry Laboratory</tspan>
-<tspan x="0" y="315" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15">Cultural Relic Preservation Laboratory</tspan></text>
+<tspan x="0" y="270" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15"><a href="https://www1.ihp.sinica.edu.tw/en/Research/Groups/history-of-the-ihp" target="_top">History of the IHP</a></tspan>
+
+<tspan x="0" y="315" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15">Archaeometry Laboratory</tspan>
+
+<tspan x="0" y="360" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15">Cultural Relic Preservation Laboratory</tspan>
+
+</text>
 
 
 <text transform="matrix(1 0 0 1 385.1924 190.9565)" fill="#333333" font-family="'Merriweather', Times, serif" font-size="15"><a href="https://www1.ihp.sinica.edu.tw/en/AboutIHP/Departments/history" target="_top">History Department</a></text>
