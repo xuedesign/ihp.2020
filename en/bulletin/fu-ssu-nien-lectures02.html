@@ -290,8 +290,8 @@
                                 <div id="toolbar-option">
                                     <!--選單在該類別時，添加class="now-select"-->
                                     <div id="bulletin-pagelink">
-                                        <a class="mybtn now-select" href="fu-ssu-nien-lectures.html" title="Current Lectures">Current Lectures</a>
-                                        <a class="mybtn" href="fu-ssu-nien-lectures02.html" title="Past Lectures">Past Lectures</a>
+                                        <a class="mybtn" href="fu-ssu-nien-lectures.html" title="Current Lectures">Current Lectures</a>
+                                        <a class="mybtn now-select" href="fu-ssu-nien-lectures02.html" title="Past Lectures">Past Lectures</a>
                                     </div>
                                 </div>
                                 <div id="toolbar-search">
@@ -301,44 +301,39 @@
                                 </div>
                             </div><!--//end #bulletin-toolbar-->
 
-                            <div>
-                                <p class="event-speak"><span>Speaker</span>Professor Benjamin A. Elman</p>
-                                <h3 class="event-title">Global Science, Evidential Learning and Ming-Qing Intellectual History</h3>
+                            <div id="list-past">
+
+
                             </div>
 
-                            <!--"poster-right":海報置右 ; "poster-left":海報置左; 沒有海報時，區塊"bulletin-poster" 隱藏-->
-                            <div id="bulletin-main" class="poster-right">
-                                <!---海報區塊-->
-                                <div id="bulletin-poster">
-                                    <img src="../../images/pic_poster-08.png" alt="活動海報">
+                            <div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">On page</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                    / 10, Total of 100 records
                                 </div>
-
-                                <!--內文區塊-->
-                                <div id="bulletin-article">
-                                    <p>
-                                        The 2019 "Fu Sinian Lecture" of the Institute of History and Linguistics of our school invited Benjamin A. Elman, Emeritus Professor of East Asian Department and Department of History, Princeton University, USA. From December 2nd to 6th, he was invited to come to Taiwan and will hold two lectures and a symposium on the theme of "Global Science, Evidential Learning and Ming-Qing Intellectual History". This is a rare opportunity, and researchers from all walks of life are welcome to participate.</p>
-                                    <p>Lecture 1:<br>
-                                        Time: 10:00 am on December 2 (Mon) [Fu Sinian Scholarship will be awarded before the speech]<br>
-                                        Topic：The Rise of Evidential Research in Imperial China</p>
-                                    <p>Lecture 2：<br>
-                                        Time: December 4th (Wednesday) at 10:00 a.m.<br>
-                                        Topic：Rethinking the “Rise of Early Modern Science” in China circa 1500-1800</p>
-                                    <p>Forum：<br>
-                                        Time: December 6th (Friday) at 10:00 a.m.<br>
-                                        Topic：Global Science and Early Modern East Asia</p>
+                                
+                                <!---css增加'disabled'表示該按鈕無效，通常在第一頁及最後一頁使用-->
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="First Page">First Page</a>
+                                    <a href="#" class="mybtn disabled" title="Previous">Previous</a>
                                 </div>
-                            </div><!--//end #bulletin-main-->
-
-                            <div id="down-option">
-                                <div id="bulletin-annex">
-                                    <h4>Download：</h4>
-                                    <ul>
-                                        <li><a href="#" title="Agenda.pdf(open new window)" target="_blank">Agenda.pdf</a></li>
-                                    </ul>
-                                </div><!--//end #bulletin-annex-->
-                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="Back">⟸Back</a>
-                            </div><!--//end #down-option-->
-                        
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="Next">Next</a>
+                                    <a href="#"  class="mybtn" title="Last Page">Last Page</a>
+                                </div>
+                            </div><!--//end #page-control-->
                         </section>
                     </div><!--//end #page-main-->
 

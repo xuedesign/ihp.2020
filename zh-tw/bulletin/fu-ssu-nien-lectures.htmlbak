@@ -23,7 +23,7 @@
     <meta name="twitter:description" content="中央研究院歷史語言研究所是中華民國中央研究院負責中國近代著名的歷史和語言學研究機構，1928年成立於廣州。"/><!---必填！頁面描述-->
     <meta name="twitter:image" content="https://xuedesign.github.io/ihp.2020/images/FBshare.jpg"/><!---非必填！有做比較好，頁面分享縮圖，若沒更換就放此預設圖-->
 
-    <title>傅斯年講座-當期講座｜中央研究院歷史語言研究所</title>
+    <title>傅斯年講座｜中央研究院歷史語言研究所</title>
     <meta name="description" content="中央研究院歷史語言研究所是中華民國中央研究院負責中國近代著名的歷史和語言學研究機構，1928年成立於廣州。"/><!---頁面描述-->
     <link rel="shortcut icon"  href="../../images/favicon.ico"/>
     <link rel="icon" href="../../images/favicon.ico"/>
@@ -227,14 +227,15 @@
             </div><!--//end #nav-top-->
         </div><!--//end #hdr-fixed-->   
     </header>
-
+    
     <div id="container">
         <div id="breadcrumb">
             <a id="main-content" href="#main-content" title="主要內容區" accesskey="C" class="accesskey">:::</a>
             <!---麵包屑導覽列，桌機版隱藏，手機版顯現-->
             <span>
                 <a href="../../index.html" title="首頁">首頁</a> &gt; <a href="list-events-all.html" title="佈告欄">佈告欄</a> &gt; <a href="list-events-all.html" title="學術活動">學術活動</a> &gt; 傅斯年講座
-        </div>
+        </div>    
+        
 
         <div id="container-two">
             <!---側邊選單列-->
@@ -290,59 +291,195 @@
                 
                     <div id="page-main">
                         <section id="box-bulletin" class="p-event">
-                            <div id="bulletin-toolbar2">
+                            <div id="bulletin-toolbar">
                                 <div id="toolbar-option">
-                                    <!--選單在該類別時，添加class="now-select"-->
-                                    <div id="bulletin-pagelink">
-                                        <a class="mybtn now-select" href="fu-ssu-nien-lectures.html" title="當期講座">當期講座</a>
-                                        <a class="mybtn" href="fu-ssu-nien-lectures02.html" title="歷年講座">歷年講座</a>
-                                    </div>
+                                    <label for="event-year">年度</label>
+                                    <select id="event-year" name="event-year" class="myselect">
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                        <option>2014</option>
+                                        <option>2013</option>
+                                        <option>2012</option>
+                                    </select>
+                                    <input type="button" class="btn_send" value="篩選"/>
                                 </div>
                                 <div id="toolbar-search">
                                     <label for="event-search">搜尋</label>
                                     <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="請輸入關鍵字">
-                                    <input type="button" class="btn_send" value="查詢" onclick="location.href='fu-ssu-nien-lectures02.html'"/>
+                                    <input type="button" class="btn_send" value="查詢"/>
                                 </div>
                             </div><!--//end #bulletin-toolbar-->
 
-                            <div>
-                                <p class="event-speak"><span>講者</span>Benjamin A. Elman 艾爾曼 教授</p>
-                                <h3 class="event-title">全球科學、考證學與明清的學術思想史</h3>
-                            </div>
-
-                            <!--"poster-right":海報置右 ; "poster-left":海報置左; 沒有海報時，區塊"bulletin-poster" 隱藏-->
-                            <div id="bulletin-main" class="poster-right">
-                                <!---海報區塊-->
-                                <div id="bulletin-poster">
-                                    <img src="../../images/pic_poster-08.png" alt="活動海報">
+                            <!--沒有內容時顯示此標語
+                            <div id="no-content">
+                                <h3>目前暫無活動。</h3>
+                            </div>-->
+                            
+                            <div id="bulletin-list">
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
                                 </div>
 
-                                <!--內文區塊-->
-                                <div id="bulletin-article">
-                                    <p>
-                                        本院歷史語言研究所 2019 年「傅斯年講座」邀請美國普林斯頓大學東亞系及歷史系榮退講座教授艾爾曼（Benjamin A. Elman）擔任。12 月 2 日至 6 日應邀來臺，將以「Global Science, Evidential Learning and Ming-Qing Intellectual History 全球科學、考證學與明清的學術思想史」為主題，舉行兩場演講及一場座談會，機會難得，歡迎各方研究者一同參加。</p>
-                                    <p>第一講：<br>
-                                        時間：12月2日（一）上午10時【演講前頒發傅斯年獎學金】<br>
-                                        講題：The Rise of Evidential Research in Imperial China 考證學在明清的歷史意義</p>
-                                    <p>第二講：<br>
-                                        時間：12月4日（三）上午10時<br>
-                                        講題：Rethinking the “Rise of Early Modern Science” in China circa 1500-1800 重新思考前近代科學史與明清歷史</p>
-                                    <p>座談會：<br>
-                                        時間：12月6日（五）上午10時<br>
-                                        講題：Global Science and Early Modern East Asia 全球科學與前近代東亞史</p>
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
                                 </div>
-                            </div><!--//end #bulletin-main-->
 
-                            <div id="down-option">
-                                <div id="bulletin-annex">
-                                    <h4>附件下載：</h4>
-                                    <ul>
-                                        <li><a href="#" title="xxx(另開視窗)" target="_blank"> 講座流程簡章.pdf</a></li>
-                                    </ul>
-                                </div><!--//end #bulletin-annex-->
-                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="返回上頁">⟸返回上頁</a>
-                            </div><!--//end #down-option-->
-                        
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>講者</span>艾爾曼 教授</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的學術思想史">全球科學、考證學與明清的學術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>地點：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳細內容">詳細內容</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名(另開視窗)">線上報名</a>
+                                    </div>
+                                </div>
+
+                            </div><!--//end #bulletin-list-->
+
+                            <div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">位於第</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                    頁/10頁，共有100筆資料
+                                </div>
+                                
+                                <!---css增加'disabled'表示該按鈕無效，通常在第一頁及最後一頁使用-->
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="最前頁">最前頁</a>
+                                    <a href="#" class="mybtn disabled" title="上一頁">上一頁</a>
+                                </div>
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="下一頁">下一頁</a>
+                                    <a href="#"  class="mybtn" title="最後頁">最後頁</a>
+                                </div>
+                            </div><!--//end #page-control-->
+
                         </section>
                     </div><!--//end #page-main-->
 

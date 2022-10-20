@@ -287,59 +287,196 @@
                 
                     <div id="page-main">
                         <section id="box-bulletin" class="p-event">
-                            <div id="bulletin-toolbar2">
+                            <div id="bulletin-toolbar">
                                 <div id="toolbar-option">
-                                    <!--選單在該類別時，添加class="now-select"-->
-                                    <div id="bulletin-pagelink">
-                                        <a class="mybtn now-select" href="fu-ssu-nien-lectures.html" title="開催中の講演会">開催中の講演会</a>
-                                        <a class="mybtn" href="fu-ssu-nien-lectures02.html" title="過去の講演会">過去の講演会</a>
-                                    </div>
+                                  <label for="event-year">年次</label>
+                                    <select id="event-year" name="event-year" class="myselect">
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                        <option>2014</option>
+                                        <option>2013</option>
+                                        <option>2012</option>
+                                    </select>
+                                    <input type="button" class="btn_send" value="選択"/>
                                 </div>
                                 <div id="toolbar-search">
                                     <label for="event-search">検索</label>
                                     <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="キーワード">
-                                    <input type="button" class="btn_send" value="検索" onclick="location.href='fu-ssu-nien-lectures02.html'"/>
+                                    <input type="button" class="btn_send" value="検索"/>
                                 </div>
                             </div><!--//end #bulletin-toolbar-->
 
-                            <div>
-                                <p class="event-speak"><span>話者</span>Benjamin A. Elman 教授</p>
-                                <h3 class="event-title">明・清王朝のグローバルサイエンス、テクスト研究、学問史</h3>
-                            </div>
-
-                            <!--"poster-right":海報置右 ; "poster-left":海報置左; 沒有海報時，區塊"bulletin-poster" 隱藏-->
-                            <div id="bulletin-main" class="poster-right">
-                                <!---海報區塊-->
-                                <div id="bulletin-poster">
-                                    <img src="../../images/pic_poster-08.png" alt="活動海報">
+                            <!--沒有內容時顯示此標語
+                            <div id="no-content">
+                                <h3>目前暫無活動。</h3>
+                            </div>-->
+                            
+                            <div id="bulletin-list">
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
                                 </div>
 
-                                <!--內文區塊-->
-                                <div id="bulletin-article">
-                                    <p>
-                                        本校歴史言語学研究所の2019年度「フー・シニアン・レクチャー」に、米国プリンストン大学東アジア学科・歴史学科名誉教授のベンジャミン・A・エルマン氏をお招きしました。 12 月 2 日から 6 日まで、彼は台湾に招待され、「グローバル サイエンス、エビデンシャル ラーニング、明清知的史」をテーマに 2 つの講演とシンポジウムを開催します。人生のどなたでもご参加いただけます。</p>
-                                    <p>講義 1:<br>
-                                        日時：12月2日（月）午前10時<br>
-                                        トピック: 明清時代の文献研究の歴史的意義</p>
-                                    <p>講義 2:<br>
-                                        日時：12月4日（水）午前10時<br>
-                                        トピック: 前近代科学の歴史と明・清王朝の歴史を再考する</p>
-                                    <p>フォーラム：<br>
-                                        日時：12月6日（金）午前10時<br>
-                                        トピック: グローバルサイエンスと前近代東アジア史</p>
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
                                 </div>
-                            </div><!--//end #bulletin-main-->
 
-                            <div id="down-option">
-                                <div id="bulletin-annex">
-                                    <h4>ダウンロード：</h4>
-                                    <ul>
-                                        <li><a href="#" title="パンフレット.pdf(新しいウィンドウを開きます)" target="_blank">パンフレット.pdf</a></li>
-                                    </ul>
-                                </div><!--//end #bulletin-annex-->
-                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="回上ページ">⟸回上ページ</a>
-                            </div><!--//end #down-option-->
-                        
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>話者</span>臧振華 先生等人</p>
+                                        <h3><a href="article-events.html" title="全球科學、考證學與明清的学術思想史">全球科學、考證學與明清的学術思想史</a></h3>
+                                        <p class="event-time"><span>時間：</span>2020年12月6日（週五）</p>
+                                        <p class="event-place"><span>場所：</span>本所文物陳列館 B1 演講廳</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="詳しく見る">詳しく見る</a>
+                                        <a class="mybtn" href="registration.html" title="線上報名">線上報名</a>
+                                    </div>
+                                </div>
+
+                            </div><!--//end #bulletin-list-->
+
+                            <div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">&nbsp;</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                    ページ/10ページ，合計100レコード
+                                </div>
+                                
+                                <!---css增加'disabled'表示該按鈕無效，通常在第一ページ及最後一ページ使用-->
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="最初のページ">最初のページ</a>
+                                    <a href="#" class="mybtn disabled" title="前のページ">前のページ</a>
+                                </div>
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="次のページ">次のページ</a>
+                                    <a href="#"  class="mybtn" title="最後のページ">最後のページ</a>
+                                </div>
+                            </div><!--//end #page-control-->
+
                         </section>
                     </div><!--//end #page-main-->
 

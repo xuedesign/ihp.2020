@@ -223,15 +223,15 @@
             </div><!--//end #nav-top-->
         </div><!--//end #hdr-fixed-->   
     </header>
-
+    
     <div id="container">
         <div id="breadcrumb">
             <a id="main-content" href="#main-content" title="Main content" accesskey="C" class="accesskey">:::</a>
             <!---麵包屑導覽列，桌機版隱藏，手機版顯現-->
             <span>
                 <a href="../../index-en.html" title="index">Index</a> &gt; <a href="list-events-all.html" title="Bulletin">Bulletin</a> &gt; <a href="list-events-all.html" title="Events">Events</a> &gt; Fu Ssu-nien Lectures
-        </div>
-
+        </div>    
+        
 
         <div id="container-two">
             <!---側邊選單列-->
@@ -262,6 +262,7 @@
                 </ul>
             </aside><!--//end #container-subnav-->
 
+            
             <!-- 頁面主要內容-->
             <div id="container-main">
                 <div id="myPrintArea">
@@ -283,62 +284,199 @@
                             </li>
                         </ul>
                     </div><!--//end #page-title-->
-
+                
                     <div id="page-main">
                         <section id="box-bulletin" class="p-event">
-                            <div id="bulletin-toolbar2">
+                            <div id="bulletin-toolbar">
                                 <div id="toolbar-option">
-                                    <!--選單在該類別時，添加class="now-select"-->
-                                    <div id="bulletin-pagelink">
-                                        <a class="mybtn now-select" href="fu-ssu-nien-lectures.html" title="Current Lectures">Current Lectures</a>
-                                        <a class="mybtn" href="fu-ssu-nien-lectures02.html" title="Past Lectures">Past Lectures</a>
-                                    </div>
+                                    <label for="event-year">Year</label>
+                                    <select id="event-year" name="event-year" class="myselect">
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                        <option>2014</option>
+                                        <option>2013</option>
+                                        <option>2012</option>
+                                    </select>
+                                    <input type="button" class="btn_send" value="Filter"/>
                                 </div>
                                 <div id="toolbar-search">
                                     <label for="event-search">Search</label>
                                     <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="Please enter key words">
-                                    <input type="button" class="btn_send" value="Search" onclick="location.href='fu-ssu-nien-lectures02.html'"/>
+                                    <input type="button" class="btn_send" value="Search"/>
                                 </div>
                             </div><!--//end #bulletin-toolbar-->
 
-                            <div>
-                                <p class="event-speak"><span>Speaker</span>Professor Benjamin A. Elman</p>
-                                <h3 class="event-title">Global Science, Evidential Learning and Ming-Qing Intellectual History</h3>
-                            </div>
-
-                            <!--"poster-right":海報置右 ; "poster-left":海報置左; 沒有海報時，區塊"bulletin-poster" 隱藏-->
-                            <div id="bulletin-main" class="poster-right">
-                                <!---海報區塊-->
-                                <div id="bulletin-poster">
-                                    <img src="../../images/pic_poster-08.png" alt="活動海報">
+                            <!--沒有內容時顯示此標語
+                            <div id="no-content">
+                                <h3>No Events</h3>
+                            </div>-->
+                            
+                            <div id="bulletin-list">
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
                                 </div>
 
-                                <!--內文區塊-->
-                                <div id="bulletin-article">
-                                    <p>
-                                        The 2019 "Fu Sinian Lecture" of the Institute of History and Linguistics of our school invited Benjamin A. Elman, Emeritus Professor of East Asian Department and Department of History, Princeton University, USA. From December 2nd to 6th, he was invited to come to Taiwan and will hold two lectures and a symposium on the theme of "Global Science, Evidential Learning and Ming-Qing Intellectual History". This is a rare opportunity, and researchers from all walks of life are welcome to participate.</p>
-                                    <p>Lecture 1:<br>
-                                        Time: 10:00 am on December 2 (Mon) [Fu Sinian Scholarship will be awarded before the speech]<br>
-                                        Topic：The Rise of Evidential Research in Imperial China</p>
-                                    <p>Lecture 2：<br>
-                                        Time: December 4th (Wednesday) at 10:00 a.m.<br>
-                                        Topic：Rethinking the “Rise of Early Modern Science” in China circa 1500-1800</p>
-                                    <p>Forum：<br>
-                                        Time: December 6th (Friday) at 10:00 a.m.<br>
-                                        Topic：Global Science and Early Modern East Asia</p>
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
                                 </div>
-                            </div><!--//end #bulletin-main-->
 
-                            <div id="down-option">
-                                <div id="bulletin-annex">
-                                    <h4>Download：</h4>
-                                    <ul>
-                                        <li><a href="#" title="Agenda.pdf(open new window)" target="_blank">Agenda.pdf</a></li>
-                                    </ul>
-                                </div><!--//end #bulletin-annex-->
-                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="Back">⟸Back</a>
-                            </div><!--//end #down-option-->
-                        
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                                <div class="event-item">
+                                    <div class="event-info">
+                                        <p class="event-speak"><span>Speaker</span>Professor Benjamin Elman</p>
+                                        <h3><a href="article-events.html" title="Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties">Global Science, Textual Research and the History of Academic Thought in Ming and Qing Dynasties</a></h3>
+                                        <p class="event-time"><span>Time: </span>December 6 (Fri), 2020</p>
+                                        <p class="event-place"><span>Location: </span>B1 Auditorium, Museum of the Institute of History and Philology</p>
+                                    </div>
+                                    <div class="event-option">
+                                        <a class="mybtn" href="article-events.html" title="More Info">More Info</a>
+                                        <a class="mybtn" href="registration.html" title="Sign Up">Sign Up</a>
+                                    </div>
+                                </div>
+
+                            </div><!--//end #bulletin-list-->
+
+                            <div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">On page</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                    / 10, Total of 100 records
+                                </div>
+                                
+                                <!---css增加'disabled'表示該按鈕無效，通常在第一頁及最後一頁使用-->
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="First Page">First Page</a>
+                                    <a href="#" class="mybtn disabled" title="Previous">Previous</a>
+                                </div>
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="Next">Next</a>
+                                    <a href="#"  class="mybtn" title="Last Page">Last Page</a>
+                                </div>
+                            </div><!--//end #page-control-->
+
                         </section>
                     </div><!--//end #page-main-->
 

@@ -863,7 +863,8 @@ summary.nowin{
     font-size: 2.5rem;
     letter-spacing: 2px;    
     color: #581a23}
-#bulletin-toolbar{
+#bulletin-toolbar,
+#bulletin-toolbar2{
     display: flex;
     justify-content: space-between;
     vertical-align: text-top;
@@ -871,7 +872,11 @@ summary.nowin{
     border-bottom: 1px solid #e1e1e1;
     width: 100%;
     margin-top: 30px;
-    padding: 15px 0}
+    padding: 15px 0
+}
+#bulletin-toolbar2{
+    margin-bottom: 30px;
+}
 
 .event-item,
 .news-item{
@@ -949,13 +954,17 @@ summary.nowin{
 .news-info h3 a,
 .positions-item h3 a,
 #bulletin-title h3,
-#bulletin-title2 h3{
+#bulletin-title2 h3,
+.event-title{
     font-family: "Noto Serif TC";
     font-weight: 700;
     line-height: 3.3rem;
     font-size: 2.2rem;
     text-decoration: none;
     color: #b94545}
+.event-title{
+    margin-bottom: 20px;
+}
 .event-info h3:hover,
 .news-info h3 a:hover,
 .positions-item h3 a:hover{
@@ -1255,13 +1264,21 @@ summary.nowin{
     font-weight: bold}
 
 #box-people a.mybtn,
-#box-people a.mybtn:visited{
+#box-people a.mybtn:visited,
+#bulletin-pagelink a.mybtn,
+#bulletin-pagelink a.mybtn:visited{
     color: #4d4d4d;
     text-decoration: none;
     margin-right: 8px}
+#bulletin-pagelink a.mybtn{
+    padding: 5px 8px;
+}
 #box-people a.mybtn:hover,
 #box-people a.now-select,
-#box-people a.now-select:visited{
+#box-people a.now-select:visited,
+#bulletin-pagelink a.mybtn:hover,
+#bulletin-pagelink a.now-select,
+#bulletin-pagelink a.now-select:visited{
     background: #615252;
     color: #fff;
     text-decoration: none;
