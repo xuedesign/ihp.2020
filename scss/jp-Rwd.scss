@@ -392,6 +392,25 @@ header,
     display: none}
 #bulletin-form .mylabel{
     width: 22%}
+.item-past{
+    display:block;
+    margin-bottom: 30px;
+}
+.year-past,
+.info-past{ width:100%}
+.year-past{
+    text-align:left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #D9D9D9;}
+.year-past span{ display:inline}
+.info-past{
+    padding-left: 10px;
+    border-left: none;
+}
+.speaker-past summary{
+    border-bottom: none;
+}
 }
 
 /*
@@ -637,9 +656,13 @@ header,
 #bulletin-form .finput{
     width: 95%}
 #bulletin-article .regdone{
-    width: 80%}           
+    width: 80%}
+.speaker-past summary span{
+    display:block;
+    line-height: 2.3rem;
+    }
 }
-    
+
 /*
 =====================================
 手機(5"以上大螢幕) for-phone-only

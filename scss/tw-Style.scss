@@ -289,7 +289,7 @@ nav{
     left: 15%}
 .info-bottom-right{
     bottom: 10%;
-    right: 15%}                 
+    right: 15%}
 
 /*＝＝＝ 版權列 ＝＝＝*/
 #box-copyright{
@@ -914,7 +914,14 @@ summary.nowin{
     font-family: "Noto Serif TC";
     font-weight: 600;
     letter-spacing: 0;
-}    
+}
+.past-speak{
+    display: inline-block;
+    font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+    margin-bottom: 8px
+}
 .news-type,
 .news-time{
     display: inline}
@@ -1088,17 +1095,20 @@ summary.nowin{
     padding: 5px 0 5px 30px;}
 #bulletin-text a,
 #bulletin-annex a,
-#bulletin-article a{
+#bulletin-article a,
+.speaker-past li a{
     color: #b94545;
     text-decoration: none}
 #bulletin-text a:hover,
 #bulletin-annex a:hover,
-#bulletin-article a:hover{
+#bulletin-article a:hover,
+.speaker-past li a:hover{
     color: #941E2D;
     text-decoration: underline}
 #bulletin-text a:visited,
 #bulletin-annex a:visited,
-#bulletin-article a:visited{
+#bulletin-article a:visited,
+.speaker-past li a:visited{
     color: #a7a6a6;
     text-decoration: none}
 
@@ -1189,6 +1199,71 @@ summary.nowin{
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 20px;
+}
+
+/*2022-10-23 新增傅斯年講座列表*/
+.item-past{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.year-past{
+    display:block;
+    width: 15%;
+    text-align:center
+}
+.year-past h4{
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 2.3rem;
+    padding-top: 5px;
+}
+.year-past span{
+    display:block;
+    font-size: 1.8rem;
+}
+.info-past{
+    display:block;
+    width: 84%;
+    padding-left: 30px;
+    border-left: 4px solid #D9D9D9;
+}
+.speaker-past{
+    display: block;
+    margin-bottom: 20px;
+}
+.speaker-past summary{
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 10px;
+}
+.speaker-past summary span{
+    font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left: 8px;
+}
+.speaker-past h5{
+    display: block;
+    width: 95%;
+    margin: 20px auto 0 auto;
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:#B31111;
+}
+.speaker-past ul{
+    display: block;
+    width: 95%;
+    margin: 0 auto 20px auto;
+}
+.speaker-past li{
+    padding: 10px 0;
+    border-bottom: 1px dotted #B8B8B8;
 }
 
 /*
@@ -2396,7 +2471,7 @@ table.bt.bt--no-header tbody td::before {
 .journal-article span{
     font-weight: bold}
 
-/*側邊折疊選單*/    
+/*側邊折疊選單*/
 #tree-list,
 #tree-list-02{
     display: block;
@@ -2839,9 +2914,9 @@ input.checkme:checked~div.showme{
     color: #3e3e3e;
     padding-bottom: 5px}
 .ev-speaker span,
-.event-speak span{
+.event-speak span,
+.past-speak span{
     display: inline-block;
-    background: #B21111;
     font-size:1.45rem;
     line-height: 2.4rem;
     letter-spacing: 1px;
@@ -2849,6 +2924,13 @@ input.checkme:checked~div.showme{
     border-radius: 5px;
     padding: 0 8px;
     margin: 10px 10px 0 0;
+}
+.ev-speaker span,
+.event-speak span{
+    background: #B21111;
+}
+.past-speak span{
+    background: #4B4B5E;
 }
 
 /*首頁最新消息*/
