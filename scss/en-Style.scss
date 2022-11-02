@@ -606,7 +606,8 @@ summary.nowin{
 #page-title{ 
     display: flex;
     justify-content: space-between}    
-#page-title h3{
+#page-title h3,
+#event-new h3{
     width: 49%;
     padding-left: 20px;
     text-indent: -20px;
@@ -617,7 +618,8 @@ summary.nowin{
     line-height: 3.5rem;
     letter-spacing: 0;
     color: #A51C30}
-#page-title h3::before{
+#page-title h3::before,
+#event-new h3::before{
     content:url(../images/dot-ttitle.svg);
     vertical-align: middle;
     margin-right: 10px}
@@ -2919,10 +2921,10 @@ input.checkme:checked~div.showme{
     height: auto}
 .ev-title{
     display:-webkit-box;
-    height: 70px;
+    /* height: 70px; */
     margin: 0 auto 10px auto;
     padding: 5px;
-    overflow:hidden;
+    /* overflow:hidden; */
     /* font-family: "Lora"; */
     font-family: "Merriweather", 'Times New Roman', Times, serif;
     font-weight: 300;
@@ -3427,4 +3429,26 @@ input.checkme:checked~div.showme{
     .ev-info::before{display: none;}
     .abgne-carousel .frame {
         height: 600px}
+}
+
+/*2022/11新增 近期學術活動*/
+#event-new{
+    clear: both;
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+}
+#event-new-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    width: 100%;
+    padding: 20px 0;
+    /* border:1px solid #111 */
+}
+#event-new-list li{
+    display: block;
+    width: 260px;
+    margin: 0 35px 30px;
+    /* border:1px solid #111 */
 }

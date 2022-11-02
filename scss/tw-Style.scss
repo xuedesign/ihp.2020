@@ -594,7 +594,8 @@ summary.nowin{
 #page-title{ 
     display: flex;
     justify-content: space-between}    
-#page-title h3{
+#page-title h3,
+#event-new h3{
     font-family: "Noto Serif TC";
 	font-weight: 700;
     font-size: 2.7rem;
@@ -603,7 +604,8 @@ summary.nowin{
     color: #A51C30;
     padding-left: 16px;
     text-indent: -16px;}
-#page-title h3::before{
+#page-title h3::before,
+#event-new h3::before{
     content:url(../images/dot-ttitle.svg);
     vertical-align: middle;
     margin-right: 10px}
@@ -2838,11 +2840,11 @@ input.checkme:checked~div.showme{
     height: auto}
 .ev-title{
     display:-webkit-box;
-    font-weight: bold;
-    height: 70px;
+    /* font-weight: bold; */
+    /* height: 70px; */
     margin: 0 auto 10px auto;
     padding: 5px;
-    overflow:hidden;
+    /* overflow:hidden; */
     font-family: "Noto Serif TC";
     font-weight: 600;
     font-size: 1.9rem;
@@ -3286,4 +3288,26 @@ input.checkme:checked~div.showme{
     .ev-info::before{display: none;}
     .abgne-carousel .frame {
         height: 600px}
+}
+
+/*2022/11新增 近期學術活動*/
+#event-new{
+    clear: both;
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+}
+#event-new-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    width: 100%;
+    padding: 20px 0;
+    /* border:1px solid #111 */
+}
+#event-new-list li{
+    display: block;
+    width: 260px;
+    margin: 0 35px 30px;
+    /* border:1px solid #111 */
 }

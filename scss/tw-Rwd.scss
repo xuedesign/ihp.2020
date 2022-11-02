@@ -83,6 +83,10 @@
     width: 18%}      
 }
 
+@media (max-width:1400px) {
+    #event-new-list li{ margin: 0 25px 30px}
+}
+
 @media (max-width:1300px) {
 .book-thumbnail li{
     margin: 0 6px 30px}
@@ -90,7 +94,8 @@
     height: 240px}
 #bulletin-option{
     width: 42%}
-}    
+    #event-new-list li{ margin: 0 15px 30px}
+}
 
 /*
 =====================================
@@ -376,6 +381,7 @@ header,
 .speaker-past summary{
     border-bottom: none;
 }
+#event-new-list li{ margin: 0 35px 30px}
 }
 
 /*
@@ -464,12 +470,17 @@ header,
     height: 600px;
     margin: 0 0 15px 0;
     padding: 15px;}
-.ev-thumb{
+.ev-thumb,
+#event-new-list .ev-thumb{
     display: block;
     width: 100%;
-    height: 460px;
     overflow: hidden;
     margin-bottom: 15px;}
+.ev-thumb{
+    height: 460px}
+#event-new-list .ev-thumb{
+    height: 390px
+}
 .btn_reg a{
     bottom: 120px;
     right: 0}
@@ -616,11 +627,13 @@ header,
     margin: 0 0 30px 0;
     padding: 15px;}
 .ev-thumb{
-    display: block;
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-    margin-bottom: 15px;}
+    height: 350px}
+#event-new-list .ev-thumb{
+    height: 390px
+}
+#event-new-list li{
+    margin: 0 auto 30px auto
+}
 .btn_reg a{
     bottom: 120px;
     right: 0}
