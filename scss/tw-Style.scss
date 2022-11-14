@@ -1080,7 +1080,7 @@ summary.nowin{
     margin-left: 40px}
 
 #bulletin-annex{
-    margin-bottom: 30px}
+    padding-bottom: 30px}
 #bulletin-article ul,
 #bulletin-article ol{
     margin: 0 0 0 25px}
@@ -1129,11 +1129,12 @@ summary.nowin{
     content:'';
     clear:both}
 .btn-bulletin-back{
-    height: 40px}
+    height: 40px;
+}
 
 .published-time{
     display:block;
-    width: 100%;
+    /* width: 100%; */
     text-align: right;
     font-size:1.5rem; 
     padding-bottom: 10px}    
@@ -1149,15 +1150,22 @@ summary.nowin{
     display: block;
     width: 100%;
     border-top: 1px solid #727272;
-    padding-top: 30px}
+    padding: 15px 0}
 #down-option::after{
     content: '';
     clear: both;}
 #down-option > #bulletin-annex{
-    width: 80%;
-    float: left}
+    width: 65%;
+    float: left;
+    /* padding-bottom: 30px; */
+}
 #down-option> a.btn-bulletin-back{
     float: right}
+#down-back a.btn-bulletin-back{
+    float: right;
+    height: 40px;
+    padding: 10px;
+}
 
 #bulletin-form{
     display: block;
@@ -3295,7 +3303,7 @@ input.checkme:checked~div.showme{
     clear: both;
     display: block;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 0;
 }
 #event-new-list{
     display:flex;
