@@ -1077,7 +1077,7 @@ summary.nowin{
     margin-left: 40px}
 
 #bulletin-annex{
-    padding-bottom: 30px}
+    padding-bottom: 0}
 #bulletin-article ul,
 #bulletin-article ol{
     margin: 0 0 0 25px}
@@ -1128,12 +1128,17 @@ summary.nowin{
 .btn-bulletin-back{
     height: 40px}
 
-.published-time{
+.published-time,
+.published-time2{
     display:block;
     /* width: 100%; */
     text-align: right;
     font-size:1.5rem; 
-    padding-bottom: 10px} 
+    padding-bottom: 10px
+}
+.published-time2{
+    width: 34%;
+}
 
 /*#down-option{
     display: flex;
@@ -1146,14 +1151,29 @@ summary.nowin{
     display: block;
     width: 100%;
     border-top: 1px solid #727272;
-    padding: 15px 0}
-#down-option::after{
+    padding: 15px 0
+}
+#down-option2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 1px solid #727272;
+    padding: 15px 0 5px
+}
+#down-option::after,
+#down-back::after,
+#down-option2::after{
     content: '';
     clear: both;}
 #down-option > #bulletin-annex{
     width: 65%;
     float: left;
     /* padding-bottom: 30px; */
+}
+#down-option2 > #bulletin-annex{
+    width: 65%;
 }
 #down-option> a.btn-bulletin-back{
     float: right}
@@ -3302,10 +3322,9 @@ input.checkme:checked~div.showme{
 
 /*2022/11新增 近期學術活動*/
 #event-new{
-    clear: both;
     display: block;
     width: 100%;
-    padding-top: 0;
+    padding-top: 35px;
 }
 #event-new-list{
     display:flex;
