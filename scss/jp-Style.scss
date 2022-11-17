@@ -2850,6 +2850,23 @@ input.checkme:checked~div.showme{
     height: 600px;
     margin-right: 0;
     padding: 15px;}
+#event-new .abgne-carousel .frame{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 890px;	/* (li 的寬度 + li 的邊框寬度 * 2 ) * 一次要顯示的數量 + li 的右邊界 * (一次要顯示的數量 - 1) */
+    height: 630px;
+    margin:0 auto 30px auto;
+}
+#event-new .abgne-carousel li{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 630px;
+    margin: 0;
+    padding: 15px
+}
+
 .ev-thumb{
     display: block;
     width: 260px;
@@ -3323,8 +3340,9 @@ input.checkme:checked~div.showme{
 /*2022/11新增 近期學術活動*/
 #event-new{
     display: block;
-    width: 100%;
+    width: 95%;
     padding-top: 35px;
+    margin: 0 auto;
 }
 #event-new-list{
     display:flex;

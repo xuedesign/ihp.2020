@@ -87,7 +87,7 @@
 }
 
 @media (max-width:1400px) {
-    #event-new-list li{ margin: 0 25px 30px}
+/* #event-new-list li{ margin: 0 25px 30px} */
 }
 
 @media (max-width:1300px) {
@@ -95,7 +95,11 @@
     margin: 0 6px 30px}
 .book-thumbnail span{
     height: 240px}
-#event-new-list li{ margin: 0 15px 30px}
+/* #event-new-list li{ margin: 0 15px 30px} */
+#event-new{
+    width: 100%;
+    margin: 0;
+}
 }    
 
 /*
@@ -414,6 +418,25 @@ header,
 .speaker-past summary{
     border-bottom: none;
 }
+#event-new .abgne-carousel .btn .prev,
+#event-new .abgne-carousel .btn .next{
+    display: none}
+#event-new .abgne-carousel .frame {
+    width: 100%;
+    height: auto}
+#event-new .abgne-carousel ul {
+    position: static;
+    width: 100%}
+#event-new .abgne-carousel li{
+    display: inline-block;
+    position: relative;
+    float: none;
+    width: 49%;
+    height: 600px;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    vertical-align:top
+}
 }
 
 /*
@@ -488,25 +511,28 @@ header,
 .abgne-carousel ul {
     position: static;
     width: 100%}
-.abgne-carousel li{
+.abgne-carousel li,
+#event-new .abgne-carousel li{
     display: inline-block;
     position: relative;
     float: none;
     width: 49%;
-    height: 600px;
+    height: 690px;
     margin: 0 0 15px 0;
-    padding: 15px;}
-.ev-thumb,
-#event-new-list .ev-thumb{
+    padding: 15px;
+    vertical-align:top
+}
+.ev-thumb
+/* #event-new-list .ev-thumb */{
     display: block;
     width: 100%;
     overflow: hidden;
     margin-bottom: 15px;}
 .ev-thumb{
     height: 460px}
-#event-new-list .ev-thumb{
+/* #event-new-list .ev-thumb{
     height: 390px
-}
+} */
 .btn_reg a{
     bottom: 120px;
     right: 0}
@@ -539,7 +565,7 @@ header,
     margin-bottom: 15px}
 #book-info .taglist a{
     margin-bottom: 15px}
-#event-new-list li{ margin: 0 35px 30px}
+/* #event-new-list li{ margin: 0 35px 30px} */
 }
 
 
@@ -633,22 +659,23 @@ header,
 #book-info .info-value{
     width: 100%;
     text-align: left;} 
-.abgne-carousel li{
+.abgne-carousel li,
+#event-new .abgne-carousel li{
     display: inline-block;
     position: relative;
     float: none;
     width: 49%;
-    height: 500px;
+    height: 580px;
     margin: 0 0 30px 0;
     padding: 15px;}
 .ev-thumb{
     height: 350px}
-#event-new-list .ev-thumb{
+/* #event-new-list .ev-thumb{
     height: 390px
 }
 #event-new-list li{
     margin: 0 auto 30px auto
-}
+} */
 .btn_reg a{
     bottom: 120px;
     right: 0}
@@ -861,7 +888,8 @@ header,
     width: 80%}
 .search-and-item .myinput{
     margin: 8px 5px 10px 0}
-.abgne-carousel li{
+.abgne-carousel li,
+#event-new .abgne-carousel li{
     display: block;
     position: relative;
     float: none;
@@ -994,11 +1022,16 @@ header,
 
 }
 
+@media(max-width:400px){
+.ev-thumb{ height: 400px}
+}
+
 @media(max-width:321px){
 #gallery-view li{
     width: 270px;
     height: 270px}
-.abgne-carousel li{
+.abgne-carousel li,
+#event-new .abgne-carousel li{
     height: 550px}
 .ev-thumb{
     height: 350px}
