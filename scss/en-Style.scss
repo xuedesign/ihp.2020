@@ -1162,7 +1162,6 @@ summary.nowin{
 .published-time,
 .published-time2{
     display:block;
-    /* width: 100%; */
     text-align: right;
     font-size:1.5rem; 
     padding-bottom: 10px
@@ -1188,7 +1187,7 @@ summary.nowin{
     display: flex;
     flex-wrap: wrap;
     align-items:flex-end;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     border-bottom: 1px solid #727272;
     padding: 15px 0 5px
