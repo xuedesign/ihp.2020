@@ -1143,8 +1143,10 @@ summary.nowin{
     text-decoration: none}
     
 /*2022-09-08 新增*/
-#bulletin-article table td{
+#bulletin-article table{
     width: 100%;
+}
+#bulletin-article table td{
     padding: 5px;
     border: 1px solid #737373;
 }
