@@ -615,12 +615,32 @@ summary.nowin{
     padding: 0 8px;
     vertical-align: sub}
 .pot-fb,
-.pot-twitter{
+.pot-twitter,
+.pot-line{
     display: inline-block;
-    vertical-align: middle;
-    width: 25px;
-    height: auto;
-    margin: 0 3px}
+    vertical-align: top;
+    margin: 0 3px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;}
+.pot-fb{
+    width: 26px;
+    height: 26px;
+    background: url(../images/pot-facebook.svg);
+    background-size: contain;
+}
+.pot-twitter{
+    width: 26px;
+    height: 26px;
+    background: url(../images/pot-twitter.svg);
+    background-size: contain;
+}
+.pot-line{
+    width: 26px;
+    height: 26px;
+    background: url(../images/pot-line.svg);
+    background-size: contain;
+}
 #icon-font::before{
     content:url(../images/pot-textsize.svg);
     vertical-align: middle;
