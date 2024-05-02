@@ -1076,7 +1076,9 @@ summary.nowin{
 .poster-right{
     flex-direction: row-reverse}
 #bulletin-article{
-    width: 100%}
+    width: 100%;
+    word-break: break-all;
+}
 #bulletin-article p{
     padding: 8px 0}
 #bulletin-article img{

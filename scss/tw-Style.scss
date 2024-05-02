@@ -1077,11 +1077,16 @@ summary.nowin{
     justify-content: flex-start;
     padding-bottom: 30px}
 .poster-left{
-    flex-direction: row}
+    flex-direction: row; /* 子元素會水平排列 */
+}
 .poster-right{
-    flex-direction: row-reverse}
+    flex-direction: row-reverse; /* 子元素會從右至左排列 */
+}
 #bulletin-article{
-    width: 100%}
+    /* width:100% */
+    width: 100%;
+    word-break: break-all;
+}
 #bulletin-article p{
     padding: 8px 0}
 #bulletin-article img{
@@ -1091,7 +1096,9 @@ summary.nowin{
     margin: 20px}
 
 #bulletin-poster{
-    width: 50%}
+    width: 50%;
+    /* max-width: 318px; */
+}
 #bulletin-poster img{
     display: block;
     width: 100%;
