@@ -1019,7 +1019,18 @@ header,
 #bulletin-form .sublabel{
     width:90%;
 }
-
+.book-catalog-option{
+    padding: 20px 0;
+}
+.book-catalog-option span{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.catalog-pdf{
+    margin: 0;
+    padding-top: 16px;
+}
 }
 
 @media(max-width:400px){

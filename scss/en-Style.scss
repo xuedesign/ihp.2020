@@ -2518,8 +2518,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 8px 0;
     margin-bottom: 10px;
     border-bottom: 1px dashed #e1e1e1}
-.book-catalog-main li{
-    display: block}
+.book-catalog-main li,
 .book-catalog-main-02 li{
     display: block}
 .catalog-article{
@@ -2527,7 +2526,7 @@ table.bt.bt--no-header tbody td::before {
     font-weight: 400;
     line-height: 2.6rem;
     padding-right: 20px;}
-.catalog-article a::after,
+/* .catalog-article a::after, */
 .catlog-blank::after{
     display: inline-block;
     content: url(../images/pot-external.svg);
@@ -2560,6 +2559,36 @@ table.bt.bt--no-header tbody td::before {
     vertical-align: text-top;
     opacity: .6;
     margin: 0 8px 0 0}
+
+/*2024-05 新增文章引用功能*/
+.book-catalog-option{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+}
+.catalog-pdf{
+    display: inline-block;
+    margin: 0 16px;
+}
+.catalog-pdf a.mybtn{
+    padding: 4px 8px;
+    letter-spacing: 0;
+}
+.catalog-pdf a.mybtn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.catalog-pdf::before{
+    display: inline-block;
+    content: url(../images/pot-pdf-brown.svg);
+    width: 22px;
+    height: 22px;
+    vertical-align: text-top;
+    margin: 3px 8px 0 0 
+}
+
+
+
 .journal-title{
     display: flex;
     justify-content: space-between;

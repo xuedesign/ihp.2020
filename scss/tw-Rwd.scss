@@ -285,22 +285,22 @@ header,
     width: 14%}
 .catlog-date{
     width: 14%}
-.book-catalog-main li{
-    display: block}
+/* .book-catalog-main li{
+    display: block} */
 .catalog-article{
     width: 100%;
     padding: 0 0 15px 0}
 .catalog-auther{
     width: 100%;
     text-align: left}
-.catalog-auther::before{
+/* .catalog-auther::before{
     display: inline-block;
     content: url(../images/pot-profile.svg);
     width: 22px;
     height: 22px;
     vertical-align: text-top;
     opacity: .6;
-    margin: 1px 8px 0 0}
+    margin: 1px 8px 0 0} */
 #page-title{ display: block}
 #toolbar{
     display: block; 
@@ -987,9 +987,21 @@ header,
     display:block;
     padding-left: 0
 }
-.event-speak{ 
+.event-speak{
     display: block;
-    margin: 0 0 15px 0;}
+    margin: 0 0 15px 0;
+}
+.book-catalog-option{
+    padding: 0 0 16px 0;
+}
+.book-catalog-option span{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.catalog-pdf{
+    margin: 0;
+}
 }
 
 @media(max-width:400px){
