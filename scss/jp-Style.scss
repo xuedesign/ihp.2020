@@ -2288,7 +2288,8 @@ table.bt.bt--no-header tbody td::before {
     margin: -1px 5px 0 0}
 
 /*著書內容頁*/ 
-#book-summary{
+#book-summary,
+#bulletin-summary{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -2306,7 +2307,14 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 65%;
     text-align: left}
-#book-info h4{
+#book-info-summary,
+#bulletin-info-summary{
+    display: block;
+    width: 100%;
+    text-align: left
+}
+#book-info h4,
+#bulletin-info-summary h4{
     font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 2.3rem;
@@ -2314,24 +2322,49 @@ table.bt.bt--no-header tbody td::before {
     color:#A51C30;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #e1e1e1;}
-#book-info ul{
+    border-bottom: 1px solid #e1e1e1;
+}
+#bulletin-info-summary h4 span{
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    color:#333333;
+    padding-top: 16px;
+}
+#book-info ul,
+#bulletin-info-summary ul{
     padding-bottom: 20px}
-#book-info li{
+#book-info li,
+#bulletin-info-summary li{
     display: flex;
     padding-bottom: 10px;}
-#book-info .info-name{
+#book-info .info-name,
+#bulletin-info-summary .info-name{
     display: block;
-    width: 18%;
     font-weight: bold;
-    text-align: right;
     margin-right: 15px;
     color: #5c1621;
-/*border: 1px solid;*/}
+/*border: 1px solid;*/
+}
+#book-info .info-name{
+    width: 18%;
+    text-align: right;
+}
+#bulletin-info-summary .info-name{
+    width: 12%;
+    text-align: left;
+}
 #book-info .info-value{
     display: block;
-    width: 75%;}
-#book-info p{
+    width: 75%;
+}
+#bulletin-info-summary .info-value{
+    display: block;
+    width: 86%;
+}
+#book-info p,
+#bulletin-info-summary p{
     line-height: 2.8rem;
     text-align: justify}
 
@@ -2398,7 +2431,10 @@ table.bt.bt--no-header tbody td::before {
     padding: 3px;
     margin-right: 8px}
 
-#book-catalog{ margin-bottom: 20px;}
+#book-catalog,
+.bulletin-catalog{
+    margin-bottom: 20px;
+}
 #book-catalog-title{
     display: flex;
     justify-content: space-between;
@@ -2407,20 +2443,35 @@ table.bt.bt--no-header tbody td::before {
     margin-bottom: 15px;
     border-bottom: 1px solid #e1e1e1}
 #book-catalog h3,
-#book-brief h3{
+#book-brief h3,
+.bulletin-catalog h3{
     font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 2.3rem;
     line-height: 3.3rem;
-    color:#A51C30}    
+    color:#A51C30
+}
+.bulletin-catalog h3{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1
+}
 #book-catalog h3::before,
-#book-brief h3::before{
+#book-brief h3::before,
+.bulletin-catalog h3::before{
     display: inline-block;
     content: url(../images/pot-book.svg);
     width: 19px;
     height: 19px;
     vertical-align: sub;
     margin-right: 10px}
+.bulletin-catalog p{
+    display: block;
+    width: 96%;
+    margin: 16px auto 0 auto;
+    font-size: 1.8rem;
+    line-height: 3.8rem;
+}
 #book-catalog h4,
 .tabs-content h4{
     display: inline-block;
@@ -2487,25 +2538,47 @@ table.bt.bt--no-header tbody td::before {
     width: 100%;
     padding: 20px 0;
 }
+.catalog-quote-red,
+.catalog-pdf-red{
+    display: inline-block;
+    margin:16px 16px 0 0;
+}
+.catalog-quote-red{
+    margin-right: 32px;
+}
 .catalog-pdf{
     display: inline-block;
     margin: 0 16px;
 }
-.catalog-pdf a.mybtn{
+.catalog-pdf a.mybtn,
+.catalog-pdf-red a.mybtn,
+.catalog-quote-red a.mybtn{
     padding: 4px 8px;
     letter-spacing: 0;
 }
-.catalog-pdf a.mybtn:hover{
+.catalog-pdf a.mybtn:hover,
+.catalog-pdf-red a.mybtn:hover,
+.catalog-quote-red a.mybtn:hover{
     color: #fff;
     text-decoration: none;
 }
-.catalog-pdf::before{
+.catalog-pdf::before,
+.catalog-pdf-red::before,
+.catalog-quote-red::before{
     display: inline-block;
-    content: url(../images/pot-pdf-brown.svg);
     width: 22px;
     height: 22px;
     vertical-align: text-top;
     margin: 3px 8px 0 0 
+}
+.catalog-pdf::before{
+    content: url(../images/pot-pdf-brown.svg);
+}
+.catalog-pdf-red::before{
+    content: url(../images/pot-pdf-red.svg);
+}
+.catalog-quote-red::before{
+    content: url(../images/pot-quote-red.svg);
 }
 
 

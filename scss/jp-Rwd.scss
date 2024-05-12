@@ -440,6 +440,9 @@ header,
     padding: 15px;
     vertical-align:top
 }
+#bulletin-info-summary .info-name{
+    width: 16%;
+}
 }
 
 /*
@@ -712,6 +715,9 @@ header,
 .speaker-past summary span{
     display:block;
     line-height: 2.3rem;
+    }
+#bulletin-info-summary .info-name{
+    width: 30%;
     }
 }
 
