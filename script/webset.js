@@ -23,7 +23,7 @@ loadjs('https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', function() {
         draggable: 'true',
         wrapAround: 'true',
         imagesLoaded: 'true',
-        });  
+        });
 });
 
 //abgne-carousel
@@ -48,7 +48,7 @@ loadjs('https://cdnjs.cloudflare.com/ajax/libs/PrintArea/2.4.1/jquery.PrintArea.
       });
 });
 
-//Font+ 
+//Font+
 loadjs(['https://xuedesign.github.io/ihp.2020/script/lib/jquery.cookie.js', 'https://xuedesign.github.io/ihp.2020/script/lib/jquery.textresizer.js'], function() {
     jQuery(document).ready( function() {
         jQuery( "#box-fontsize a" ).textresizer({
@@ -81,8 +81,12 @@ loadjs('https://xuedesign.github.io/ihp.2020/script/lib/jquery.tabslet.min.js', 
 });
 
 //lightbox
-loadjs(['https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js'], function() {
+//https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css
+loadjs(['https://ihp.pages.dev/css/jquery.fancybox.min.css', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js'], function() {
 });
 
 //allcheck
 loadjs("https://xuedesign.github.io/ihp.2020/script/lib/checkall.js");
+
+//網頁icon fontawesome v6.5.1
+loadjs('https://kit.fontawesome.com/c66b525810.js');

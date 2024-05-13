@@ -80,7 +80,8 @@ loadjs('https://xuedesign.github.io/ihp.2020/script/lib/jquery.tabslet.min.js', 
 });
 
 //lightbox
-loadjs(['https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js'], function() {
+//https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css
+loadjs(['https://ihp.pages.dev/css/jquery.fancybox.min.css', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js'], function() {
     
 });
 
