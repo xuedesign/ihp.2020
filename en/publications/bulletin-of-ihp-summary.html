@@ -487,8 +487,8 @@
                                                 </p>
                                             </li>
                                             <li>
-                                              <spana class="catalog-quote-red"><a class="
-                                                mybtn" href="#" title="Quote">Quote</a></spana></span>
+                                              <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="
+                                                mybtn" href="javascript:;" title="Cite">Cite</a></spana></span>
                                               <span class="catalog-pdf-red"><a class="
                                                 mybtn" href="https://www2.ihp.sinica.edu.tw/file/4531sjHrsRJ.pdf" title="Download" target="_blank">Download</a></span>
                                           </li>
@@ -506,7 +506,53 @@
                                   <p>Zhi Ba (bestowing the title of "Ba");King and Son of Heaven;commanderies and counties / lords;dividing world;Huang Di (emperor)</p>
                                 </div><!--//end .bulletin-catalog-->
 
-                                
+                                <div id="box_quote">
+                                    <h3>Cite</h3>
+                                    <div class="box_quote-item">
+                                        <h4>Citation Text</h4>
+                                        <form action="#" method="post">
+                                            <div id="quote-info">
+                                                孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                            </div>
+                                            <div class="quote-option">
+                                                <label class="hidden" for="quote-type">Type</label>
+                                                <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                    <option value="APA">APA</option>
+                                                    <option value="MLA">MLA</option>
+                                                    <option value="CHICAGO">CHICAGO</option>
+                                                </select>
+                                                <a id="btn-copy" class="mybtn btnInQuote"><i class="fa-regular fa-copy"></i>Copy</a>
+                                            </div>
+                                        </form>
+                                            <script>
+                                                const textElement = document.getElementById('quote-info');
+                                                const btnElement = document.getElementById('btn-copy');
+                                                btnElement.addEventListener('click', () => {
+                                                  const text = textElement.textContent.trim();
+                                                    navigator.clipboard.writeText(text).then(() => {
+                                                    alert('Copy Success');
+                                                  }, () => {
+                                                    alert('Copy Failure');
+                                                  });
+                                                });
+                                            </script>
+                                    </div>
+                                    <div class="box_quote-item">
+                                        <h4>Export</h4>
+                                        <div class="quote-option">
+                                            <form action="#" method="post">
+                                                <label class="hidden" for="download-type">File Type</label>
+                                                <select id="download-type" name="download-type" class="myselect quote-value">
+                                                    <option value="ris">.ris (Mendeley, Papers, Zotero)</option>
+                                                    <option value="enw">.enw (EndNote)</option>
+                                                    <option value="bib">.bib (BibTex)</option>
+                                                    <option value="txt">.txt (Medlars, RefWorks)</option>
+                                                </select>
+                                                <a class="mybtn btnInQuote" href="#" download="file-download-test.ris" title="Download"><i class="fa-regular fa-floppy-disk"></i>Download</a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                                 
                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="Back">⟸Back</a>
                             </div><!--//end #publications-main-->

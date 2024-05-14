@@ -2479,6 +2479,7 @@ table.bt.bt--no-header tbody td::before {
     margin: 16px auto 0 auto;
     font-size: 1.8rem;
     line-height: 3.8rem;
+    text-align: justify;
 }
 #book-catalog h4,
 .tabs-content h4{
@@ -2591,7 +2592,7 @@ table.bt.bt--no-header tbody td::before {
 #box_quote{
     display: none;
     width: 600px;
-    height: 480px;
+    /* height: 480px; */
     background-color: #fff;
 }
 #box_quote h3::before{
@@ -2635,19 +2636,46 @@ table.bt.bt--no-header tbody td::before {
     font-size: 1.6rem;
     line-height: 26px;
     color: #7F7F7F;
+    word-break: break-all;
 }
 .quote-option{
-    display: flex;
+    display: block;
     width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    margin: 20px 0;
     padding: 0 12px;
 }
 .quote-value{
+    display: inline-block;
+    vertical-align: middle;
     width: 380px;
+    height: 48px;
     padding: 6px;
 }
-#quote-type:focus{outline:none}
+#quote-type:focus{
+    outline:none
+}
+.btnInQuote{
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    height: 48px;
+    margin: 0 0 0 20px;
+    padding: 14px 6px 0;
+    background-color: #F2F2F2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btnInQuote i{
+    width: 22px;
+    height: auto;
+    margin-right: 2px;
+    color: #A51C30;
+}
+
+.btnInQuote:hover i{
+    color: #fff;
+}
 
 .journal-title{
     display: flex;

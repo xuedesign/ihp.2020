@@ -717,8 +717,17 @@ header,
     line-height: 2.3rem;
     }
 #bulletin-info-summary .info-name{
-    width: 30%;
+    width: 40%;
     }
+.quote-value{
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.btnInQuote{
+    display: block;
+    margin: 0 auto;
+}
 }
 
 /*

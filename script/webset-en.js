@@ -87,3 +87,6 @@ loadjs(['https://ihp.pages.dev/css/jquery.fancybox.min.css', 'https://cdn.jsdeli
 
 //allcheck
 loadjs("https://xuedesign.github.io/ihp.2020/script/lib/checkall.js");
+
+//網頁icon fontawesome v6.5.1
+loadjs('https://kit.fontawesome.com/c66b525810.js');

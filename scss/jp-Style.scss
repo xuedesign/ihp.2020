@@ -2444,6 +2444,7 @@ table.bt.bt--no-header tbody td::before {
     border-bottom: 1px solid #e1e1e1}
 #book-catalog h3,
 #book-brief h3,
+#box_quote h3,
 .bulletin-catalog h3{
     font-family: "Noto Serif JP";
     font-weight: 600;
@@ -2471,6 +2472,7 @@ table.bt.bt--no-header tbody td::before {
     margin: 16px auto 0 auto;
     font-size: 1.8rem;
     line-height: 3.8rem;
+    text-align: justify;
 }
 #book-catalog h4,
 .tabs-content h4{
@@ -2580,7 +2582,93 @@ table.bt.bt--no-header tbody td::before {
 .catalog-quote-red::before{
     content: url(../images/pot-quote-red.svg);
 }
+#box_quote{
+    display: none;
+    width: 600px;
+    /* height: 480px; */
+    background-color: #fff;
+}
+#box_quote h3::before{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: text-top;
+    margin: 3px 8px 0 0;
+    content: url(../images/pot-quote-red.svg);
+}
+.box_quote-item{
+    display: block;
+    width: 100%;
+    margin: 16px auto 0 auto;
+}
+.box_quote-item h4{
+    display: inline-block;
+    font-family: "Noto sens TC";
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color:#333;
+    vertical-align: middle;
+}
+.box_quote-item h4::before{
+    display: inline-block;
+    width: 22px;
+    /* height: 18px; */
+    vertical-align: text-top;
+    margin: 0 4px 0 0;
+    content: url(../images/pot-obox.svg);
+    vertical-align: middle;
+}
+#quote-info{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    padding: 20px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: #7F7F7F;
+    word-break: break-all;
+}
+.quote-option{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 12px;
+}
+.quote-value{
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 48px;
+    padding: 6px;
+}
+#quote-type:focus{
+    outline:none
+}
+.btnInQuote{
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 48px;
+    margin: 0 0 0 20px;
+    padding: 14px 6px 0;
+    background-color: #F2F2F2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btnInQuote i{
+    width: 22px;
+    height: auto;
+    margin-right: 2px;
+    color: #A51C30;
+}
 
+.btnInQuote:hover i{
+    color: #fff;
+}
 
 
 .journal-title{
