@@ -362,7 +362,9 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>本書介紹</h3>
+                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                     </div>
+
                                     <article class="readme">
                                         <div id="readme-linear"></div>
                                         <p>本書輯錄傅斯年圖書館典藏中的傅斯年讀書眉批、題跋（西文書除外），主要以民國四十九年傅夫人俞大綵教授捐贈之先生藏書為收錄範圍。計收錄160部書，並傅先生用印、藏書章，又附書名索引。本書之刊印，其意義有四：傅先生逝世七十周年，傅先生藏書入藏傅圖一甲子、傅先生一百二十五歲冥誕，及傅斯年圖書館建館六十周年。</p>
@@ -371,7 +373,56 @@
                                         <p>本書輯錄傅斯年圖書館典藏中的傅斯年讀書眉批、題跋（西文書除外），主要以民國四十九年傅夫人俞大綵教授捐贈之先生藏書為收錄範圍。計收錄160部書，並傅先生用印、藏書章，又附書名索引。本書之刊印，其意義有四：傅先生逝世七十周年，傅先生藏書入藏傅圖一甲子、傅先生一百二十五歲冥誕，及傅斯年圖書館建館六十周年。</p>
                                         <p>本書輯錄傅斯年圖書館典藏中的傅斯年讀書眉批、題跋（西文書除外），主要以民國四十九年傅夫人俞大綵教授捐贈之先生藏書為收錄範圍。計收錄160部書，並傅先生用印、藏書章，又附書名索引。本書之刊印，其意義有四：傅先生逝世七十周年，傅先生藏書入藏傅圖一甲子、傅先生一百二十五歲冥誕，及傅斯年圖書館建館六十周年。</p>
                                         <div id="readme-down"></div>
-                                        </article>
+                                    </article>
+
+                                    <!--引用區塊-->
+                                    <div id="box_quote">
+                                        <h3>引用</h3>
+                                        <div class="box_quote-item">
+                                            <h4>引用書目</h4>
+                                            <form action="#" method="post">
+                                                <div id="quote-info">
+                                                    王汎森、邱仲麟（2020）。傅斯年眉批題跋輯錄，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                                </div>
+                                                <div class="quote-option">
+                                                    <label class="hidden" for="quote-type">類別</label>
+                                                    <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                        <option value="APA">APA</option>
+                                                        <option value="MLA">MLA</option>
+                                                        <option value="CHICAGO">CHICAGO</option>
+                                                    </select>
+                                                    <a id="btn-copy" class="mybtn btnInQuote"><i class="fa-regular fa-copy"></i>複製</a>
+                                                </div>
+                                            </form>
+                                                <script>
+                                                    const textElement = document.getElementById('quote-info');
+                                                    const btnElement = document.getElementById('btn-copy');
+                                                    btnElement.addEventListener('click', () => {
+                                                      const text = textElement.textContent.trim();
+                                                        navigator.clipboard.writeText(text).then(() => {
+                                                        alert('引用書目已複製');
+                                                      }, () => {
+                                                        alert('引用書目複製失敗');
+                                                      });
+                                                    });
+                                                </script>
+                                        </div>
+                                        <div class="box_quote-item">
+                                            <h4>匯出格式</h4>
+                                            <div class="quote-option">
+                                                <form action="#" method="post">
+                                                    <label class="hidden" for="download-type">檔案類別</label>
+                                                    <select id="download-type" name="download-type" class="myselect quote-value">
+                                                        <option value="ris">.ris (Mendeley, Papers, Zotero)</option>
+                                                        <option value="enw">.enw (EndNote)</option>
+                                                        <option value="bib">.bib (BibTex)</option>
+                                                        <option value="txt">.txt (Medlars, RefWorks)</option>
+                                                    </select>
+                                                    <a class="mybtn btnInQuote" href="#" download="file-download-test.ris" title="下載"><i class="fa-regular fa-floppy-disk"></i>下載</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="回上頁">⟸回上頁</a>

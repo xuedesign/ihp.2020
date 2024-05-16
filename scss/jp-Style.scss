@@ -1460,7 +1460,7 @@ summary.nowin{
     background-color:#e9e9e9}
 .two-axis td,
 .catlog-table td{
-    line-height: 2.4rem;
+    /* line-height: 2.4rem; */
     padding: 8px 8px;
     vertical-align: middle;
     border: 1px solid #fff/*#b8b8b8*/}
@@ -2402,11 +2402,17 @@ table.bt.bt--no-header tbody td::before {
 #book-brief p{
     margin-bottom: 15px}
 #book-brief-title{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #e1e1e1}
+#book-brief-title .catalog-quote-red{
+    margin-top: 0;
+}
+
 #book-info a{
     color: #b94545;
     text-decoration: none}
@@ -2508,12 +2514,17 @@ table.bt.bt--no-header tbody td::before {
     line-height: 2.4rem;
     padding-right: 20px;}
 /* .catalog-article a::after, */
-.catlog-blank::after{
+/* .catlog-blank::after{
     display: inline-block;
     content: url(../images/pot-external.svg);
     opacity: .7;
     margin-left: 8px;
-    vertical-align: text-top}
+    vertical-align: text-top} */
+.catlog-table a>i,
+.catlog-block a>i{
+    color: #836767;
+    margin-left: 8px;
+}
 /* .catalog-auther{
     width: 35%;
     text-align: right} */

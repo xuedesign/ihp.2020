@@ -354,6 +354,8 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>内容紹介</h3>
+                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="
+                                            mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                     </div>
                                     <article class="readme">
                                         <div id="readme-linear"></div>
@@ -363,7 +365,55 @@
                                         <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
                                         <p>史語所庋藏的內閣大庫檔案數量超過三十萬件，是極具價值的重要材料，被王國維譽為近代學術的四大發現之一。本書特別以清朝嘉禮中「大節」、「大燕」、「大婚」與「大比」四個主題，展示內閣大庫中相關的典藏精品，用饗同好。</p>
                                         <div id="readme-down"></div>
-                                        </article>
+                                    </article>
+
+                                    <div id="box_quote">
+                                        <h3>引用</h3>
+                                        <div class="box_quote-item">
+                                            <h4>引用テキスト</h4>
+                                            <form action="#" method="post">
+                                                <div id="quote-info">
+                                                    王汎森、邱仲麟（2020）。傅斯年眉批題跋輯錄，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                                </div>
+                                                <div class="quote-option">
+                                                    <label class="hidden" for="quote-type">タイプ</label>
+                                                    <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                        <option value="APA">APA</option>
+                                                        <option value="MLA">MLA</option>
+                                                        <option value="CHICAGO">CHICAGO</option>
+                                                    </select>
+                                                    <a id="btn-copy" class="mybtn btnInQuote"><i class="fa-regular fa-copy"></i>コピー</a>
+                                                </div>
+                                            </form>
+                                                <script>
+                                                    const textElement = document.getElementById('quote-info');
+                                                    const btnElement = document.getElementById('btn-copy');
+                                                    btnElement.addEventListener('click', () => {
+                                                      const text = textElement.textContent.trim();
+                                                        navigator.clipboard.writeText(text).then(() => {
+                                                        alert('コピーサクセス');
+                                                      }, () => {
+                                                        alert('コピー失敗');
+                                                      });
+                                                    });
+                                                </script>
+                                        </div>
+                                        <div class="box_quote-item">
+                                            <h4>輸出</h4>
+                                            <div class="quote-option">
+                                                <form action="#" method="post">
+                                                    <label class="hidden" for="download-type">タイプ</label>
+                                                    <select id="download-type" name="download-type" class="myselect quote-value">
+                                                        <option value="ris">.ris (Mendeley, Papers, Zotero)</option>
+                                                        <option value="enw">.enw (EndNote)</option>
+                                                        <option value="bib">.bib (BibTex)</option>
+                                                        <option value="txt">.txt (Medlars, RefWorks)</option>
+                                                    </select>
+                                                    <a class="mybtn btnInQuote" href="#" download="file-download-test.ris" title="ダウンロード"><i class="fa-regular fa-floppy-disk"></i>ダウンロード</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        </div>
                                 </div>
                                 
                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="回上ページ">⟸回上ページ</a>

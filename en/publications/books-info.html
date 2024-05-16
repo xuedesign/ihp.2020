@@ -353,13 +353,62 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>Introduction</h3>
+                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="mybtn" href="javascript:;" title="Cite">Cite</a></spana></span>
                                     </div>
                                     <article class="readme">
                                         <div id="readme-linear"></div>
                                         <p>The Grand Secretariat Archives currently housed at the IHP are over three hundred thousand volume of documents, which contain valuable source materials and had been praised by Wang Guowei as one of the four major academic discoveries in modern era. This catalogue showcases the finest of the fine in the Grand Secretariat Archives on four topics: “The Grand Festivals,” “The Grand Banquets,” “The Imperial Weddings,” and “The Imperial Examinations.” To those like-minded enthusiasts, we hope the collection will serve as a sumptuous feast.</p>
                                         <p>The Grand Secretariat Archives currently housed at the IHP are over three hundred thousand volume of documents, which contain valuable source materials and had been praised by Wang Guowei as one of the four major academic discoveries in modern era. This catalogue showcases the finest of the fine in the Grand Secretariat Archives on four topics: “The Grand Festivals,” “The Grand Banquets,” “The Imperial Weddings,” and “The Imperial Examinations.” To those like-minded enthusiasts, we hope the collection will serve as a sumptuous feast.</p>
                                         <div id="readme-down"></div>
-                                        </article>
+                                    </article>
+
+                                    <div id="box_quote">
+                                        <h3>Cite</h3>
+                                        <div class="box_quote-item">
+                                            <h4>Citation Text</h4>
+                                            <form action="#" method="post">
+                                                <div id="quote-info">
+                                                    王汎森、邱仲麟（2020）。傅斯年眉批題跋輯錄，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                                </div>
+                                                <div class="quote-option">
+                                                    <label class="hidden" for="quote-type">Type</label>
+                                                    <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                        <option value="APA">APA</option>
+                                                        <option value="MLA">MLA</option>
+                                                        <option value="CHICAGO">CHICAGO</option>
+                                                    </select>
+                                                    <a id="btn-copy" class="mybtn btnInQuote"><i class="fa-regular fa-copy"></i>Copy</a>
+                                                </div>
+                                            </form>
+                                                <script>
+                                                    const textElement = document.getElementById('quote-info');
+                                                    const btnElement = document.getElementById('btn-copy');
+                                                    btnElement.addEventListener('click', () => {
+                                                      const text = textElement.textContent.trim();
+                                                        navigator.clipboard.writeText(text).then(() => {
+                                                        alert('Copy Success');
+                                                      }, () => {
+                                                        alert('Copy Failure');
+                                                      });
+                                                    });
+                                                </script>
+                                        </div>
+                                        <div class="box_quote-item">
+                                            <h4>Export</h4>
+                                            <div class="quote-option">
+                                                <form action="#" method="post">
+                                                    <label class="hidden" for="download-type">File Type</label>
+                                                    <select id="download-type" name="download-type" class="myselect quote-value">
+                                                        <option value="ris">.ris (Mendeley, Papers, Zotero)</option>
+                                                        <option value="enw">.enw (EndNote)</option>
+                                                        <option value="bib">.bib (BibTex)</option>
+                                                        <option value="txt">.txt (Medlars, RefWorks)</option>
+                                                    </select>
+                                                    <a class="mybtn btnInQuote" href="#" download="file-download-test.ris" title="Download"><i class="fa-regular fa-floppy-disk"></i>Download</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 
                                 <a class="mybtn btn-bulletin-back" href="javascript:history.go(-1);" title="Back">⟸Back</a>
