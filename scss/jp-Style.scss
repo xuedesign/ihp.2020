@@ -1077,7 +1077,7 @@ summary.nowin{
     flex-direction: row-reverse}
 #bulletin-article{
     width: 100%;
-    word-break: break-all;
+    word-break: break-word;
 }
 #bulletin-article p{
     padding: 8px 0}
@@ -2676,7 +2676,9 @@ table.bt.bt--no-header tbody td::before {
     margin-right: 2px;
     color: #A51C30;
 }
-
+.btnInQuote:hover{
+    cursor: pointer;
+}
 .btnInQuote:hover i{
     color: #fff;
 }

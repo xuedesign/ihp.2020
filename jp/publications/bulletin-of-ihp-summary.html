@@ -491,7 +491,7 @@
                                               </p>
                                           </li>
                                           <li>
-                                            <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="
+                                            <spana class="catalog-quote-red"><a data-fancybox data-touch="false" data-src="#box_quote" class="
                                                 mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                             <span class="catalog-pdf-red"><a class="
                                               mybtn" href="https://www2.ihp.sinica.edu.tw/file/4531sjHrsRJ.pdf" title="ダウンロード" target="_blank">ダウンロード</a></span>
@@ -518,11 +518,12 @@
                                     <h4>引用テキスト</h4>
                                     <form action="#" method="post">
                                         <div id="quote-info">
-                                            孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                            孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348<br><br>孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
                                         </div>
                                         <div class="quote-option">
                                             <label class="hidden" for="quote-type">タイプ</label>
                                             <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                <option value="IHP">史語所定期刊行物</option>
                                                 <option value="APA">APA</option>
                                                 <option value="MLA">MLA</option>
                                                 <option value="CHICAGO">CHICAGO</option>
@@ -533,13 +534,17 @@
                                         <script>
                                             const textElement = document.getElementById('quote-info');
                                             const btnElement = document.getElementById('btn-copy');
+                                            
                                             btnElement.addEventListener('click', () => {
-                                              const text = textElement.textContent.trim();
+                                                const htmlContent = textElement.innerHTML;
+                                                
+                                                const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
+                                                
                                                 navigator.clipboard.writeText(text).then(() => {
-                                                alert('コピーサクセス');
-                                              }, () => {
-                                                alert('コピー失敗');
-                                              });
+                                                    alert('コピーサクセス');
+                                                }, () => {
+                                                    alert('コピー失敗');
+                                                });
                                             });
                                         </script>
                                 </div>

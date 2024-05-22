@@ -496,7 +496,7 @@
                                                 </p>
                                             </li>
                                             <li>
-                                              <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="
+                                              <spana class="catalog-quote-red"><a data-fancybox data-touch="false" data-src="#box_quote" class="
                                                 mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                               <span class="catalog-pdf-red"><a class="
                                                 mybtn" href="https://www2.ihp.sinica.edu.tw/file/4531sjHrsRJ.pdf" title="全文下載" target="_blank">全文下載</a></span>
@@ -523,11 +523,12 @@
                                         <h4>引用書目</h4>
                                         <form action="#" method="post">
                                             <div id="quote-info">
-                                                孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                                孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348<br><br>孫聞博（2020）。秦君名號變更與「皇帝」的出現——以戰國至秦統一政治秩序的演進為中心。中央研究院歷史語言研究所集刊，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
                                             </div>
                                             <div class="quote-option">
                                                 <label class="hidden" for="quote-type">類別</label>
                                                 <select id="quote-type" name="quote-type" class="myselect quote-value">
+                                                    <option value="IHP">史語所期刊</option>
                                                     <option value="APA">APA</option>
                                                     <option value="MLA">MLA</option>
                                                     <option value="CHICAGO">CHICAGO</option>
@@ -538,15 +539,23 @@
                                             <script>
                                                 const textElement = document.getElementById('quote-info');
                                                 const btnElement = document.getElementById('btn-copy');
+                                                
                                                 btnElement.addEventListener('click', () => {
-                                                  const text = textElement.textContent.trim();
+                                                    // 取得 textElement 的 HTML 內容
+                                                    const htmlContent = textElement.innerHTML;
+                                                    
+                                                    // 將 <br> 替換為換行符號 \n
+                                                    const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
+                                                    
+                                                    // 使用 Clipboard API 將文本寫入剪貼板
                                                     navigator.clipboard.writeText(text).then(() => {
-                                                    alert('引用書目已複製');
-                                                  }, () => {
-                                                    alert('引用書目複製失敗');
-                                                  });
+                                                        alert('引用書目已複製');
+                                                    }, () => {
+                                                        alert('引用書目複製失敗');
+                                                    });
                                                 });
                                             </script>
+                                            
                                     </div>
                                     <div class="box_quote-item">
                                         <h4>匯出格式</h4>
