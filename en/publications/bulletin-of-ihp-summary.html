@@ -531,9 +531,7 @@
                                                 
                                                 btnElement.addEventListener('click', () => {
                                                     const htmlContent = textElement.innerHTML;
-                                                    
                                                     const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
-                                                    
                                                     navigator.clipboard.writeText(text).then(() => {
                                                         alert('Copy Success');
                                                     }, () => {

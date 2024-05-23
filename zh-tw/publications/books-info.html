@@ -362,7 +362,7 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>本書介紹</h3>
-                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="mybtn" href="javascript:;" title="引用">引用</a></spana></span>
+                                        <spana class="catalog-quote-red"><a data-fancybox data-touch="false" data-src="#box_quote" class="mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                     </div>
 
                                     <article class="readme">
@@ -397,13 +397,15 @@
                                                 <script>
                                                     const textElement = document.getElementById('quote-info');
                                                     const btnElement = document.getElementById('btn-copy');
+                                                    
                                                     btnElement.addEventListener('click', () => {
-                                                      const text = textElement.textContent.trim();
+                                                        const htmlContent = textElement.innerHTML;
+                                                        const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
                                                         navigator.clipboard.writeText(text).then(() => {
-                                                        alert('引用書目已複製');
-                                                      }, () => {
-                                                        alert('引用書目複製失敗');
-                                                      });
+                                                            alert('引用書目已複製');
+                                                        }, () => {
+                                                            alert('引用書目複製失敗');
+                                                        });
                                                     });
                                                 </script>
                                         </div>

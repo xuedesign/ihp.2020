@@ -354,7 +354,7 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>内容紹介</h3>
-                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="
+                                        <spana class="catalog-quote-red"><a data-fancybox data-touch="false" data-src="#box_quote" class="
                                             mybtn" href="javascript:;" title="引用">引用</a></spana></span>
                                     </div>
                                     <article class="readme">
@@ -388,13 +388,15 @@
                                                 <script>
                                                     const textElement = document.getElementById('quote-info');
                                                     const btnElement = document.getElementById('btn-copy');
+                                                    
                                                     btnElement.addEventListener('click', () => {
-                                                      const text = textElement.textContent.trim();
+                                                        const htmlContent = textElement.innerHTML;
+                                                        const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
                                                         navigator.clipboard.writeText(text).then(() => {
-                                                        alert('コピーサクセス');
-                                                      }, () => {
-                                                        alert('コピー失敗');
-                                                      });
+                                                            alert('コピーサクセス');
+                                                        }, () => {
+                                                            alert('コピー失敗');
+                                                        });
                                                     });
                                                 </script>
                                         </div>

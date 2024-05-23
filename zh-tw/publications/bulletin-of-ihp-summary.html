@@ -528,7 +528,7 @@
                                             <div class="quote-option">
                                                 <label class="hidden" for="quote-type">類別</label>
                                                 <select id="quote-type" name="quote-type" class="myselect quote-value">
-                                                    <option value="IHP">史語所期刊</option>
+                                                    <option value="IHP">史語所集刊</option>
                                                     <option value="APA">APA</option>
                                                     <option value="MLA">MLA</option>
                                                     <option value="CHICAGO">CHICAGO</option>
@@ -541,13 +541,8 @@
                                                 const btnElement = document.getElementById('btn-copy');
                                                 
                                                 btnElement.addEventListener('click', () => {
-                                                    // 取得 textElement 的 HTML 內容
                                                     const htmlContent = textElement.innerHTML;
-                                                    
-                                                    // 將 <br> 替換為換行符號 \n
                                                     const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
-                                                    
-                                                    // 使用 Clipboard API 將文本寫入剪貼板
                                                     navigator.clipboard.writeText(text).then(() => {
                                                         alert('引用書目已複製');
                                                     }, () => {

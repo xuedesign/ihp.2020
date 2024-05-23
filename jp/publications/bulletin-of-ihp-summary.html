@@ -523,7 +523,7 @@
                                         <div class="quote-option">
                                             <label class="hidden" for="quote-type">タイプ</label>
                                             <select id="quote-type" name="quote-type" class="myselect quote-value">
-                                                <option value="IHP">史語所定期刊行物</option>
+                                                <option value="IHP">史語所集刊</option>
                                                 <option value="APA">APA</option>
                                                 <option value="MLA">MLA</option>
                                                 <option value="CHICAGO">CHICAGO</option>
@@ -537,9 +537,7 @@
                                             
                                             btnElement.addEventListener('click', () => {
                                                 const htmlContent = textElement.innerHTML;
-                                                
                                                 const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
-                                                
                                                 navigator.clipboard.writeText(text).then(() => {
                                                     alert('コピーサクセス');
                                                 }, () => {

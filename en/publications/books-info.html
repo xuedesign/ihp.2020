@@ -353,7 +353,7 @@
                                 <div id="book-brief">
                                     <div id="book-brief-title">
                                         <h3>Introduction</h3>
-                                        <spana class="catalog-quote-red"><a data-fancybox data-src="#box_quote" class="mybtn" href="javascript:;" title="Cite">Cite</a></spana></span>
+                                        <spana class="catalog-quote-red"><a data-fancybox data-touch="false" data-src="#box_quote" class="mybtn" href="javascript:;" title="Cite">Cite</a></spana></span>
                                     </div>
                                     <article class="readme">
                                         <div id="readme-linear"></div>
@@ -383,13 +383,15 @@
                                                 <script>
                                                     const textElement = document.getElementById('quote-info');
                                                     const btnElement = document.getElementById('btn-copy');
+                                                    
                                                     btnElement.addEventListener('click', () => {
-                                                      const text = textElement.textContent.trim();
+                                                        const htmlContent = textElement.innerHTML;
+                                                        const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
                                                         navigator.clipboard.writeText(text).then(() => {
-                                                        alert('Copy Success');
-                                                      }, () => {
-                                                        alert('Copy Failure');
-                                                      });
+                                                            alert('Copy Success');
+                                                        }, () => {
+                                                            alert('Copy Failure');
+                                                        });
                                                     });
                                                 </script>
                                         </div>
