@@ -651,12 +651,15 @@ header,
     width: 50%}
 .pub-list{
     width: 100%}
-#book-info li{
+#book-info li,
+#bulletin-info-summary li{
     display: block;
-    padding-bottom: 10px;
+    padding: 20px 0;
     border-bottom: 1px dashed #e1e1e1;}
 #book-info .info-name,
-#book-info .info-value{
+#book-info .info-value,
+#bulletin-info-summary .info-name,
+#bulletin-info-summary .info-value{
     width: 100%;
     text-align: left;} 
 .abgne-carousel li,

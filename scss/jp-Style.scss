@@ -2353,7 +2353,7 @@ table.bt.bt--no-header tbody td::before {
 }
 #bulletin-info-summary .info-name{
     width: 12%;
-    text-align: left;
+    text-align: right;
 }
 #book-info .info-value{
     display: block;
@@ -2641,6 +2641,11 @@ table.bt.bt--no-header tbody td::before {
     line-height: 26px;
     color: #7F7F7F;
     word-break: break-all;
+}
+#quote-info strong{
+    font-size: 1.8rem;
+    line-height: 4rem;
+    color: #333;
 }
 .quote-option{
     display: block;
