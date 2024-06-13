@@ -2694,6 +2694,12 @@ table.bt.bt--no-header tbody td::before {
 .btnInQuote:hover i{
     color: #fff;
 }
+#quote-info .item_active{
+    display: block;
+}
+#quote-info .item_hidden{
+    display: none;
+}
 
 .journal-title{
     display: flex;
