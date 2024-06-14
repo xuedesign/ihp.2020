@@ -382,7 +382,33 @@
                                             <h4>引用書目</h4>
                                             <form action="#" method="post">
                                                 <div id="quote-info">
-                                                    王汎森、邱仲麟（2020）。傅斯年眉批題跋輯錄，()，293-348。https://www.airitilibrary.com/Article/Detail?DocID=10124195-202009-202009250014-202009250014-293-348
+                                                    <div id="item_apa" class="item_active">
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            王百川.（2024）. 春秋時期楚申縣的采邑形類與政治控制.中央研究院歷史語言研究所集刊95（1），1-34.doi:doi.test.edu.tw.
+                                                        </div>
+                                                        <br>
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            Wang, Baichuan. (2024). The Form of Fiefs and Political Control in Shen County of the Chu during the Spring and Autumn Period. Bulletin of the institute of History and Philology, Academia Sinico, 95(1), 1-34. doi:doi.test.edu.tw.
+                                                        </div>
+                                                    </div>
+                                                    <div id="item_chicago" class="item_hidden">
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            王百川.“春秋時期楚申縣的采邑形態與政治控制”中央研究院歷史語言研究所集刊95, no. 1 （2024）：1-34.doi:doi.test.edu.tw.
+                                                        </div>
+                                                        <br>
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            Wang, Baichuan. "The Form of Fiefs and Political Control in Shen County of the Chu during the Spring and Autumn Period." Bulletin of the Institute of History and Philology, Academia Sinica 95, no. 1 (2024): 1-34. doi:doi.test.edu.tw.
+                                                        </div>
+                                                    </div>
+                                                    <div id="item_mla" class="item_hidden">
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            王百川.“春秋時期楚申縣的采邑形態與政治控制”中央研究院歷史語言研究所集刊vol. 95, no. 1,2024, Pp.1-34.doi:doi.test.edu.tw.
+                                                        </div>
+                                                        <br>
+                                                        <div style="display: block; text-indent: -32px; padding-left: 32px;">
+                                                            Wang, Baichuan. "The Form of Fiefs and Political Control in Shen County of the Chu during the Spring and Autumn Period." Bulletin of the Institute of History and Philology, Academia Sinica, vol. 95, no. 1, 2024, pp. 1-34. doi:doi.test.edu.tw.
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="quote-option">
                                                     <label class="hidden" for="quote-type">類別</label>
@@ -394,20 +420,7 @@
                                                     <a id="btn-copy" class="mybtn btnInQuote"><i class="fa-regular fa-copy"></i>複製</a>
                                                 </div>
                                             </form>
-                                                <script>
-                                                    const textElement = document.getElementById('quote-info');
-                                                    const btnElement = document.getElementById('btn-copy');
-                                                    
-                                                    btnElement.addEventListener('click', () => {
-                                                        const htmlContent = textElement.innerHTML;
-                                                        const text = htmlContent.replace(/<br\s*\/?>/gi, '\n').trim();
-                                                        navigator.clipboard.writeText(text).then(() => {
-                                                            alert('引用書目已複製');
-                                                        }, () => {
-                                                            alert('引用書目複製失敗');
-                                                        });
-                                                    });
-                                                </script>
+                                            <script src="../../script/lib/copytxt-book.js"></script>
                                         </div>
                                         <div class="box_quote-item">
                                             <h4>匯出格式</h4>
