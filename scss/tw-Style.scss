@@ -2372,6 +2372,21 @@ table.bt.bt--no-header tbody td::before {
 #bulletin-info-summary .info-value{
     display: block;
     width: 86%;}
+#book-info .info-value a,
+#bulletin-info-summary .info-value a{
+    color: #333;
+    text-decoration: none;
+}
+#book-info .info-value a:hover,
+#bulletin-info-summary .info-value a:hover{
+    color:  #941E2D;
+    text-decoration: underline;
+}
+#book-info .info-value a:visited,
+#bulletin-info-summary .info-value a:visited{
+    color: #333;
+    text-decoration: none;
+}
 #book-info p,
 #bulletin-info-summary p{
     line-height: 2.8rem;
@@ -2687,6 +2702,22 @@ table.bt.bt--no-header tbody td::before {
     height: auto;
     margin-right: 2px;
     color: #A51C30;
+}
+.btnInQuote span::before{
+    content: url(../images/pot-download-r.svg);
+    display: inline-block;
+    width: 22px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: sub;
+}
+.btnInQuote:hover>span::before{
+    content: url(../images/pot-download-w.svg);
+    display: inline-block;
+    width: 22px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: sub;
 }
 .btnInQuote:hover{
     cursor: pointer;
