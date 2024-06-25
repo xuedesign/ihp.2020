@@ -1099,6 +1099,8 @@ summary.nowin{
     width: 50%;
     /* max-width: 318px; */
 }
+#bulletin-poster a:hover{
+    cursor: zoom-in;}
 #bulletin-poster img{
     display: block;
     width: 100%;
@@ -1909,8 +1911,11 @@ table.bt.bt--no-header tbody td::before {
     overflow: hidden;
     border: 1px solid #e1e1e1;
     margin: 10px;
-    box-sizing: border-box}
-
+    box-sizing: border-box
+}
+#gallery-view a:hover{
+    cursor: zoom-in;
+}
 /*
 ========== 出版品 ==========
 */   
@@ -3344,15 +3349,27 @@ input.checkme:checked~div.showme{
     font-weight: bold;
     text-indent: -20px;}
 .lastbook-info a{
-    display: inline-block;
-    padding: 1px 10px;
+    color: #333;
+    text-decoration: none;
+}
+.lastbook-info a:hover{
+    color: #941E2D;
+    text-decoration: underline;
+}
+.lastbook-info a.btn_more{
+    display: block;
+    width: fit-content;
+    padding: 4px 10px;
     background: #e1e1e1;
     color: #3e3e3e;
     text-align: center;
     text-decoration: none;
     border-radius: 3px;
-    margin-top: 10px}
-.lastbook-info a:hover{
+    border: none;
+    margin-top: 10px;
+    letter-spacing: 0;
+}
+.lastbook-info a.btn_more:hover{
     background: #615252;
     color: #fff}
 .book-author{
