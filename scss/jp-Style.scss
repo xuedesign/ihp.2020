@@ -3159,7 +3159,6 @@ input.checkme:checked~div.showme{
     height: 70px; */
     margin: 0 auto 10px auto;
     padding: 5px;
-    /* overflow:hidden; */
     font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 1.9rem;
@@ -3169,6 +3168,14 @@ input.checkme:checked~div.showme{
 .ev-title:hover{
     color: #A51C30;
     text-decoration: underline}
+.ev-title h4 {
+    display: -webkit-box;        /* 設定為webkit盒模型 */
+    -webkit-box-orient: vertical; /* 設定盒模型為垂直排列 */
+    -webkit-line-clamp: 3;       /* 限制顯示的行數為2行 */
+    overflow: hidden;            /* 隱藏超出部分 */
+    text-overflow: ellipsis;     /* 超出部分以省略號顯示 */
+    white-space: normal;         /* 設定文字換行 */
+}
 .ev-info{
     display:block;
     width: 100%;

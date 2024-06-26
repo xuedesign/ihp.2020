@@ -3246,7 +3246,13 @@ input.checkme:checked~div.showme{
     color: #3e3e3e;
     text-decoration: none}
 .ev-title h4{
-    font-weight: 300}        
+    display: -webkit-box;        /* 設定為webkit盒模型 */
+    -webkit-box-orient: vertical; /* 設定盒模型為垂直排列 */
+    -webkit-line-clamp: 3;       /* 限制顯示的行數為3行 */
+    overflow: hidden;            /* 隱藏超出部分 */
+    text-overflow: ellipsis;     /* 超出部分以省略號顯示 */
+    white-space: normal;         /* 設定文字換行 */
+    font-weight: 300}
 .ev-title:hover{
     color: #A51C30;
     text-decoration: underline}

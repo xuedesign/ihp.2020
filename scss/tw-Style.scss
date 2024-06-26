@@ -3164,23 +3164,31 @@ input.checkme:checked~div.showme{
     /* height: 70px; */
     margin: 0 auto 10px auto;
     padding: 5px;
-    /* overflow:hidden; */
     font-family: "Noto Serif TC";
     font-weight: 600;
     font-size: 1.9rem;
     line-height: 3rem;
     color: #3e3e3e;
-    text-decoration: none}
+    text-decoration: none;
+}
 .ev-title:hover{
     color: #A51C30;
     text-decoration: underline}
+.ev-title h4 {
+    display: -webkit-box;        /* 設定為webkit盒模型 */
+    -webkit-box-orient: vertical; /* 設定盒模型為垂直排列 */
+    -webkit-line-clamp: 3;       /* 限制顯示的行數為2行 */
+    overflow: hidden;            /* 隱藏超出部分 */
+    text-overflow: ellipsis;     /* 超出部分以省略號顯示 */
+    white-space: normal;         /* 設定文字換行 */
+}
 .ev-info{
     display:block;
     width: 100%;
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
-    -webkit-line-clamp:1; 
+    -webkit-line-clamp:1;
     -webkit-box-orient:vertical;
     font-size: 1.5rem;
     line-height: 2.4rem;
