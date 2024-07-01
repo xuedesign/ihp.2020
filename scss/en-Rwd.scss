@@ -438,7 +438,7 @@ header,
     vertical-align:top
 }
 #bulletin-info-summary .info-name{
-    width: 16%;
+    width: 22%;
 }
 }
 
@@ -568,6 +568,9 @@ header,
     margin-bottom: 15px}
 #book-info .taglist a{
     margin-bottom: 15px}
+#bulletin-info-summary .info-name{
+    width: 26%;
+}
 /* #event-new-list li{ margin: 0 35px 30px} */
 }
 
@@ -731,7 +734,7 @@ header,
     line-height: 2.3rem;
     }
 #bulletin-info-summary .info-name{
-    width: 32%;
+    width: 100%;
     }
 .quote-value{
     display: block;
